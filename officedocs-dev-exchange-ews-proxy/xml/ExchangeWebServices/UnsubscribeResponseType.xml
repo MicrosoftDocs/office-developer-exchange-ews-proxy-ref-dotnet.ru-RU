@@ -1,0 +1,72 @@
+<Type Name="UnsubscribeResponseType" FullName="ExchangeWebServices.UnsubscribeResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3f9521b7a4b645958f201c8af8ef5de63caf89e" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609625" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UnsubscribeResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UnsubscribeResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnsubscribeResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnsubscribeResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnsubscribeResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="51531-101">
+        <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> Класс определяет ответ на запрос отказа от подписки.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="51531-101">The <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> class defines a response to an Unsubscribe request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UnsubscribeResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UnsubscribeResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UnsubscribeResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="51531-102">
+            <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="51531-102">The <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

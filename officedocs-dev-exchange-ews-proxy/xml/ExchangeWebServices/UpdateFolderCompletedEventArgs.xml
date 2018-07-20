@@ -1,0 +1,100 @@
+<Type Name="UpdateFolderCompletedEventArgs" FullName="ExchangeWebServices.UpdateFolderCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="994a2e8d18e2cf0a05766fabe976345b7ebdde2c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609641" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UpdateFolderCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UpdateFolderCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateFolderCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateFolderCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateFolderCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="55ff6-101">
+        <see cref="T:ExchangeWebServices.UpdateFolderCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.UpdateFolderCompleted" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="55ff6-101">The <see cref="T:ExchangeWebServices.UpdateFolderCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.UpdateFolderCompleted" /> event.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="55ff6-102">
+        <para>Пример асинхронного веб-служб Exchange, в разделе <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> метод.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="55ff6-102">
+          <para>For an asynchronous Exchange Web Services example, see the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UpdateFolderResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UpdateFolderResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateFolderCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As UpdateFolderResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UpdateFolderResponseType ^ Result { ExchangeWebServices::UpdateFolderResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UpdateFolderResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="55ff6-103">
+            <see cref="P:ExchangeWebServices.UpdateFolderCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.UpdateFolderResponseType" /> объект для асинхронного вызова UpdateFolder.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="55ff6-103">The <see cref="P:ExchangeWebServices.UpdateFolderCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.UpdateFolderResponseType" /> object for an asynchronous UpdateFolder call.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="55ff6-104">
+            <see cref="P:ExchangeWebServices.UpdateFolderCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.UpdateFolderResponseType" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="55ff6-104">The <see cref="P:ExchangeWebServices.UpdateFolderCompletedEventArgs.Result" /> property returns an <see cref="T:ExchangeWebServices.UpdateFolderResponseType" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="55ff6-105">
+            <para>Пример асинхронного веб-служб Exchange, в разделе <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> метод.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="55ff6-105">
+              <para>For an asynchronous Exchange Web Services example, see the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

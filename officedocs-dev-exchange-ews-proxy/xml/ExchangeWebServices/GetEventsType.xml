@@ -1,0 +1,279 @@
+<Type Name="GetEventsType" FullName="ExchangeWebServices.GetEventsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0afaecbcbd74733c4d1df79577f294ad7ef00dc" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610010" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetEventsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetEventsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetEventsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetEventsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetEventsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="cecf3-101">
+        <see cref="T:ExchangeWebServices.GetEventsType" /> Класс представляет запрос для получения событий подписки по запросу уведомлений.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cecf3-101">The <see cref="T:ExchangeWebServices.GetEventsType" /> class represents a request to get events for a pull notification subscription.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="cecf3-102">
+        <para>Изменения элементов календаря может привести к созданию несколько событий. Операций для других элементов также можно создать несколько событий низкого уровня. Эти события являются результатом создания временной элементов в почтовых ящиков и изменения сведений о доступности элементов хранилища данных как часть обычных операций календаря или оба. События класс элемента IPM. SchedulePlus.FreeBusy.BinaryData должны пропускаться клиентов веб-служб. Эти временные элементы удаляются после их создания. При попытке извлечь эти элементы ошибка будут возвращены, о том, что элемент не найден.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cecf3-102">
+          <para>Changes to calendar items may result in the generation of multiple events. Operations on other items can also generate multiple low-level events. These events are the result of the creation of temporary items in the mailbox and changes to free/busy data storage items as part of the usual Calendar operations, or both. Events for item class IPM.SchedulePlus.FreeBusy.BinaryData should be ignored by Web services clients. These temporary items are deleted after they are created. If an attempt is made to retrieve these items, an error will be returned that states that the item was not found.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="cecf3-103">
+        <para>Приведенный ниже показано, как создать запрос для получения событий подписки по запросу уведомлений. Водяной знак, используемый для построения запроса должен быть последний водяной знак, который возвращается в последнем GetEvents вызовите или, если это первый GetEvents, водяного знака из ответа подписки. Водяной знак последнего события, которые должны сохраняться для использования для следующего вызова GetEvents.</para>
+        <code>static void GetEvents(ExchangeServiceBinding esb)
+{ 
+    // Create the GetEvents request.
+    GetEventsType &lt;span class="label"&gt;request&lt;/span&gt; = new GetEventsType();
+
+    // Identify the subscription identifier and watermark for the subscription 
+    // that will be polled for changes in the Exchange store.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "2448550a-4685-412c-bc40-62f0999a8bdb";
+    &lt;span class="label"&gt;request&lt;/span&gt;.Watermark = "AQAAAM/SnQORsD1IqTUHelGT0oxxHQAAAAAAAAE=";
+
+    // Send the request and get the response.
+    GetEventsResponseType response = esb.GetEvents(&lt;span class="label"&gt;request&lt;/span&gt;);
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        // Determine whether the request was a success.
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            // Cast to appropriate response message type.
+            GetEventsResponseMessageType responseMessage = (rmt as GetEventsResponseMessageType);
+
+            // Get the notifications.
+            NotificationType notificaton = responseMessage.Notification;
+            BaseNotificationEventType[] bneta = notificaton.Items;
+
+            foreach (BaseNotificationEventType bnet in bneta)
+            {
+                // TODO: Handle each notification. Refer to the Push Notification 
+                //       sample for an example of how to do this.
+            }
+
+            if (notificaton.MoreEvents)
+            {
+                // TODO: Call GetEvents again with the watermark to get the
+                //       remaining events.
+            }
+        }
+    }
+}</code>
+        <para>Push-уведомлений пример приложения в разделе Дополнительные сведения о репликации по запросу уведомлений.</para>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cecf3-103">
+          <para>The following example shows you how to compose a request to get the events for a pull notification subscription. The watermark that is used to build the request must be the last watermark that is returned in the last GetEvents call or, if this is the first GetEvents call, the watermark from the Subscribe response. The watermark of the last event should be saved to be used for the next call to GetEvents.</para>
+          <code>static void GetEvents(ExchangeServiceBinding esb)
+{ 
+    // Create the GetEvents request.
+    GetEventsType &lt;span class="label"&gt;request&lt;/span&gt; = new GetEventsType();
+
+    // Identify the subscription identifier and watermark for the subscription 
+    // that will be polled for changes in the Exchange store.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "2448550a-4685-412c-bc40-62f0999a8bdb";
+    &lt;span class="label"&gt;request&lt;/span&gt;.Watermark = "AQAAAM/SnQORsD1IqTUHelGT0oxxHQAAAAAAAAE=";
+
+    // Send the request and get the response.
+    GetEventsResponseType response = esb.GetEvents(&lt;span class="label"&gt;request&lt;/span&gt;);
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        // Determine whether the request was a success.
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            // Cast to appropriate response message type.
+            GetEventsResponseMessageType responseMessage = (rmt as GetEventsResponseMessageType);
+
+            // Get the notifications.
+            NotificationType notificaton = responseMessage.Notification;
+            BaseNotificationEventType[] bneta = notificaton.Items;
+
+            foreach (BaseNotificationEventType bnet in bneta)
+            {
+                // TODO: Handle each notification. Refer to the Push Notification 
+                //       sample for an example of how to do this.
+            }
+
+            if (notificaton.MoreEvents)
+            {
+                // TODO: Call GetEvents again with the watermark to get the
+                //       remaining events.
+            }
+        }
+    }
+}</code>
+          <para>For more information about pull notifications, see Push Notification Sample Application.</para>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetEventsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetEventsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetEventsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="cecf3-104">
+            <see cref="T:ExchangeWebServices.GetEventsType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetEventsType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-104">The <see cref="T:ExchangeWebServices.GetEventsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetEventsType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cecf3-105">
+            <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> Свойство получает или задает идентификатор подписки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-105">The <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> property gets or sets the identifier of a subscription.</span>
+          </span>
+          <span data-ttu-id="cecf3-106">Это свойство является обязательным.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-106">This property is required.</span>
+          </span>
+          <span data-ttu-id="cecf3-107">Это свойство чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-107">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="cecf3-108">Свойство <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> возвращает строку.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-108">The <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> property returns a string.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="cecf3-109">
+            <para>Строка, представляющая идентификатор подписки — это GUID. Идентификатор GUID формируется на сервере клиентского доступа при создании подписки.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-109">
+              <para>The string that represents the subscription identifier is a GUID. The GUID is generated by the Client Access server when the subscription is created.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public string Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Watermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Watermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cecf3-110">
+            <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> Свойство получает или задает строку, представляющую закладку события в очереди событий почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-110">The <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property gets or sets a string that represents an event bookmark in the mailbox event queue.</span>
+          </span>
+          <span data-ttu-id="cecf3-111">Это свойство является обязательным.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-111">This property is required.</span>
+          </span>
+          <span data-ttu-id="cecf3-112">Это свойство чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-112">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="cecf3-113">Свойство <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> возвращает строку.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-113">The <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property returns a string.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="cecf3-114">
+            <para>Водяного знака описывает начало операции GetEvents для возврата события. Водяной знак, который передается в GetEvents должен быть последнего водяного знака, который был возвращен клиенту. Если это первый вызов GetEvents после подписки на водяного знака, который возвращается по подписке на должен передаваться GetEvents. Если уже был вызван GetEvents, водяного знака, который передается в следующем позвонить GetEvents звонка необходимо быть водяной знак последнего события, которое возвращается из предыдущей GetEvents.</para>
+            <para>Если <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> свойству с недопустимый водяного знака, <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorInvalidWatermark" /> клиентскому приложению возвращается ошибка.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cecf3-114">
+              <para>This watermark describes where the GetEvents operation begins to return events. The watermark that is passed to GetEvents must be the last watermark that was returned to the client. If this is the first call to GetEvents after Subscribe, the watermark that is returned by Subscribe should be passed to GetEvents. If GetEvents has already been called, the watermark that is passed to the next GetEvents call must be the watermark of the last event that is returned from the previous GetEvents call.</para>
+              <para>If the <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property is set with an invalid watermark, an <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorInvalidWatermark" /> error is returned to the client application.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

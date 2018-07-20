@@ -1,0 +1,279 @@
+<Type Name="UserIdType" FullName="ExchangeWebServices.UserIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4319e9ebcf1fdf9ab86fc97969b33d489df26310" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609767" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UserIdType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UserIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="49117-101">
+        <see cref="T:ExchangeWebServices.UserIdType" /> Определяет пользователя или делегат пользователем с правами на доступ к папкам.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="49117-101">The <see cref="T:ExchangeWebServices.UserIdType" /> class identifies a user or a delegate user who has folder access permissions.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UserIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-102">
+            <see cref="T:ExchangeWebServices.UserIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UserIdType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-102">The <see cref="T:ExchangeWebServices.UserIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UserIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-103">
+            <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> Свойство получает или задает имя пользователя для отображения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-103">The <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> property gets or sets the user name for display.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="49117-104">
+            <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> Свойство возвращает строку, содержащую имя пользователя для отображения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-104">The <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> property returns a string that contains the user name for display.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedUser">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedUserType DistinguishedUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedUserType DistinguishedUser" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DistinguishedUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedUser As DistinguishedUserType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedUserType DistinguishedUser { ExchangeWebServices::DistinguishedUserType get(); void set(ExchangeWebServices::DistinguishedUserType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedUserType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-105">
+            <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> Свойство получает или задает значение, указывающее учетных записей пользователей Anonymouse и значения по умолчанию для доступа делегата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-105">The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property gets or sets a value that identifies the Anonymouse and Default user accounts for delegate access.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="49117-106">
+            <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.DistinguishedUserType" /> значений перечисления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-106">The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property returns one of the <see cref="T:ExchangeWebServices.DistinguishedUserType" /> enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedUserSpecified">
+      <MemberSignature Language="C#" Value="public bool DistinguishedUserSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DistinguishedUserSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedUserSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DistinguishedUserSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-107">
+            <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-107">The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="49117-108">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-108">This property is required if the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="49117-109">
+            <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> задано свойство; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-109">The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is specified; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalUserIdentity">
+      <MemberSignature Language="C#" Value="public string ExternalUserIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalUserIdentity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.ExternalUserIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalUserIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalUserIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>
+          <span data-ttu-id="49117-110">Возвращает <see cref="T:System.String" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-110">Returns <see cref="T:System.String" />.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="49117-111">
+            <para>
+              <b>Примечание</b>: этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-111">
+              <para>
+                <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-112">
+            <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> Свойство получает или задает адрес основная SMTP учетной записи, которая используется для доступа делегата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-112">The <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> property gets or sets the primay SMTP address of an account that is used for delegate access.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="49117-113">
+            <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> Свойство возвращает строку, которая содержит основной SMTP-адрес представителя учетной записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-113">The <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> property returns a string that contains the primary SMTP address of the delegate account.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SID">
+      <MemberSignature Language="C#" Value="public string SID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.SID" />
+      <MemberSignature Language="VB.NET" Value="Public Property SID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="49117-114">
+            <see cref="P:ExchangeWebServices.UserIdType.SID" /> Свойство получает или задает данном языке форму идентификатора безопасности (SID).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-114">The <see cref="P:ExchangeWebServices.UserIdType.SID" /> property gets or sets the security descriptor definition language (SSDL) form of the security identifier (SID).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="49117-115">
+            <see cref="P:ExchangeWebServices.UserIdType.SID" /> Свойство возвращает строку, содержащую идентификатор безопасности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="49117-115">The <see cref="P:ExchangeWebServices.UserIdType.SID" /> property returns a string that contains the SID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

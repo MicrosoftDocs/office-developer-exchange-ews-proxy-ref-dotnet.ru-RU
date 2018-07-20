@@ -1,0 +1,403 @@
+<Type Name="CompleteNameType" FullName="ExchangeWebServices.CompleteNameType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1a00b9f021ef0d9a68cdd9544b65e9d6c054b552" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609644" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CompleteNameType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CompleteNameType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CompleteNameType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CompleteNameType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CompleteNameType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2c9e7-101">
+        <see cref="T:ExchangeWebServices.CompleteNameType" /> Класс представляет полное имя контакта.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c9e7-101">The <see cref="T:ExchangeWebServices.CompleteNameType" /> class represents the complete name of a contact.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="2c9e7-102">
+        <para>Свойство CompleteName является частью фигуры по умолчанию. В первоначальной версии Microsoft Exchange Server 2007 свойство CompleteName возвращается операции GetItem, но не FindItem операции. Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), операция FindItem также возвращает свойство CompleteName формы по умолчанию. Это изменение не влияет на схеме.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c9e7-102">
+          <para>The CompleteName property is part of the Default shape. In the initial release version of Microsoft Exchange Server 2007, the CompleteName property is returned by the GetItem operation, but not the FindItem operation. Starting with Exchange Server 2007 Service Pack 1 (SP1), the FindItem operation also returns the CompleteName property with the Default shape. This change does not affect the schema.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CompleteNameType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CompleteNameType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompleteNameType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-103">
+            <see cref="T:ExchangeWebServices.CompleteNameType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CompleteNameType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-103">The <see cref="T:ExchangeWebServices.CompleteNameType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CompleteNameType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstName">
+      <MemberSignature Language="C#" Value="public string FirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.FirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-104">
+            <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> Свойство получает или задает имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-104">The <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> property gets or sets the first name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-105">
+            <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> Свойство возвращает имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-105">The <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> property returns the first name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public string FullName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FullName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-106">
+            <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> Свойство получает или задает полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-106">The <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> property gets or sets the full name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-107">
+            <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> Свойство возвращает полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-107">The <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> property returns the full name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-108">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> Свойство получает или задает инициалы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-108">The <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> property gets or sets the initials of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-109">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> Свойство возвращает инициалы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-109">The <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> property returns the initials of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastName">
+      <MemberSignature Language="C#" Value="public string LastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.LastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-110">
+            <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> Свойство получает или задает фамилию контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-110">The <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> property gets or sets the last name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-111">
+            <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> Свойство возвращает фамилию контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-111">The <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> property returns the last name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-112">
+            <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> Свойство получает или задает отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-112">The <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> property gets or sets the middle name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-113">
+            <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> Свойство возвращает отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-113">The <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> property returns the middle name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nickname">
+      <MemberSignature Language="C#" Value="public string Nickname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Nickname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Nickname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nickname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Nickname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-114">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> Свойство получает или задает псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-114">The <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> property gets or sets the nickname of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-115">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> Свойство возвращает псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-115">The <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> property returns the nickname of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suffix">
+      <MemberSignature Language="C#" Value="public string Suffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Suffix" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Suffix" />
+      <MemberSignature Language="VB.NET" Value="Public Property Suffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Suffix { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-116">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> Свойство получает или задает суффикс для имени контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-116">The <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> property gets or sets a suffix to a contact's name.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-117">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> Свойство возвращает суффикса к имени контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-117">The <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> property returns a suffix to a contact's name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-118">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> Свойство получает или задает заголовок контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-118">The <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> property gets or sets the title of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-119">
+            <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> Свойство возвращает название контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-119">The <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> property returns the title of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiFirstName">
+      <MemberSignature Language="C#" Value="public string YomiFirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiFirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.YomiFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiFirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-120">
+            <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> Свойство получает или задает имя, используемое в Японии для поиска или фонетическое написание имя японского языка.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-120">The <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> property gets or sets the name used in Japan for the searchable or phonetic spelling of a Japanese first name.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-121">
+            <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> Свойство возвращает имя, используемое в Японии для поиска или фонетическое написание имя японского языка.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-121">The <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> property returns the name used in Japan for the searchable or phonetic spelling of a Japanese first name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiLastName">
+      <MemberSignature Language="C#" Value="public string YomiLastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiLastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.YomiLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiLastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c9e7-122">
+            <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> Свойство получает или задает имя, используемое в Японии для поиска или фонетическое орфографию японского Фамилия.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-122">The <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> property gets or sets the name used in Japan for the searchable or phonetic spelling of a Japanese last name.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c9e7-123">
+            <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> Свойство возвращает имя, используемое в Японии для поиска или фонетическое орфографию японского Фамилия.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c9e7-123">The <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> property returns the name used in Japan for the searchable or phonetic spelling of a Japanese last name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

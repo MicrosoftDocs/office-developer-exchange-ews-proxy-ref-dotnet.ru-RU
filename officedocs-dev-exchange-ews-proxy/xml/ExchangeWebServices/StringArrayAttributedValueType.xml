@@ -1,0 +1,110 @@
+<Type Name="StringArrayAttributedValueType" FullName="ExchangeWebServices.StringArrayAttributedValueType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="32202de48d1b5e1a24bbf2dbe9c2aa45a2b1f483" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609604" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class StringArrayAttributedValueType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit StringArrayAttributedValueType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.StringArrayAttributedValueType" />
+  <TypeSignature Language="VB.NET" Value="Public Class StringArrayAttributedValueType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StringArrayAttributedValueType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StringArrayAttributedValueType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.StringArrayAttributedValueType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StringArrayAttributedValueType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attributions">
+      <MemberSignature Language="C#" Value="public string[] Attributions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Attributions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StringArrayAttributedValueType.Attributions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Attributions As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Attributions { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Attribution", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public string[] Values { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Values" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StringArrayAttributedValueType.Values" />
+      <MemberSignature Language="VB.NET" Value="Public Property Values As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Values { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Value", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

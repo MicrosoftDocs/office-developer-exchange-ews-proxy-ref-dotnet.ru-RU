@@ -1,0 +1,129 @@
+<Type Name="BodyTypeResponseType" FullName="ExchangeWebServices.BodyTypeResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5821cc3f89bba46693a1f1a71a25a0be7fe75461" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609629" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum BodyTypeResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed BodyTypeResponseType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BodyTypeResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BodyTypeResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class BodyTypeResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6510e-101">
+        <see cref="T:ExchangeWebServices.BodyTypeResponseType" /> Перечисление определяет форматирование текста или текста вложения в ответе.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6510e-101">The <see cref="T:ExchangeWebServices.BodyTypeResponseType" /> enumeration identifies how the body or attachment text is formatted in a response.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="6510e-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.ItemResponseShapeType.BodyType" /> свойства <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> объекта и <see cref="P:ExchangeWebServices.AttachmentResponseShapeType.BodyType" /> свойства <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6510e-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ItemResponseShapeType.BodyType" /> property of the <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> object and the <see cref="P:ExchangeWebServices.AttachmentResponseShapeType.BodyType" /> property of the <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Best">
+      <MemberSignature Language="C#" Value="Best" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType Best = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.Best" />
+      <MemberSignature Language="VB.NET" Value="Best" />
+      <MemberSignature Language="C++ CLI" Value="Best" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6510e-103">Указывает, что ответ возвращает содержательности доступные тела.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6510e-103">Specifies that the response returns the richest available body content.</span>
+          </span>
+          <span data-ttu-id="6510e-104">Это полезно, если не известно, является ли содержимое текста или HTML.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6510e-104">This is useful if it is unknown whether the content is text or HTML.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HTML">
+      <MemberSignature Language="C#" Value="HTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType HTML = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.HTML" />
+      <MemberSignature Language="VB.NET" Value="HTML" />
+      <MemberSignature Language="C++ CLI" Value="HTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6510e-105">Указывает, что ответ возвращает основной текст элемента как HTML.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6510e-105">Specifies that the response returns an item body as HTML.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="Text" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType Text = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.Text" />
+      <MemberSignature Language="VB.NET" Value="Text" />
+      <MemberSignature Language="C++ CLI" Value="Text" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6510e-106">Указывает, что ответ возвращает основной текст элемента как обычный текст.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6510e-106">Specifies that the response returns an item body as plain text.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

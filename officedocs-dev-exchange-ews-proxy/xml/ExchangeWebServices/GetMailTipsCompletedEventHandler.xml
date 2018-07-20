@@ -1,0 +1,40 @@
+<Type Name="GetMailTipsCompletedEventHandler" FullName="ExchangeWebServices.GetMailTipsCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9cc7544baa3e15265cdf5f3d29bd03d015839073" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609823" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void GetMailTipsCompletedEventHandler(object sender, GetMailTipsCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GetMailTipsCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetMailTipsCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub GetMailTipsCompletedEventHandler(sender As Object, e As GetMailTipsCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void GetMailTipsCompletedEventHandler(System::Object ^ sender, GetMailTipsCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.GetMailTipsCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

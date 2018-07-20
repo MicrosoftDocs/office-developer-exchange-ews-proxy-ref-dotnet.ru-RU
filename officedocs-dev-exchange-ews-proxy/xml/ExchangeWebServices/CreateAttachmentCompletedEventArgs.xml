@@ -1,0 +1,77 @@
+<Type Name="CreateAttachmentCompletedEventArgs" FullName="ExchangeWebServices.CreateAttachmentCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b0a166a94790c04f176bbf900ff88600a8a63d72" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609601" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateAttachmentCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateAttachmentCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateAttachmentCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateAttachmentCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateAttachmentCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d428c-101">
+        <see cref="T:ExchangeWebServices.CreateAttachmentCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CreateAttachmentCompleted" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d428c-101">The <see cref="T:ExchangeWebServices.CreateAttachmentCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CreateAttachmentCompleted" /> event.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CreateAttachmentResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CreateAttachmentResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CreateAttachmentResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CreateAttachmentResponseType ^ Result { ExchangeWebServices::CreateAttachmentResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateAttachmentResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d428c-102">
+            <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> объект для асинхронного <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateAttachment(ExchangeWebServices.CreateAttachmentType)" /> вызова операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d428c-102">The <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> object for an asynchronous <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateAttachment(ExchangeWebServices.CreateAttachmentType)" /> operation call.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d428c-103">Свойство <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> возвращает объект <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d428c-103">The <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

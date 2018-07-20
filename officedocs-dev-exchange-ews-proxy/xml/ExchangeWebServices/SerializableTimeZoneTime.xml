@@ -1,0 +1,313 @@
+<Type Name="SerializableTimeZoneTime" FullName="ExchangeWebServices.SerializableTimeZoneTime">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f3a42775077582c75475ffc24e6f71b71dc13706" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609986" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SerializableTimeZoneTime" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SerializableTimeZoneTime extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SerializableTimeZoneTime" />
+  <TypeSignature Language="VB.NET" Value="Public Class SerializableTimeZoneTime" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SerializableTimeZoneTime" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="890e2-101">
+        <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> Класс представляет смещение от времени относительно времени в формате UTC.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="890e2-101">The <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> class represents an offset from the time relative to Coordinated Universal Time (UTC).</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SerializableTimeZoneTime ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SerializableTimeZoneTime.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SerializableTimeZoneTime();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-102">
+            <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-102">The <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bias">
+      <MemberSignature Language="C#" Value="public int Bias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Bias" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.Bias" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bias As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bias { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-103">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Bias" /> Свойство получает или задает смещение из смещения по Гринвичу (UTC).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-103">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Bias" /> property gets or sets the offset from the Coordinated Universal Time (UTC) offset.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="890e2-104">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Bias" /> Свойство возвращает целое число, представляющее смещение из времени UTC.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-104">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Bias" /> property returns an integer that represents the offset from the UTC offset.</span>
+          </span>
+          <span data-ttu-id="890e2-105">Это значение представлено в минутах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-105">This value is in minutes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeek">
+      <MemberSignature Language="C#" Value="public string DayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-106">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> Свойство получает или задает день недели, когда происходит переход на и с зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-106">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> property gets or sets the day of the week when the transition to and from standard time and daylight saving time occurs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="890e2-107">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> Свойство возвращает строку, представляющую день недели, когда происходит переход на и с зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-107">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> property returns a string that represents the day of the week when the transition to and from standard time and daylight saving time occurs.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="890e2-108">
+            <para>Ниже приведены возможные значения для этого свойства:</para>
+            <list type="bullet">
+              <item>
+                <description>Воскресенье</description>
+              </item>
+              <item>
+                <description>Понедельник</description>
+              </item>
+              <item>
+                <description>вторник</description>
+              </item>
+              <item>
+                <description>Среда</description>
+              </item>
+              <item>
+                <description>четверг</description>
+              </item>
+              <item>
+                <description>Пятница</description>
+              </item>
+              <item>
+                <description>суббота</description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-108">
+              <para>The following are the possible values for this property: </para>
+              <list type="bullet">
+                <item>
+                  <description>Sunday</description>
+                </item>
+                <item>
+                  <description>Monday</description>
+                </item>
+                <item>
+                  <description>Tuesday</description>
+                </item>
+                <item>
+                  <description>Wednesday</description>
+                </item>
+                <item>
+                  <description>Thursday</description>
+                </item>
+                <item>
+                  <description>Friday</description>
+                </item>
+                <item>
+                  <description>Saturday</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOrder">
+      <MemberSignature Language="C#" Value="public short DayOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 DayOrder" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.DayOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOrder As Short" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property short DayOrder { short get(); void set(short value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-109">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOrder" /> Свойство представляет n-й вхождения день, указанный в <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> свойство, которое представляет дату перехода и зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-109">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOrder" /> property represents the nth occurrence of the day that is specified in the <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> property that represents the date of transition from and to standard time and daylight saving time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="890e2-110">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOrder" /> Свойство возвращает короткое целое число, представляющее n-й вхождения день, указанный в <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> свойство, которое представляет дату перехода и зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-110">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOrder" /> property returns a short integer that represents the nth occurrence of the day that is specified in the <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> property that represents the date of transition from and to standard time and daylight saving time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="public short Month { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 Month" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.Month" />
+      <MemberSignature Language="VB.NET" Value="Public Property Month As Short" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property short Month { short get(); void set(short value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-111">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Month" /> Свойство получает или задает перехода месяц года между зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-111">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Month" /> property gets or sets the transition month of the year to and from standard time and daylight saving time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="890e2-112">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Month" /> Свойство возвращает короткое целое число, представляющее месяц перехода года между зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-112">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Month" /> property returns a short integer that represents the transition month of the year to and from standard time and daylight saving time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Time">
+      <MemberSignature Language="C#" Value="public string Time { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Time" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.Time" />
+      <MemberSignature Language="VB.NET" Value="Public Property Time As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Time { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="890e2-113">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Time" /> Свойство получает или задает время перехода между зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-113">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Time" /> property gets or sets the transition time of day to and from standard time and daylight saving time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="890e2-114">
+            <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Time" /> Свойство возвращает строку, представляющую время перехода между зимнего и летнего времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="890e2-114">The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.Time" /> property returns a string that represents the transition time of day to and from standard time and daylight saving time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Year">
+      <MemberSignature Language="C#" Value="public string Year { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Year" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZoneTime.Year" />
+      <MemberSignature Language="VB.NET" Value="Public Property Year As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Year { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

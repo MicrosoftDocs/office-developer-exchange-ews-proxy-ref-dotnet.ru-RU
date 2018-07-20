@@ -1,0 +1,209 @@
+<Type Name="TaskDelegateStateType" FullName="ExchangeWebServices.TaskDelegateStateType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="81b613663c4471f2ef9cc729e8add6a4fb58ed69" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609900" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TaskDelegateStateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TaskDelegateStateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskDelegateStateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskDelegateStateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskDelegateStateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6684b-101">
+        <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> Перечисление представляет статусов делегированные задачи.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6684b-101">The <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> enumeration represents the status types of a delegated task.</span>
+      </span>
+      <span data-ttu-id="6684b-102">Это перечисление не задано.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6684b-102">This enumeration is never set.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="6684b-103">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> свойства <see cref="T:ExchangeWebServices.TaskType" /> объекта. Сопоставление для этого свойства неверно. Эти сведения должны поступать из свойства MAPI 0x8113, но вместо этого информацию можно получить из свойства MAPI 0x812A. Эти свойства — это же, за исключением того, что свойство 0x812A не включает <see cref="F:ExchangeWebServices.TaskDelegateStateType.Owned" /> значение, которое означает, что значения перечисления сдвинуто вперед. Ниже приведен порядок значений перечисления: NoMatch, OwnNew, собственные, принято, отклонено и Макс. Это перечисление содержит ошибки, поэтому рекомендуется использовать свойство MAPI 0x8113 для получения состояния делегирование задач.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6684b-103">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property of the <see cref="T:ExchangeWebServices.TaskType" /> object. The mapping for this property is incorrect. This information should come from MAPI property 0x8113, but instead the information comes from MAPI property 0x812A. These properties are the same except that property 0x812A does not include a <see cref="F:ExchangeWebServices.TaskDelegateStateType.Owned" /> value, which means that the enumeration values are shifted forward. The following is the order of the enumeration values: NoMatch, OwnNew, Owned, Accepted, Declined, and Max. Because this enumeration contains errors, we recommend that you use MAPI property 0x8113 to get the task delegation state.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accepted">
+      <MemberSignature Language="C#" Value="Accepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Accepted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Accepted" />
+      <MemberSignature Language="VB.NET" Value="Accepted" />
+      <MemberSignature Language="C++ CLI" Value="Accepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-104">Указывает, что задание было отклонено.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-104">Specifies that the task has been declined.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Declined">
+      <MemberSignature Language="C#" Value="Declined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Declined = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Declined" />
+      <MemberSignature Language="VB.NET" Value="Declined" />
+      <MemberSignature Language="C++ CLI" Value="Declined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-105">Не используется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-105">Not used.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="Max" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Max = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Max" />
+      <MemberSignature Language="VB.NET" Value="Max" />
+      <MemberSignature Language="C++ CLI" Value="Max" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-106">Не используется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-106">Not used.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoMatch">
+      <MemberSignature Language="C#" Value="NoMatch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType NoMatch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.NoMatch" />
+      <MemberSignature Language="VB.NET" Value="NoMatch" />
+      <MemberSignature Language="C++ CLI" Value="NoMatch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-107">Указывает, что это не делегированной задачи или, что этот запрос был создан, но не отправляются.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-107">Specifies that this is not a delegated task or that the task request has been created but not sent.</span>
+          </span>
+          <span data-ttu-id="6684b-108">Это также используется для сообщения запроса на задачу, в папке "Отправленные" владельца или делегата папки «Входящие».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-108">This is also used for a task request message, whether in the owner’s Sent Items folder or the delegate’s Inbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owned">
+      <MemberSignature Language="C#" Value="Owned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Owned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Owned" />
+      <MemberSignature Language="VB.NET" Value="Owned" />
+      <MemberSignature Language="C++ CLI" Value="Owned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-109">Указывает, что задачи были приняты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-109">Specifies that a task has been accepted.</span>
+          </span>
+          <span data-ttu-id="6684b-110">Это значение не должна быть в перечислении.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-110">This value should not be in the enumeration.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnNew">
+      <MemberSignature Language="C#" Value="OwnNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType OwnNew = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.OwnNew" />
+      <MemberSignature Language="VB.NET" Value="OwnNew" />
+      <MemberSignature Language="C++ CLI" Value="OwnNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6684b-111">Указывает, что это нового запроса на задачу, которая была отправлена, но делегат еще не ответил к задаче.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6684b-111">Specifies that this is a new task request that has been sent, but the delegate has not yet responded to the task.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

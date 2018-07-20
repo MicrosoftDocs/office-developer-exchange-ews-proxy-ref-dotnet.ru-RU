@@ -1,0 +1,86 @@
+<Type Name="GetFolderResponseType" FullName="ExchangeWebServices.GetFolderResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b56d9b2f26299df7a38a3c21843dae90f59b4e2a" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609790" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetFolderResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetFolderResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetFolderResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetFolderResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetFolderResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6f831-101">
+        <see cref="T:ExchangeWebServices.GetFolderResponseType" /> Класс представляет ответа на вызов метода GetFolder.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6f831-101">The <see cref="T:ExchangeWebServices.GetFolderResponseType" /> class represents a response to a GetFolder method call.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="6f831-102">
+        <para>Например, который использует <see cref="T:ExchangeWebServices.GetFolderResponseType" /> класса см <see cref="T:ExchangeWebServices.GetFolderType" />.</para>
+        <para>
+          <see cref="T:ExchangeWebServices.GetFolderResponseType" /> Не будет создаваться класс потребителем. Этот класс, будут возвращены <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetFolder(ExchangeWebServices.GetFolderType)" /> метод.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6f831-102">
+          <para>For an example that uses the <see cref="T:ExchangeWebServices.GetFolderResponseType" /> class, see <see cref="T:ExchangeWebServices.GetFolderType" />.</para>
+          <para>The <see cref="T:ExchangeWebServices.GetFolderResponseType" /> class will not be instantiated by the consumer. This class will be returned by the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetFolder(ExchangeWebServices.GetFolderType)" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetFolderResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetFolderResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetFolderResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f831-103">
+            <see cref="T:ExchangeWebServices.GetFolderResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetFolderResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f831-103">The <see cref="T:ExchangeWebServices.GetFolderResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetFolderResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

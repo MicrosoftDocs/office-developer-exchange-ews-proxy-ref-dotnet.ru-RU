@@ -1,0 +1,173 @@
+<Type Name="TaskStatusType" FullName="ExchangeWebServices.TaskStatusType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0253196b6d7499f3594408f9055acf1b177b3afe" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609570" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TaskStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TaskStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="78ed6-101">
+        <see cref="T:ExchangeWebServices.TaskStatusType" /> Перечисление определяет типы состояния элемента задачи.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="78ed6-101">The <see cref="T:ExchangeWebServices.TaskStatusType" /> enumeration identifies the status types of a task item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="78ed6-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.TaskType.Status" /> свойства <see cref="T:ExchangeWebServices.TaskType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="78ed6-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.TaskType.Status" /> property of the <see cref="T:ExchangeWebServices.TaskType" /> object. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="Completed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskStatusType Completed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskStatusType.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
+      <MemberSignature Language="C++ CLI" Value="Completed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78ed6-103">Указывает, что задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78ed6-103">Specifies that the task is completed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Deferred">
+      <MemberSignature Language="C#" Value="Deferred" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskStatusType Deferred = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskStatusType.Deferred" />
+      <MemberSignature Language="VB.NET" Value="Deferred" />
+      <MemberSignature Language="C++ CLI" Value="Deferred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78ed6-104">Указывает, что откладывается задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78ed6-104">Specifies that the task is deferred.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InProgress">
+      <MemberSignature Language="C#" Value="InProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskStatusType InProgress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskStatusType.InProgress" />
+      <MemberSignature Language="VB.NET" Value="InProgress" />
+      <MemberSignature Language="C++ CLI" Value="InProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78ed6-105">Указывает, что задача находится в стадии разработки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78ed6-105">Specifies that the task is in progress.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotStarted">
+      <MemberSignature Language="C#" Value="NotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskStatusType NotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskStatusType.NotStarted" />
+      <MemberSignature Language="VB.NET" Value="NotStarted" />
+      <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78ed6-106">Указывает, что задача не запущена.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78ed6-106">Specifies that the task is not started.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingOnOthers">
+      <MemberSignature Language="C#" Value="WaitingOnOthers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskStatusType WaitingOnOthers = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskStatusType.WaitingOnOthers" />
+      <MemberSignature Language="VB.NET" Value="WaitingOnOthers" />
+      <MemberSignature Language="C++ CLI" Value="WaitingOnOthers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78ed6-107">Указывает, что задача ожидает другим пользователям.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78ed6-107">Specifies that the task is waiting on others.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,272 @@
+<Type Name="ConvertIdType" FullName="ExchangeWebServices.ConvertIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="74d566ed65d2325e903c9a326a3decb9e47b6cac" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609959" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ConvertIdType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ConvertIdType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConvertIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConvertIdType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConvertIdType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a862e-101">
+        <see cref="T:ExchangeWebServices.ConvertIdType" /> Класс представляет запрос на преобразование идентификаторы элементов и папок между форматы, поддерживаемые Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a862e-101">The <see cref="T:ExchangeWebServices.ConvertIdType" /> class represents a request to convert item and folder identifiers between supported Exchange formats.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <span data-ttu-id="a862e-102">
+        <para>В следующем примере выполняется преобразование идентификатора между идентификатор веб-служб Exchange и формат идентификатора Outlook Web Access.</para>
+        <code>static void ConvertId()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Create the request.
+    ConvertIdType request = new ConvertIdType();
+    request.SourceIds = new AlternateIdType[1];
+    request.SourceIds[0] = new AlternateIdType();
+
+    // Convert from the Exchange Web Services identifier to an Outlook Web Access identifier.
+    request.SourceIds[0].Format = IdFormatType.EwsId;
+    (request.SourceIds[0] as AlternateIdType).Id = "AAMkADk";
+    (request.SourceIds[0] as AlternateIdType).Mailbox = "user@example.com";
+    request.DestinationFormat = IdFormatType.OwaId;
+
+    try
+    {
+        // Send the ConvertIdType request and get the response.
+        ConvertIdResponseType response = esb.ConvertId(request);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        // Check each response message.
+        foreach (ConvertIdResponseMessageType resp in rmta)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                ConvertIdResponseMessageType cirmt = (resp as ConvertIdResponseMessageType);
+                AlternateIdType myId = (cirmt.AlternateId as AlternateIdType);
+
+                string format = myId.Format.ToString();
+                string identifier = myId.Id;
+                string mailbox = myId.Mailbox;
+
+                Console.WriteLine("Converted to format: {0}\r\nIdentifier: {1}\r\nMailbox: {2}", format, identifier, mailbox);
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Error: " + resp.MessageText);
+            }
+            else
+                Console.WriteLine("Warning: " + resp.MessageText);
+        }
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a862e-102">
+          <para>The following example performs an identifier conversion between the Exchange Web Services identifier format and the Outlook Web Access identifier format.</para>
+          <code>static void ConvertId()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Create the request.
+    ConvertIdType request = new ConvertIdType();
+    request.SourceIds = new AlternateIdType[1];
+    request.SourceIds[0] = new AlternateIdType();
+
+    // Convert from the Exchange Web Services identifier to an Outlook Web Access identifier.
+    request.SourceIds[0].Format = IdFormatType.EwsId;
+    (request.SourceIds[0] as AlternateIdType).Id = "AAMkADk";
+    (request.SourceIds[0] as AlternateIdType).Mailbox = "user@example.com";
+    request.DestinationFormat = IdFormatType.OwaId;
+
+    try
+    {
+        // Send the ConvertIdType request and get the response.
+        ConvertIdResponseType response = esb.ConvertId(request);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        // Check each response message.
+        foreach (ConvertIdResponseMessageType resp in rmta)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                ConvertIdResponseMessageType cirmt = (resp as ConvertIdResponseMessageType);
+                AlternateIdType myId = (cirmt.AlternateId as AlternateIdType);
+
+                string format = myId.Format.ToString();
+                string identifier = myId.Id;
+                string mailbox = myId.Mailbox;
+
+                Console.WriteLine("Converted to format: {0}\r\nIdentifier: {1}\r\nMailbox: {2}", format, identifier, mailbox);
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Error: " + resp.MessageText);
+            }
+            else
+                Console.WriteLine("Warning: " + resp.MessageText);
+        }
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConvertIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ConvertIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConvertIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a862e-103">
+            <see cref="T:ExchangeWebServices.ConvertIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ConvertIdType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a862e-103">The <see cref="T:ExchangeWebServices.ConvertIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ConvertIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestinationFormat">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.IdFormatType DestinationFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.IdFormatType DestinationFormat" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ConvertIdType.DestinationFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property DestinationFormat As IdFormatType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::IdFormatType DestinationFormat { ExchangeWebServices::IdFormatType get(); void set(ExchangeWebServices::IdFormatType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a862e-104">
+            <see cref="P:ExchangeWebServices.ConvertIdType.DestinationFormat" /> Свойство Возвращает или задает идентификатор формата, будут возвращены все преобразованные идентификаторов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a862e-104">The <see cref="P:ExchangeWebServices.ConvertIdType.DestinationFormat" /> property gets or sets the identifier format that will be returned for all the converted identifiers.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a862e-105">Возвращает свойство <b>DestinationFormat</b><see cref="T:ExchangeWebServices.IdFormatType" /> объект, представляющий идентификатор формата, будут возвращены все преобразованные идентификаторов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a862e-105">The <b>DestinationFormat</b> property returns an <see cref="T:ExchangeWebServices.IdFormatType" /> object that represents the identifier format that will be returned for all the converted identifiers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AlternateIdBaseType[] SourceIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AlternateIdBaseType[] SourceIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ConvertIdType.SourceIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceIds As AlternateIdBaseType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AlternateIdBaseType ^&gt; ^ SourceIds { cli::array &lt;ExchangeWebServices::AlternateIdBaseType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AlternateIdBaseType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AlternateId", typeof(ExchangeWebServices.AlternateIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AlternatePublicFolderId", typeof(ExchangeWebServices.AlternatePublicFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AlternatePublicFolderItemId", typeof(ExchangeWebServices.AlternatePublicFolderItemIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AlternateIdBaseType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a862e-106">
+            <see cref="P:ExchangeWebServices.ConvertIdType.SourceIds" /> Свойство получает или задает массив <b>AlternativeIdBaseType</b> , содержащий идентификаторы источника для преобразования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a862e-106">The <see cref="P:ExchangeWebServices.ConvertIdType.SourceIds" /> property gets or sets an <b>AlternativeIdBaseType</b> array that contains the source identifiers to convert.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a862e-107">Свойство <b>SourceIds</b> возвращает массив <b>AlternativeIdBaseType</b> , представляющих идентификаторы источника для преобразования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a862e-107">The <b>SourceIds</b> property returns an array of <b>AlternativeIdBaseType</b> that represent the source identifiers to convert.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,150 @@
+<Type Name="FolderResponseShapeType" FullName="ExchangeWebServices.FolderResponseShapeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="65ad74179a86632282a1974188b4f8d13082ec0b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609598" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FolderResponseShapeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FolderResponseShapeType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FolderResponseShapeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderResponseShapeType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderResponseShapeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e95e8-101">
+        <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> Определяет свойства, которые нужно включить в GetFolder, FindFolder или SyncFolderHierarchy ответа.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e95e8-101">The <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> class identifies the properties to include in a GetFolder, FindFolder, or SyncFolderHierarchy response.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderResponseShapeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FolderResponseShapeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderResponseShapeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e95e8-102">
+            <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e95e8-102">The <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalProperties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType[] AdditionalProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType[] AdditionalProperties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FolderResponseShapeType.AdditionalProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalProperties As BasePathToElementType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BasePathToElementType ^&gt; ^ AdditionalProperties { cli::array &lt;ExchangeWebServices::BasePathToElementType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BasePathToElementType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Path", IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e95e8-103">
+            <see cref="P:ExchangeWebServices.FolderResponseShapeType.AdditionalProperties" /> Свойство получает или задает идентификатор дополнительные свойства, возвращаемые в ответе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e95e8-103">The <see cref="P:ExchangeWebServices.FolderResponseShapeType.AdditionalProperties" /> property gets or sets the identity of additional properties to return in a response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e95e8-104">
+            <see cref="P:ExchangeWebServices.FolderResponseShapeType.AdditionalProperties" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.BasePathToElementType" /> объектов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e95e8-104">The <see cref="P:ExchangeWebServices.FolderResponseShapeType.AdditionalProperties" /> property returns an array of <see cref="T:ExchangeWebServices.BasePathToElementType" /> objects.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DefaultShapeNamesType BaseShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DefaultShapeNamesType BaseShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseShape As DefaultShapeNamesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DefaultShapeNamesType BaseShape { ExchangeWebServices::DefaultShapeNamesType get(); void set(ExchangeWebServices::DefaultShapeNamesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e95e8-105">
+            <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> Свойство получает или задает базовую конфигурацию свойства, возвращаемые в ответе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e95e8-105">The <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> property gets or sets the basic configuration of properties to return in a response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e95e8-106">
+            <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> Возвращает свойство <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> перечисления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e95e8-106">The <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> property returns a <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> enumeration.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
