@@ -1,0 +1,249 @@
+<Type Name="SearchExpressionType" FullName="ExchangeWebServices.SearchExpressionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1065a043d5c9b85967676f81de8a783ccec52991" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611100" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit SearchExpressionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchExpressionType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsLessThanType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsGreaterThanType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsNotEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MultipleOperandBooleanExpressionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.OrType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AndType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.NotType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ContainsExpressionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ExcludesType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.TwoOperandExpressionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsLessThanOrEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsGreaterThanOrEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ExistsType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="44f00-101">
+        <see cref="T:ExchangeWebServices.SearchExpressionType" /> Класс является базовым классом для производных классов, которые представляют ограничения.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="44f00-101">The <see cref="T:ExchangeWebServices.SearchExpressionType" /> class is the base class for derived classes that represent a restriction.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="44f00-102">
+        <para>Следующие типы являются производными от <see cref="T:ExchangeWebServices.SearchExpressionType" /> классов:</para>
+        <list type="bullet">
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.AndType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.ContainsExpressionType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.ExcludesType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.ExistsType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsEqualToType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsGreaterThanType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsGreaterThanOrEqualToType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsLessThanType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsLessThanOrEqualToType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.IsNotEqualToType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.NotType" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:ExchangeWebServices.OrType" />
+            </description>
+          </item>
+        </list>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="44f00-102">
+          <para>The following types are derived from the <see cref="T:ExchangeWebServices.SearchExpressionType" /> class:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AndType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ContainsExpressionType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ExcludesType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ExistsType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsGreaterThanType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsGreaterThanOrEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsLessThanType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsLessThanOrEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsNotEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.NotType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.OrType" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SearchExpressionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchExpressionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; SearchExpressionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="44f00-103">
+            <see cref="T:ExchangeWebServices.SearchExpressionType" /> Класс абстрактный и не может быть создан.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="44f00-103">The <see cref="T:ExchangeWebServices.SearchExpressionType" /> class is abstract and cannot be instantiated.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

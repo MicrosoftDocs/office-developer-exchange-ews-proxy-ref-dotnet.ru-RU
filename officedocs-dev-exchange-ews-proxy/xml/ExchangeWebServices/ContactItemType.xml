@@ -1,0 +1,1636 @@
+<Type Name="ContactItemType" FullName="ExchangeWebServices.ContactItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9e73bd67fe18c3178e8b499917947df37e4789bb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611140" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactItemType : ExchangeWebServices.ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ContactItemType extends ExchangeWebServices.ItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ContactItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactItemType&#xA;Inherits ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactItemType : ExchangeWebServices::ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2ed00-101">
+        <see cref="T:ExchangeWebServices.ContactItemType" /> Класс представляет элемент контакта Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ed00-101">The <see cref="T:ExchangeWebServices.ContactItemType" /> class represents an Exchange contact item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ContactItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-102">
+            <see cref="M:ExchangeWebServices.ContactItemType.#ctor" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ContactItemType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-102">The <see cref="M:ExchangeWebServices.ContactItemType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ContactItemType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="public string Alias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Alias" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Alias" />
+      <MemberSignature Language="VB.NET" Value="Public Property Alias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantName">
+      <MemberSignature Language="C#" Value="public string AssistantName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssistantName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.AssistantName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistantName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AssistantName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-103">
+            <see cref="P:ExchangeWebServices.ContactItemType.AssistantName" /> Свойство получает или задает строковое значение, содержащее имя помощника контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-103">The <see cref="P:ExchangeWebServices.ContactItemType.AssistantName" /> property gets or sets a string value that contains the name of the assistant for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-104">
+            <see cref="P:ExchangeWebServices.ContactItemType.AssistantName" /> Свойство возвращает строковое значение, содержащее имя помощника контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-104">The <see cref="P:ExchangeWebServices.ContactItemType.AssistantName" /> property returns a string value that contains the name of the assistant for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Birthday">
+      <MemberSignature Language="C#" Value="public DateTime Birthday { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Birthday" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Birthday" />
+      <MemberSignature Language="VB.NET" Value="Public Property Birthday As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Birthday { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-105">
+            <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> Свойство получает или устанавливает экземпляр структуры даты и времени, представляющий день рождения контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-105">The <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> property gets or sets an instance of the DateTime structure that represents the birthday of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-106">
+            <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> Свойство возвращает структуру даты и времени, представляющий день рождения контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-106">The <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> property returns a DateTime structure that represents the birthday of the contact.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ed00-107">
+            <para>Если задано это свойство, <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> свойство должно быть присвоено <b>значение true</b> , чтобы это свойство добавляется в веб-службы запросов.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-107">
+              <para>If this property is set, the <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> property must be set to <b>true</b> so that this property is added to the Web service request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BirthdaySpecified">
+      <MemberSignature Language="C#" Value="public bool BirthdaySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BirthdaySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property BirthdaySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BirthdaySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-108">
+            <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> Свойство получает или задает логическое значение, указывающее, является ли значение <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> сериализацию свойства в веб-службы запросов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-108">The <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> property gets or sets a Boolean value that indicates whether the value of the <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> property is serialized into the Web service request.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-109">
+            <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-109">The <see cref="P:ExchangeWebServices.ContactItemType.BirthdaySpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.Birthday" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessHomePage">
+      <MemberSignature Language="C#" Value="public string BusinessHomePage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessHomePage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.BusinessHomePage" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessHomePage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessHomePage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="anyURI")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-110">
+            <see cref="P:ExchangeWebServices.ContactItemType.BusinessHomePage" /> Свойство получает или задает строковое значение, содержащее URL-адрес домашней страницы бизнес контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-110">The <see cref="P:ExchangeWebServices.ContactItemType.BusinessHomePage" /> property gets or sets a string value that contains the business home page URL of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-111">
+            <see cref="P:ExchangeWebServices.ContactItemType.BusinessHomePage" /> Свойство возвращает строковое значение, содержащее URL-адрес домашней страницы бизнес контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-111">The <see cref="P:ExchangeWebServices.ContactItemType.BusinessHomePage" /> property returns a string value that contains the business home page URL of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public string[] Children { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Children" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Property Children As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Children { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-112">
+            <see cref="P:ExchangeWebServices.ContactItemType.Children" /> Свойство получает или задает массив типа String, содержащий имена дочерних элементов для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-112">The <see cref="P:ExchangeWebServices.ContactItemType.Children" /> property gets or sets an array of type string that contains the names of children for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-113">
+            <see cref="P:ExchangeWebServices.ContactItemType.Children" /> Свойство возвращает массив типа String, содержащий имена дочерних элементов для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-113">The <see cref="P:ExchangeWebServices.ContactItemType.Children" /> property returns an array of type string that contains the names of children for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public string[] Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Companies" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Companies { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-114">
+            <see cref="P:ExchangeWebServices.ContactItemType.Companies" /> Свойство получает или задает массив типа String, содержащий имена компаний, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-114">The <see cref="P:ExchangeWebServices.ContactItemType.Companies" /> property gets or sets an array of type string that contains the names of companies that are associated with a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-115">
+            <see cref="P:ExchangeWebServices.ContactItemType.Companies" /> Свойство возвращает массив типа String, содержащий имена компаний, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-115">The <see cref="P:ExchangeWebServices.ContactItemType.Companies" /> property returns an array of type string that contains the names of companies that are associated with a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-116">
+            <see cref="P:ExchangeWebServices.ContactItemType.CompanyName" /> Свойство получает или задает значение типа string, содержащая имя компании, связанное с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-116">The <see cref="P:ExchangeWebServices.ContactItemType.CompanyName" /> property gets or sets a string value that contains the company name that is associated with a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-117">
+            <see cref="P:ExchangeWebServices.ContactItemType.CompanyName" /> Свойство возвращает строковое значение, содержащее название компании, связанной с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-117">The <see cref="P:ExchangeWebServices.ContactItemType.CompanyName" /> property returns a string value that contains the company name that is associated with a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CompleteNameType CompleteName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CompleteNameType CompleteName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.CompleteName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompleteName As CompleteNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CompleteNameType ^ CompleteName { ExchangeWebServices::CompleteNameType ^ get(); void set(ExchangeWebServices::CompleteNameType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CompleteNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-118">
+            <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> Свойство получает или устанавливает экземпляр <see cref="T:ExchangeWebServices.CompleteNameType" /> класса, representsthe полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-118">The <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.CompleteNameType" /> class that representsthe complete name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-119">
+            <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> Свойство возвращает экземпляр <see cref="T:ExchangeWebServices.CompleteNameType" /> класс, представляющий полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-119">The <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> property returns an instance of the <see cref="T:ExchangeWebServices.CompleteNameType" /> class that represents the complete name of a contact.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ed00-120">
+            <para>
+              <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> Свойство является частью <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> фигуры. Он возвращается с помощью операции GetItem, но не операции FindItem в первоначальном выпуске Microsoft Exchange Server 2007. Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), операция FindItem также возвращает <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> свойство формы по умолчанию. Это изменение не влияет на схеме.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-120">
+              <para>The <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> property is part of the <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> shape. It is returned by using the GetItem operation but not the FindItem operation in the original release of Microsoft Exchange Server 2007. Starting with Exchange Server 2007 Service Pack 1 (SP1), the FindItem operation also returns the <see cref="P:ExchangeWebServices.ContactItemType.CompleteName" /> property with the default shape. This change does not affect the schema.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSource">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ContactSourceType ContactSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ContactSourceType ContactSource" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.ContactSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactSource As ContactSourceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ContactSourceType ContactSource { ExchangeWebServices::ContactSourceType get(); void set(ExchangeWebServices::ContactSourceType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContactSourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-121">
+            <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> Свойство получает или задает один из допустимых <see cref="T:ExchangeWebServices.ContactSourceType" /> значений перечисления, describs ли контакт находится в хранилище Exchange или службе каталогов Active Directory.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-121">The <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.ContactSourceType" /> enumeration values that describs whether the contact is located in the Exchange store or the Active Directory directory service.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-122">
+            <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> Свойство возвращает один из допустимых <see cref="T:ExchangeWebServices.ContactSourceType" /> значений перечисления, которые описывают, находится ли контакт в хранилище Exchange или службе каталогов Active Directory.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-122">The <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property returns one of the valid <see cref="T:ExchangeWebServices.ContactSourceType" /> enumeration values that describe whether the contact is located in the Exchange store or the Active Directory directory service.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSourceSpecified">
+      <MemberSignature Language="C#" Value="public bool ContactSourceSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ContactSourceSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.ContactSourceSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactSourceSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ContactSourceSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-123">
+            <see cref="P:ExchangeWebServices.ContactItemType.ContactSourceSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> сериализацию свойства в запрос SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-123">The <see cref="P:ExchangeWebServices.ContactItemType.ContactSourceSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="2ed00-124">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-124">This property is required if the <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-125">
+            <see cref="P:ExchangeWebServices.ContactItemType.ContactSourceSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-125">The <see cref="P:ExchangeWebServices.ContactItemType.ContactSourceSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public string Department { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Department" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Property Department As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Department { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-126">
+            <see cref="P:ExchangeWebServices.ContactItemType.Department" /> Свойство получает или задает строковое значение, содержащее работы отдела для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-126">The <see cref="P:ExchangeWebServices.ContactItemType.Department" /> property gets or sets a string value that contains the work department for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-127">
+            <see cref="P:ExchangeWebServices.ContactItemType.Department" /> Свойство возвращает строковое значение, содержащее работы отдела для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-127">The <see cref="P:ExchangeWebServices.ContactItemType.Department" /> property returns a string value that contains the work department for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryId">
+      <MemberSignature Language="C#" Value="public string DirectoryId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DirectoryId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.DirectoryId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DirectoryId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DirectoryId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectReports">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] DirectReports { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] DirectReports" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.DirectReports" />
+      <MemberSignature Language="VB.NET" Value="Public Property DirectReports As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ DirectReports { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Mailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-128">
+            <see cref="P:ExchangeWebServices.ContactItemType.DisplayName" /> Свойство получает или задает значение типа string, содержащая отображаемое имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-128">The <see cref="P:ExchangeWebServices.ContactItemType.DisplayName" /> property gets or sets a string value that contains the display name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-129">
+            <see cref="P:ExchangeWebServices.ContactItemType.DisplayName" /> Свойство возвращает значение типа string, содержащая отображаемое имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-129">The <see cref="P:ExchangeWebServices.ContactItemType.DisplayName" /> property returns a string value that contains the display name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressDictionaryEntryType[] EmailAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressDictionaryEntryType[] EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmailAddresses As EmailAddressDictionaryEntryType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressDictionaryEntryType ^&gt; ^ EmailAddresses { cli::array &lt;ExchangeWebServices::EmailAddressDictionaryEntryType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressDictionaryEntryType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Entry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressDictionaryEntryType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-130">
+            <see cref="P:ExchangeWebServices.ContactItemType.EmailAddresses" /> Свойство получает или задает массив типа <see cref="T:ExchangeWebServices.EmailAddressDictionaryEntryType" /> , содержащий адреса электронной почты, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-130">The <see cref="P:ExchangeWebServices.ContactItemType.EmailAddresses" /> property gets or sets an array of type <see cref="T:ExchangeWebServices.EmailAddressDictionaryEntryType" /> that contains e-mail addresses that are associated with a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-131">
+            <see cref="P:ExchangeWebServices.ContactItemType.EmailAddresses" /> Свойство возвращает массив типа <see cref="T:ExchangeWebServices.EmailAddressDictionaryEntryType" /> , содержащий адреса электронной почты, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-131">The <see cref="P:ExchangeWebServices.ContactItemType.EmailAddresses" /> property returns an array of type <see cref="T:ExchangeWebServices.EmailAddressDictionaryEntryType" /> that contains e-mail addresses that are associated with a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public string FileAs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAs" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAs As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAs { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-132">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> Свойство получает или задает строковое значение, представляющее как оформлена контакт в папке «Контакты».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-132">The <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> property gets or sets a string value that represents how a contact is filed in the Contacts folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-133">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> Свойство возвращает значение типа string, представляющий как оформлена контакт в папке «Контакты».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-133">The <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> property returns a string value that represents how a contact is filed in the Contacts folder.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ed00-134">
+            <para>
+              <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> Свойство используется для сортировать контакты по имени, отличный от полное имя или название компании.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-134">
+              <para>The <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> property is used to sort contacts by a name other than a full name or company name.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsMapping">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FileAsMappingType FileAsMapping { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.FileAsMappingType FileAsMapping" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.FileAsMapping" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAsMapping As FileAsMappingType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FileAsMappingType FileAsMapping { ExchangeWebServices::FileAsMappingType get(); void set(ExchangeWebServices::FileAsMappingType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-135">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> Свойство получает или задает один из допустимых <see cref="T:ExchangeWebServices.FileAsMappingType" /> значений перечисления, которые определяют, как создавать, отображаемых для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-135">The <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.FileAsMappingType" /> enumeration values that define how to construct what is displayed for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-136">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> Свойство возвращает один из допустимых <see cref="T:ExchangeWebServices.FileAsMappingType" /> значений перечисления, которые определяют, как создавать, отображаемых для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-136">The <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property returns one of the valid <see cref="T:ExchangeWebServices.FileAsMappingType" /> enumeration values that define how to construct what is displayed for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsMappingSpecified">
+      <MemberSignature Language="C#" Value="public bool FileAsMappingSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FileAsMappingSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.FileAsMappingSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAsMappingSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FileAsMappingSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-137">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAsMappingSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> сериализацию свойства в запрос SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-137">The <see cref="P:ExchangeWebServices.ContactItemType.FileAsMappingSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="2ed00-138">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-138">This property is required if the <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-139">
+            <see cref="P:ExchangeWebServices.ContactItemType.FileAsMappingSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-139">The <see cref="P:ExchangeWebServices.ContactItemType.FileAsMappingSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generation">
+      <MemberSignature Language="C#" Value="public string Generation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Generation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Generation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Generation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Generation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-140">
+            <see cref="P:ExchangeWebServices.ContactItemType.Generation" /> Свойство получает или задает строковое значение, содержащее поколениям аббревиатура, исходя из полного имени контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-140">The <see cref="P:ExchangeWebServices.ContactItemType.Generation" /> property gets or sets a string value that contains a generational abbreviation that follows the full name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-141">
+            <see cref="P:ExchangeWebServices.ContactItemType.Generation" /> Свойство возвращает строковое значение, содержащее поколениям аббревиатура, исходя из полного имени контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-141">The <see cref="P:ExchangeWebServices.ContactItemType.Generation" /> property returns a string value that contains a generational abbreviation that follows the full name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public string GivenName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-142">
+            <see cref="P:ExchangeWebServices.ContactItemType.GivenName" /> Свойство получает или задает строковое значение, содержащее имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-142">The <see cref="P:ExchangeWebServices.ContactItemType.GivenName" /> property gets or sets a string value that contains the given name for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-143">
+            <see cref="P:ExchangeWebServices.ContactItemType.GivenName" /> Свойство возвращает значение типа string, содержащее имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-143">The <see cref="P:ExchangeWebServices.ContactItemType.GivenName" /> property returns a string value that contains the given name for a contact.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ed00-144">
+            <para>Заданным именем обычно является имя пользователя.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-144">
+              <para>A given name is usually the first name of a person.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasPicture">
+      <MemberSignature Language="C#" Value="public bool HasPicture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasPicture" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.HasPicture" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasPicture As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasPicture { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-145">
+            <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> Свойство получает или задает логическое значение, указывающее, имеет ли элемент контактов вложенный файл, который представляет на изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-145">The <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property gets or sets a Boolean value that specifies whether the contact item has a file attachment that represents the contact's picture.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-146">Значение <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> свойство имеет <b>значение true</b> , если изображение контакта; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-146">The value of the <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property is <b>true</b> if there is a picture for the contact; otherwise the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ed00-147">
+            <para>Необходимо установить <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> сериализацию свойства в запрос SOAP.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-147">
+              <para>You must set the <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property is serialized into the SOAP request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasPictureSpecified">
+      <MemberSignature Language="C#" Value="public bool HasPictureSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasPictureSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasPictureSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasPictureSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-148">
+            <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> сериализацию свойства в запрос SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-148">The <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="2ed00-149">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-149">This property is required if the <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-150">Значение <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> сериализацию свойства в запрос SOAP; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-150">The value of the <see cref="P:ExchangeWebServices.ContactItemType.HasPictureSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.HasPicture" /> property is serialized into the SOAP request; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ImAddressDictionaryEntryType[] ImAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ImAddressDictionaryEntryType[] ImAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.ImAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImAddresses As ImAddressDictionaryEntryType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ImAddressDictionaryEntryType ^&gt; ^ ImAddresses { cli::array &lt;ExchangeWebServices::ImAddressDictionaryEntryType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ImAddressDictionaryEntryType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Entry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImAddressDictionaryEntryType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-151">
+            <see cref="P:ExchangeWebServices.ContactItemType.ImAddresses" /> Свойство получает или задает массив типа <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> , которая содержит мгновенного обмена сообщениями адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-151">The <see cref="P:ExchangeWebServices.ContactItemType.ImAddresses" /> property gets or sets an array of type <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> that contains instant messaging addresses for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-152">
+            <see cref="P:ExchangeWebServices.ContactItemType.ImAddresses" /> Свойство возвращает массив типа <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> , которая содержит мгновенного обмена сообщениями адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-152">The <see cref="P:ExchangeWebServices.ContactItemType.ImAddresses" /> property returns an array of type <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> that contains instant messaging addresses for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-153">
+            <see cref="P:ExchangeWebServices.ContactItemType.Initials" /> Свойство получает или задает строковое значение, содержащее инициалы для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-153">The <see cref="P:ExchangeWebServices.ContactItemType.Initials" /> property gets or sets a string value that contains the initials for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-154">
+            <see cref="P:ExchangeWebServices.ContactItemType.Initials" /> Свойство возвращает строковое значение, содержащее инициалы для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-154">The <see cref="P:ExchangeWebServices.ContactItemType.Initials" /> property returns a string value that contains the initials for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTitle">
+      <MemberSignature Language="C#" Value="public string JobTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JobTitle" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ JobTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-155">
+            <see cref="P:ExchangeWebServices.ContactItemType.JobTitle" /> Свойство получает или задает значение типа string, содержащее название должности контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-155">The <see cref="P:ExchangeWebServices.ContactItemType.JobTitle" /> property gets or sets a string value that contains the job title of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-156">
+            <see cref="P:ExchangeWebServices.ContactItemType.JobTitle" /> Свойство возвращает строковое значение, содержащее название должности контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-156">The <see cref="P:ExchangeWebServices.ContactItemType.JobTitle" /> property returns a string value that contains the job title of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public string Manager { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Manager" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public Property Manager As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Manager { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-157">
+            <see cref="P:ExchangeWebServices.ContactItemType.Manager" /> Свойство получает или задает строковое значение, представляющее диспетчера контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-157">The <see cref="P:ExchangeWebServices.ContactItemType.Manager" /> property gets or sets a string value that represents the manager of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-158">
+            <see cref="P:ExchangeWebServices.ContactItemType.Manager" /> Свойство возвращает строковое значение, представляющее диспетчера контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-158">The <see cref="P:ExchangeWebServices.ContactItemType.Manager" /> property returns a string value that represents the manager of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagerMailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType ManagerMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType ManagerMailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.ManagerMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagerMailbox As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ ManagerMailbox { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-159">
+            <see cref="P:ExchangeWebServices.ContactItemType.MiddleName" /> Свойство получает или задает строковое значение, представляющее отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-159">The <see cref="P:ExchangeWebServices.ContactItemType.MiddleName" /> property gets or sets a string value that represents the middle name of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-160">
+            <see cref="P:ExchangeWebServices.ContactItemType.MiddleName" /> Свойство возвращает значение типа string, представляющий отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-160">The <see cref="P:ExchangeWebServices.ContactItemType.MiddleName" /> property returns a string value that represents the middle name of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-161">
+            <see cref="P:ExchangeWebServices.ContactItemType.Mileage" /> Свойство получает или задает строковое значение, представляющее расстояние для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-161">The <see cref="P:ExchangeWebServices.ContactItemType.Mileage" /> property gets or sets a string value that represents the mileage for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-162">
+            <see cref="P:ExchangeWebServices.ContactItemType.Mileage" /> Свойство возвращает строковое значение, представляющее расстояние для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-162">The <see cref="P:ExchangeWebServices.ContactItemType.Mileage" /> property returns a string value that represents the mileage for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MSExchangeCertificate">
+      <MemberSignature Language="C#" Value="public byte[][] MSExchangeCertificate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[][] MSExchangeCertificate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.MSExchangeCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Property MSExchangeCertificate As Byte()()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ MSExchangeCertificate { cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ get(); void set(cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Base64Binary", DataType="base64Binary", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[][]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nickname">
+      <MemberSignature Language="C#" Value="public string Nickname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Nickname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Nickname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nickname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Nickname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-163">
+            <see cref="P:ExchangeWebServices.ContactItemType.Nickname" /> Свойство получает или задает строковое значение, представляющее псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-163">The <see cref="P:ExchangeWebServices.ContactItemType.Nickname" /> property gets or sets a string value that represents the nickname of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-164">
+            <see cref="P:ExchangeWebServices.ContactItemType.Nickname" /> Свойство получает или задает строковое значение, представляющее псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-164">The <see cref="P:ExchangeWebServices.ContactItemType.Nickname" /> property gets or sets a string value that represents the nickname of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="public string Notes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Notes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Notes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Notes As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Notes { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocation">
+      <MemberSignature Language="C#" Value="public string OfficeLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfficeLocation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.OfficeLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfficeLocation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OfficeLocation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-165">
+            <see cref="P:ExchangeWebServices.ContactItemType.OfficeLocation" /> Свойство получает или задает строковое значение, представляющее местонахождение офиса контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-165">The <see cref="P:ExchangeWebServices.ContactItemType.OfficeLocation" /> property gets or sets a string value that represents the office location of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-166">
+            <see cref="P:ExchangeWebServices.ContactItemType.OfficeLocation" /> Свойство возвращает строковое значение, представляющее местонахождение офиса контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-166">The <see cref="P:ExchangeWebServices.ContactItemType.OfficeLocation" /> property returns a string value that represents the office location of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberDictionaryEntryType[] PhoneNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberDictionaryEntryType[] PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneNumbers As PhoneNumberDictionaryEntryType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberDictionaryEntryType ^&gt; ^ PhoneNumbers { cli::array &lt;ExchangeWebServices::PhoneNumberDictionaryEntryType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberDictionaryEntryType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Entry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberDictionaryEntryType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-167">
+            <see cref="P:ExchangeWebServices.ContactItemType.PhoneNumbers" /> Свойство получает или задает массив типа <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> , который представляет коллекцию объектов телефонных номеров контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-167">The <see cref="P:ExchangeWebServices.ContactItemType.PhoneNumbers" /> property gets or sets an array of type <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> that represents a collection of telephone numbers for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-168">
+            <see cref="P:ExchangeWebServices.ContactItemType.PhoneNumbers" /> Свойство возвращает массив типа <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> , который представляет коллекцию объектов телефонных номеров контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-168">The <see cref="P:ExchangeWebServices.ContactItemType.PhoneNumbers" /> property returns an array of type <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> that represents a collection of telephone numbers for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFirstName">
+      <MemberSignature Language="C#" Value="public string PhoneticFirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticFirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PhoneticFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneticFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticFirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFullName">
+      <MemberSignature Language="C#" Value="public string PhoneticFullName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticFullName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PhoneticFullName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneticFullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticFullName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticLastName">
+      <MemberSignature Language="C#" Value="public string PhoneticLastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticLastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PhoneticLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneticLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticLastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Photo">
+      <MemberSignature Language="C#" Value="public byte[] Photo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Photo" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Photo" />
+      <MemberSignature Language="VB.NET" Value="Public Property Photo As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Photo { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhysicalAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhysicalAddressDictionaryEntryType[] PhysicalAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhysicalAddressDictionaryEntryType[] PhysicalAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PhysicalAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhysicalAddresses As PhysicalAddressDictionaryEntryType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhysicalAddressDictionaryEntryType ^&gt; ^ PhysicalAddresses { cli::array &lt;ExchangeWebServices::PhysicalAddressDictionaryEntryType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhysicalAddressDictionaryEntryType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Entry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhysicalAddressDictionaryEntryType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-169">
+            <see cref="P:ExchangeWebServices.ContactItemType.PhysicalAddresses" /> Свойство получает или задает массив типа <see cref="T:ExchangeWebServices.PhysicalAddressDictionaryEntryType" /> , который представляет коллекцию объектов физических адресов, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-169">The <see cref="P:ExchangeWebServices.ContactItemType.PhysicalAddresses" /> property gets or sets an array of type <see cref="T:ExchangeWebServices.PhysicalAddressDictionaryEntryType" /> that represents a collection of physical addresses that are associated with a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-170">
+            <see cref="P:ExchangeWebServices.ContactItemType.PhysicalAddresses" /> Свойство возвращает массив типа <see cref="T:ExchangeWebServices.PhysicalAddressDictionaryEntryType" /> , который представляет коллекцию объектов физических адресов, связанные с контактом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-170">The <see cref="P:ExchangeWebServices.ContactItemType.PhysicalAddresses" /> property returns an array of type <see cref="T:ExchangeWebServices.PhysicalAddressDictionaryEntryType" /> that represents a collection of physical addresses that are associated with a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalAddressIndex">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhysicalAddressIndexType PostalAddressIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PhysicalAddressIndexType PostalAddressIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalAddressIndex As PhysicalAddressIndexType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PhysicalAddressIndexType PostalAddressIndex { ExchangeWebServices::PhysicalAddressIndexType get(); void set(ExchangeWebServices::PhysicalAddressIndexType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhysicalAddressIndexType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-171">
+            <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> Свойство получает или задает один из допустимых <see cref="T:ExchangeWebServices.PhysicalAddressIndexType" /> значения, представляющие типа отображения для физических адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-171">The <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.PhysicalAddressIndexType" /> values that represent the display type for the physical address for a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-172">
+            <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> Свойство возвращает один из допустимых <see cref="T:ExchangeWebServices.PhysicalAddressIndexType" /> значения, представляющие типа отображения для физических адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-172">The <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> property returns one of the valid <see cref="T:ExchangeWebServices.PhysicalAddressIndexType" /> values that represent the display type for the physical address for a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalAddressIndexSpecified">
+      <MemberSignature Language="C#" Value="public bool PostalAddressIndexSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PostalAddressIndexSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.PostalAddressIndexSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalAddressIndexSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PostalAddressIndexSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-173">
+            <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndexSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> сериализацию свойства в запрос SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-173">The <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndexSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="2ed00-174">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-174">This property is required if the <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-175">
+            <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndexSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-175">The <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndexSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.PostalAddressIndex" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profession">
+      <MemberSignature Language="C#" Value="public string Profession { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Profession" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Profession" />
+      <MemberSignature Language="VB.NET" Value="Public Property Profession As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Profession { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-176">
+            <see cref="P:ExchangeWebServices.ContactItemType.Profession" /> Свойство получает или задает строковое значение, представляющее род занятий контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-176">The <see cref="P:ExchangeWebServices.ContactItemType.Profession" /> property gets or sets a string value that represents the profession of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-177">
+            <see cref="P:ExchangeWebServices.ContactItemType.Profession" /> Свойство возвращает значение типа string, представляющий род занятий контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-177">The <see cref="P:ExchangeWebServices.ContactItemType.Profession" /> property returns a string value that represents the profession of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpouseName">
+      <MemberSignature Language="C#" Value="public string SpouseName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SpouseName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.SpouseName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpouseName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SpouseName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-178">
+            <see cref="P:ExchangeWebServices.ContactItemType.SpouseName" /> Свойство получает или задает строковое значение, представляющее имя супруга контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-178">The <see cref="P:ExchangeWebServices.ContactItemType.SpouseName" /> property gets or sets a string value that represents the name of the spouse of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-179">
+            <see cref="P:ExchangeWebServices.ContactItemType.SpouseName" /> Свойство возвращает строковое значение, представляющее имя супруга контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-179">The <see cref="P:ExchangeWebServices.ContactItemType.SpouseName" /> property returns a string value that represents the name of the spouse of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public string Surname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Surname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Surname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Surname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-180">
+            <see cref="P:ExchangeWebServices.ContactItemType.Surname" /> Свойство получает или задает строковое значение, содержащее фамилию контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-180">The <see cref="P:ExchangeWebServices.ContactItemType.Surname" /> property gets or sets a string value that contains the surname of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-181">
+            <see cref="P:ExchangeWebServices.ContactItemType.Surname" /> Свойство возвращает строковое значение, содержащее фамилию контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-181">The <see cref="P:ExchangeWebServices.ContactItemType.Surname" /> property returns a string value that contains the surname of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSMIMECertificate">
+      <MemberSignature Language="C#" Value="public byte[][] UserSMIMECertificate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[][] UserSMIMECertificate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.UserSMIMECertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserSMIMECertificate As Byte()()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ UserSMIMECertificate { cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ get(); void set(cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Base64Binary", DataType="base64Binary", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[][]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversary">
+      <MemberSignature Language="C#" Value="public DateTime WeddingAnniversary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime WeddingAnniversary" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeddingAnniversary As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime WeddingAnniversary { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-182">
+            <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> Свойство получает или устанавливает экземпляр структуры DateTime, который содержит дату Годовщина свадьбы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-182">The <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> property gets or sets an instance of the DateTime structure that contains the wedding anniversary date of a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-183">
+            <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> Свойство возвращает экземпляр структуры DateTime, который содержит дату Годовщина свадьбы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-183">The <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> property returns an instance of the DateTime structure that contains the wedding anniversary date of a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversarySpecified">
+      <MemberSignature Language="C#" Value="public bool WeddingAnniversarySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WeddingAnniversarySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactItemType.WeddingAnniversarySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeddingAnniversarySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WeddingAnniversarySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ed00-184">
+            <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversarySpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> сериализацию свойства в запрос SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-184">The <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversarySpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="2ed00-185">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-185">This property is required if the <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ed00-186">
+            <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversarySpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ed00-186">The <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversarySpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ContactItemType.WeddingAnniversary" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,158 @@
+<Type Name="SubscribeResponseMessageType" FullName="ExchangeWebServices.SubscribeResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ba4e381388b73aadbe551ef6dbdff9e14bc4f286" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610102" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SubscribeResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SubscribeResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SubscribeResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscribeResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SubscribeResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7394f-101">
+        <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> Класс содержит состояние и результат одного запроса подписаться.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7394f-101">The <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> class contains the status and result of a single Subscribe request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscribeResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SubscribeResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SubscribeResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7394f-102">
+            <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-102">The <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SubscribeResponseMessageType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SubscribeResponseMessageType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7394f-103">
+            <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.SubscriptionId" /> Свойство получает или задает идентификатор для подписки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-103">The <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.SubscriptionId" /> property gets or sets the identifier for a subscription.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7394f-104">
+            <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.SubscriptionId" /> Свойство возвращает строку, содержащую идентификатор для подписки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-104">The <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.SubscriptionId" /> property returns a string that contains the identifier for the subscription.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7394f-105">
+            <para>Идентификатор GUID, представляющий идентификатор подписки формируется на сервере клиентского доступа при создании подписки.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-105">
+              <para>The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public string Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Watermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SubscribeResponseMessageType.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Watermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7394f-106">
+            <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.Watermark" /> Свойство получает или задает закладку события в очереди событий почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-106">The <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.Watermark" /> property gets or sets an event bookmark in the mailbox event queue.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7394f-107">
+            <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.Watermark" /> Свойство возвращает строку, содержащую закладку события.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-107">The <see cref="P:ExchangeWebServices.SubscribeResponseMessageType.Watermark" /> property returns a string that contains an event bookmark.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7394f-108">
+            <para>Если подписки на запрос содержит водяного знака, от переадресации водяного знака создается подписка. Если запрос подписки на содержит водяной знак, не найден в таблице событий почтового ящика, возвращается ошибка ErrorInvalidWatermark клиентское приложение. Эта ошибка может возникнуть, если водяной знак устарел и был удален из окна 30-дневный таблицы событий или водяного знака не требуется даже представления в таблице "events". Например, это может произойти, если водяной знак получен из другой подписки для почтового ящика в другую базу данных.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7394f-108">
+              <para>If a Subscribe request contains a watermark, the subscription is created from the watermark forward. If the Subscribe request contains a watermark that is not found in the mailbox events table, an ErrorInvalidWatermark error is returned to the client application. This error may occur if the watermark is too old and was removed from the 30 day window of the events table or if the watermark was not ever present in the events table. This can occur, for example, if a watermark is obtained from a different subscription for a mailbox in a different database.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

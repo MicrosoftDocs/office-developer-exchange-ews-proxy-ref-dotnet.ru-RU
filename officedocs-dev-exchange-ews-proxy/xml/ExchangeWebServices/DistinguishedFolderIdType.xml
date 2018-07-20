@@ -1,0 +1,226 @@
+<Type Name="DistinguishedFolderIdType" FullName="ExchangeWebServices.DistinguishedFolderIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0b1ff9e1aa14e8ce8bdd4d41c206163ebdac4f11" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611093" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DistinguishedFolderIdType : ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DistinguishedFolderIdType extends ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedFolderIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DistinguishedFolderIdType&#xA;Inherits BaseFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DistinguishedFolderIdType : ExchangeWebServices::BaseFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseFolderIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d5af8-101">
+        <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> Определяет папок Microsoft Exchange Server, которые можно ссылаться по имени.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5af8-101">The <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> class identifies Microsoft Exchange Server folders that can be referenced by name.</span>
+      </span>
+      <span data-ttu-id="d5af8-102">Если этот класс не используется, необходимо использовать <see cref="T:ExchangeWebServices.FolderIdType" /> класса для идентификации в папку.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5af8-102">If you do not use this class, you must use the <see cref="T:ExchangeWebServices.FolderIdType" /> class to identify a folder.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="d5af8-103">
+        <para>A <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> разрешается объект <see cref="T:ExchangeWebServices.FolderIdType" /> объекта на сервере Exchange.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5af8-103">
+          <para>A <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object resolves to a <see cref="T:ExchangeWebServices.FolderIdType" /> object on the Exchange server.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DistinguishedFolderIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DistinguishedFolderIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DistinguishedFolderIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5af8-104">
+            <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-104">The <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5af8-105">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> Свойство получает или задает строку, которая определяет версию в папку, определяемую средством <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-105">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> property gets or sets a string that identifies a version of a folder that is identified by the <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5af8-106">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> Свойство возвращает строку, представляющую изменить ключ.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-106">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> property returns a string that represents a change key.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d5af8-107">
+            <para>Это свойство является необязательным. Это свойство используется для убедитесь в том, что используется правильный версии папки.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-107">
+              <para>This property is optional. Use this property to make sure that the correct version of a folder is used.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedFolderIdNameType Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedFolderIdNameType Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As DistinguishedFolderIdNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedFolderIdNameType Id { ExchangeWebServices::DistinguishedFolderIdNameType get(); void set(ExchangeWebServices::DistinguishedFolderIdNameType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5af8-108">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> Свойство получает или задает идентификатор папки по умолчанию.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-108">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property gets or sets the identity of a default folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5af8-109">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> Возвращает свойство <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> перечисления, представляющий папки по умолчанию.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-109">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property returns a <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeration that represents a default folder.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d5af8-110">
+            <para>Это свойство является обязательным.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-110">
+              <para>This property is required.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5af8-111">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> Свойство получает или задает основной SMTP-адрес субъекта для сценария доступа делегата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-111">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> property gets or sets a primary SMTP address of a principal for a delegate access scenario.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5af8-112">
+            <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddressType" /> объект, представляющий основной сценарий доступа делегата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-112">The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> object that represents a principal in a delegate access scenario.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d5af8-113">
+            <para>Адреса прокси-серверов не допускается как значение для этого свойства. Это свойство является обязательным для доступа делегата.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5af8-113">
+              <para>Proxy addresses are not allowed as a value for this property. This property is required for delegate access.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

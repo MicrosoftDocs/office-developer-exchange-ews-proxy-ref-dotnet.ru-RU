@@ -1,0 +1,204 @@
+<Type Name="GetUserOofSettingsRequest" FullName="ExchangeWebServices.GetUserOofSettingsRequest">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d8dbf1dac06fb83f2e889bb80ba6c205e4a67c94" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610624" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetUserOofSettingsRequest : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserOofSettingsRequest extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserOofSettingsRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserOofSettingsRequest&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserOofSettingsRequest : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c8c99-101">
+        <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> Класс представляет запрос на получение параметров об отсутствии на работе Office (отсутствие на работе) пользователя.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c8c99-101">The <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> class represents a request to get a user's Out of Office (OOF) settings.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c8c99-102">
+        <para>Если сообщение об отсутствии на работе с Microsoft Office Outlook, эта операция возвращает сообщение об отсутствии на работе в формате HTML.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c8c99-102">
+          <para>If the OOF message is set by Microsoft Office Outlook, this operation will return the OOF message in HTML format.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="c8c99-103">
+        <para>Следующем примере показано, как GetUserOofSettings запроса и ответа.</para>
+        <code>static void GetOOF(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    GetUserOofSettingsRequest &lt;span class="label"&gt;request&lt;/span&gt; = new GetUserOofSettingsRequest();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox = new EmailAddress();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox.Address = "someone@example.com";
+
+    try
+    {
+        // Send the request and get the response.
+        GetUserOofSettingsResponse response = esb.GetUserOofSettings(&lt;span class="label"&gt;request&lt;/span&gt;);
+        if (response.ResponseMessage.ResponseClass == ResponseClassType.Success)
+        {
+            if (response.AllowExternalOofSpecified)
+            {
+                Console.WriteLine("External OOF enabled for: " + response.AllowExternalOof);
+            }
+
+            // Display OOF information.
+            Duration dur = response.OofSettings.Duration;
+            Console.WriteLine("OOF start time: " + dur.StartTime.ToString());
+            Console.WriteLine("OOF end time: " + dur.EndTime.ToString());
+
+            Console.WriteLine("OOF state: " + response.OofSettings.OofState);
+            Console.WriteLine("External reply: " + response.OofSettings.ExternalReply.Message);
+            Console.WriteLine("Internal reply: " + response.OofSettings.InternalReply.Message);
+        }
+    }
+    catch (Exception e)
+    { 
+        Console.WriteLine(e.Message); 
+    }
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c8c99-103">
+          <para>The following example shows you how to form a GetUserOofSettings request and receive the response.</para>
+          <code>static void GetOOF(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    GetUserOofSettingsRequest &lt;span class="label"&gt;request&lt;/span&gt; = new GetUserOofSettingsRequest();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox = new EmailAddress();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox.Address = "someone@example.com";
+
+    try
+    {
+        // Send the request and get the response.
+        GetUserOofSettingsResponse response = esb.GetUserOofSettings(&lt;span class="label"&gt;request&lt;/span&gt;);
+        if (response.ResponseMessage.ResponseClass == ResponseClassType.Success)
+        {
+            if (response.AllowExternalOofSpecified)
+            {
+                Console.WriteLine("External OOF enabled for: " + response.AllowExternalOof);
+            }
+
+            // Display OOF information.
+            Duration dur = response.OofSettings.Duration;
+            Console.WriteLine("OOF start time: " + dur.StartTime.ToString());
+            Console.WriteLine("OOF end time: " + dur.EndTime.ToString());
+
+            Console.WriteLine("OOF state: " + response.OofSettings.OofState);
+            Console.WriteLine("External reply: " + response.OofSettings.ExternalReply.Message);
+            Console.WriteLine("Internal reply: " + response.OofSettings.InternalReply.Message);
+        }
+    }
+    catch (Exception e)
+    { 
+        Console.WriteLine(e.Message); 
+    }
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserOofSettingsRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserOofSettingsRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserOofSettingsRequest();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8c99-104">
+            <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8c99-104">The <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddress Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddress Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddress ^ Mailbox { ExchangeWebServices::EmailAddress ^ get(); void set(ExchangeWebServices::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c8c99-105">
+            <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> Свойство получает или задает почтовый ящик пользователя, возвращаются, параметры которого об отсутствии на работе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8c99-105">The <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> property gets or sets the mailbox user whose OOF settings are returned.</span>
+          </span>
+          <span data-ttu-id="c8c99-106">Это свойство является обязательным.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8c99-106">This property is required.</span>
+          </span>
+          <span data-ttu-id="c8c99-107">Это свойство чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8c99-107">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c8c99-108">
+            <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddress" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c8c99-108">The <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> property returns an <see cref="T:ExchangeWebServices.EmailAddress" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

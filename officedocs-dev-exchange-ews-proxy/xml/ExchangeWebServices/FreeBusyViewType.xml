@@ -1,0 +1,738 @@
+<Type Name="FreeBusyViewType" FullName="ExchangeWebServices.FreeBusyViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f1121c88206f6bff0713b5840ea037f70ebc076" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610813" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed FreeBusyViewType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FreeBusyViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FreeBusyViewType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FreeBusyViewType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9717e-101">
+        <see cref="T:ExchangeWebServices.FreeBusyViewType" /> Перечисление указывает тип данных календаря, для которого запрашивается клиента.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9717e-101">The <see cref="T:ExchangeWebServices.FreeBusyViewType" /> enumeration specifies the type of calendar information that a client requests.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="9717e-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> свойства <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> объект в запросе, чтобы указать тип сведений о доступности для возврата в ответе. Это перечисление также используется <see cref="P:ExchangeWebServices.FreeBusyView.FreeBusyViewType" /> свойства <see cref="T:ExchangeWebServices.FreeBusyView" /> объекта, чтобы указать тип сведений о доступности, возвращаемого в ответе.</para>
+        <para>Следующей таблице приведены свойства для различных типов представлений и соответствующего свойства MAPI. Каждый тип представления основан на тип прежний режим.</para>
+        <para>Свойства FreeBusyViewType</para>
+        <list type="table">
+          <item>
+            <term>
+              <b>MergedOnly</b>
+            </term>
+            <description>MergedFreeBusyStream</description>
+            <description />
+          </item>
+          <item>
+            <description>Классические состояния</description>
+            <term>
+              <b>занятости</b>
+            </term>
+            <description>важный параметр PropTag (0x80860003)</description>
+          </item>
+          <item>
+            <term>
+              <b>занятости</b>
+            </term>
+            <description>рабочее время</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>FreeBusy</b>
+            </term>
+            <description>время начала</description>
+            <description>PR_START_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>FreeBusy</b>
+            </term>
+            <description>время окончания</description>
+            <description>PR_END_DATE</description>
+          </item>
+          <item>
+            <description>Классическая состояние</description>
+            <term>
+              <b>FreeBusyMerged</b>
+            </term>
+            <description>важный параметр PropTag (0x80860003)</description>
+          </item>
+          <item>
+            <term>
+              <b>FreeBusyMerged</b>
+            </term>
+            <description>рабочее время</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>FreeBusyMerged</b>
+            </term>
+            <description>время начала</description>
+            <description>PR_START_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>FreeBusyMerged</b>
+            </term>
+            <description>время окончания</description>
+            <description>PR_END_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>FreeBusyMerged</b>
+            </term>
+            <description>MergedFreeBusyStream</description>
+            <description />
+          </item>
+          <item>
+            <description>Классическая состояние</description>
+            <term>
+              <b>Detailed</b>
+            </term>
+            <description>важный параметр PropTag (0x80860003)</description>
+          </item>
+          <item>
+            <term>
+              <b>Detailed</b>
+            </term>
+            <description>рабочее время</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробная</b>
+            </term>
+            <description>время начала</description>
+            <description>PR_START_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>Подробная</b>
+            </term>
+            <description>время окончания</description>
+            <description>PR_END_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>темы</description>
+            <description>PR_SUBJECT</description>
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>расположение</description>
+            <description>PR_LOCATION</description>
+          </item>
+          <item>
+            <term>
+              <b>Detailed</b>
+            </term>
+            <description>Запись Id(unless private)</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>Private флаг</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>IsMeeting</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>IsRecurring</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>IsException</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Подробные</b>
+            </term>
+            <description>IsReminderSet</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>Detailed</b>
+            </term>
+            <description>Сообщения об отсутствии на работе Office (при необходимости)</description>
+            <description />
+          </item>
+          <item>
+            <description>Классическая состояние</description>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>важный параметр PropTag (0x80860003)</description>
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>рабочее время</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>время начала</description>
+            <description>PR_START_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>время окончания</description>
+            <description>PR_END_DATE</description>
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>темы</description>
+            <description>PR_SUBJECT</description>
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>расположение</description>
+            <description>PR_LOCATION</description>
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>Запись Id(unless private)</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>Private флаг</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>MergedFreeBusyStream</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>IsMeeting</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>IsRecurring</description>
+            <description />
+          </item>
+          <item>
+            <term>
+              <b>DetailedMerged</b>
+            </term>
+            <description>IsException</description>
+            <description />
+          </item>
+          <term>
+            <b>DetailedMerged</b>
+          </term>
+          <description>IsReminderSet</description>
+          <description />
+        </list>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9717e-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property of the <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> object in the request to indicate the type of free/busy information to return in the response. This enumeration is also used by the <see cref="P:ExchangeWebServices.FreeBusyView.FreeBusyViewType" /> property of the <see cref="T:ExchangeWebServices.FreeBusyView" /> object to indicate the type of free/busy information that is returned in the response.</para>
+          <para>The following table lists the properties for the different view types and the corresponding MAPI property. Each view type builds upon the former view type.</para>
+          <para>FreeBusyViewType properties</para>
+          <list type="table">
+            <item>
+              <term>
+                <b>MergedOnly</b>
+              </term>
+              <description>MergedFreeBusyStream</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>FreeBusy</b>
+              </term>
+              <description>Classical status</description>
+              <description>PropTag (0x80860003)</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusy</b>
+              </term>
+              <description>Working hours</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>FreeBusy</b>
+              </term>
+              <description>Start time</description>
+              <description>PR_START_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusy</b>
+              </term>
+              <description>End time</description>
+              <description>PR_END_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusyMerged</b>
+              </term>
+              <description>Classical status</description>
+              <description>PropTag (0x80860003)</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusyMerged</b>
+              </term>
+              <description>Working hours</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>FreeBusyMerged</b>
+              </term>
+              <description>Start time</description>
+              <description>PR_START_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusyMerged</b>
+              </term>
+              <description>End time</description>
+              <description>PR_END_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>FreeBusyMerged</b>
+              </term>
+              <description>MergedFreeBusyStream</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Classical status</description>
+              <description>PropTag (0x80860003)</description>
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Working hours</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Start time</description>
+              <description>PR_START_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>End time</description>
+              <description>PR_END_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Subject</description>
+              <description>PR_SUBJECT</description>
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Location</description>
+              <description>PR_LOCATION</description>
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Entry-Id(unless private)</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Private Flag</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>IsMeeting</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>IsRecurring</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>IsException</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>IsReminderSet</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>Detailed</b>
+              </term>
+              <description>Out of Office Message (if requested)</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Classical status</description>
+              <description>PropTag (0x80860003)</description>
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Working hours</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Start time</description>
+              <description>PR_START_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>End time</description>
+              <description>PR_END_DATE</description>
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Subject</description>
+              <description>PR_SUBJECT</description>
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Location</description>
+              <description>PR_LOCATION</description>
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Entry-Id(unless private)</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>Private Flag</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>MergedFreeBusyStream</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>IsMeeting</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>IsRecurring</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>IsException</description>
+              <description />
+            </item>
+            <item>
+              <term>
+                <b>DetailedMerged</b>
+              </term>
+              <description>IsReminderSet</description>
+              <description />
+            </item>
+          </list>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Detailed">
+      <MemberSignature Language="C#" Value="Detailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType Detailed = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.Detailed" />
+      <MemberSignature Language="VB.NET" Value="Detailed" />
+      <MemberSignature Language="C++ CLI" Value="Detailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-103">Представляет собой следующее:</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-103">Represents the following:</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedMerged">
+      <MemberSignature Language="C#" Value="DetailedMerged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType DetailedMerged = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.DetailedMerged" />
+      <MemberSignature Language="VB.NET" Value="DetailedMerged" />
+      <MemberSignature Language="C++ CLI" Value="DetailedMerged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-104">Представляет все свойства <b>Detailed</b> с потока данных объединенные доступность сведений о доступности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-104">Represents all the properties in <b>Detailed</b> with a stream of merged free/busy availability information.</span>
+          </span>
+          <span data-ttu-id="9717e-105">Если объединенные сведения о доступности только доступен, например, если почтовый ящик существует на компьютере, на котором работает Exchange 2003, будут возвращены <b>MergedOnly</b> .</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-105">If merged free/busy information only is available, for example if the mailbox exists on a computer that is running Exchange 2003, <b>MergedOnly</b> will be returned.</span>
+          </span>
+          <span data-ttu-id="9717e-106">В противном случае будут возвращены <b>FreeBusyMerged</b> или <b>DetailedMerged</b> .</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-106">Otherwise, <b>FreeBusyMerged</b> or <b>DetailedMerged</b> will be returned.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusy">
+      <MemberSignature Language="C#" Value="FreeBusy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType FreeBusy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.FreeBusy" />
+      <MemberSignature Language="VB.NET" Value="FreeBusy" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-107">Представляет сведения о состоянии прежних версий (бесплатная, «занят», под вопросом и об отсутствии на работе).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-107">Represents the legacy status information (free, busy, tentative, and OOF).</span>
+          </span>
+          <span data-ttu-id="9717e-108">Также включает время начала и время окончания встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-108">This also includes the start times and the end times of the appointments.</span>
+          </span>
+          <span data-ttu-id="9717e-109">В этом представлении функционального предоставляются не прежних версий занятости представления, так как отдельные собрания начала и окончания раз вместо поток объединенные обмен сведениями о доступности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-109">This view is richer than the legacy free/busy view because individual meeting start and end times are provided instead of an aggregated free/busy stream.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyMerged">
+      <MemberSignature Language="C#" Value="FreeBusyMerged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType FreeBusyMerged = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.FreeBusyMerged" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyMerged" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyMerged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-110">Представляет все свойства <b>занятости</b> с потока данных объединенные доступность сведений о доступности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-110">Represents all the properties in <b>FreeBusy</b> with a stream of merged free/busy availability information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedOnly">
+      <MemberSignature Language="C#" Value="MergedOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType MergedOnly = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.MergedOnly" />
+      <MemberSignature Language="VB.NET" Value="MergedOnly" />
+      <MemberSignature Language="C++ CLI" Value="MergedOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-111">Представляет поток объединенные обмен сведениями о доступности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-111">Represents an aggregated free/busy stream.</span>
+          </span>
+          <span data-ttu-id="9717e-112">В сценариях между лесами, в которых конечного пользователя в одном лесу не использовать службу доступности настроен службу доступности, запрашивающего извлекает сведения о доступности конечного пользователя из занятости общих папок.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-112">In cross-forest scenarios in which the target user in one forest does not have an Availability service configured, the Availability service of the requestor retrieves the target user’s free/busy information from the free/busy public folder.</span>
+          </span>
+          <span data-ttu-id="9717e-113">Так как общие папки только хранятся сведения о доступности в объединенном формы, <b>MergedOnly</b> , доступны только сведения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-113">Because public folders only store free/busy information in merged form, <b>MergedOnly</b> is the only available information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FreeBusyViewType None = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FreeBusyViewType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9717e-114">Это значение не является допустимым для запросов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-114">This value is not valid for requests.</span>
+          </span>
+          <span data-ttu-id="9717e-115">Это значение является допустимым для ответов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9717e-115">This value is valid for responses.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

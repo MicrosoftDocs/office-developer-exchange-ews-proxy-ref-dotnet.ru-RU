@@ -1,0 +1,115 @@
+<Type Name="TransitionType" FullName="ExchangeWebServices.TransitionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2681a4d29eb12c22eec49c16b9022dab1de00e74" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611387" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TransitionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringTimeTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDayTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AbsoluteDateTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDateTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4537e-101">
+        <see cref="T:ExchangeWebServices.TransitionType" /> Класс является базовым классом для производных классов, которые описывают переходы часового пояса.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4537e-101">The <see cref="T:ExchangeWebServices.TransitionType" /> class is the base class for derived classes that describe time zone transitions.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4537e-102">
+            <see cref="T:ExchangeWebServices.TransitionType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.TransitionType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4537e-102">The <see cref="T:ExchangeWebServices.TransitionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TransitionType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="To">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TransitionTargetType To { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TransitionTargetType To" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionType.To" />
+      <MemberSignature Language="VB.NET" Value="Public Property To As TransitionTargetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TransitionTargetType ^ To { ExchangeWebServices::TransitionTargetType ^ get(); void set(ExchangeWebServices::TransitionTargetType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4537e-103">
+            <see cref="P:ExchangeWebServices.TransitionType.To" /> Свойство Возвращает или задает уникальный идентификатор, соответствующий период или переходы группа, целевой перехода часового пояса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4537e-103">The <see cref="P:ExchangeWebServices.TransitionType.To" /> property gets or sets the unique identifier that corresponds to the period or transitions group that is the target of the time zone transition.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4537e-104">Значение <see cref="P:ExchangeWebServices.TransitionType.To" /> — это свойство <see cref="T:ExchangeWebServices.TransitionTargetType" /> объект, который определяет группу периода времени или переходов, который является целевым для перехода часового пояса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4537e-104">The value of the <see cref="P:ExchangeWebServices.TransitionType.To" /> property is a <see cref="T:ExchangeWebServices.TransitionTargetType" /> object that specifies the period or transitions group that is the target of the time zone transition.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

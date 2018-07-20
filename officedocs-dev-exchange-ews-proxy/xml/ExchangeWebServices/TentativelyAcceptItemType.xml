@@ -1,0 +1,84 @@
+<Type Name="TentativelyAcceptItemType" FullName="ExchangeWebServices.TentativelyAcceptItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6e53194f4d724097248be048fb97975ddba0e4e2" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611024" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TentativelyAcceptItemType : ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TentativelyAcceptItemType extends ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TentativelyAcceptItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TentativelyAcceptItemType&#xA;Inherits WellKnownResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TentativelyAcceptItemType : ExchangeWebServices::WellKnownResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.WellKnownResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ba25c-101">
+        <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> Класс представляет под вопросом ответ на приглашения на собрание.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ba25c-101">The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class represents a tentative reply to a meeting request.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="ba25c-102">
+        <para>
+          <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> Класс наследует от многих базовых классов много участников. Единственный параметр, который необходимо установить на <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> экземпляр <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> свойство.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ba25c-102">
+          <para>The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class inherits many members from many base classes. The only property that has to be set on a <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> instance is the <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> property.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TentativelyAcceptItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TentativelyAcceptItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TentativelyAcceptItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba25c-103">
+            <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba25c-103">The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

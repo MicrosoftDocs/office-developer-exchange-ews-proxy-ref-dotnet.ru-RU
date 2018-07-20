@@ -1,0 +1,76 @@
+<Type Name="AndType" FullName="ExchangeWebServices.AndType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b1b58beceda17e1e8292ebe340c10c9def37431" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610414" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AndType : ExchangeWebServices.MultipleOperandBooleanExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AndType extends ExchangeWebServices.MultipleOperandBooleanExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AndType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AndType&#xA;Inherits MultipleOperandBooleanExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AndType : ExchangeWebServices::MultipleOperandBooleanExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.MultipleOperandBooleanExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a4f4d-101">
+        <see cref="T:ExchangeWebServices.AndType" /> Класс представляет выражение поиска, которое позволяет выполнять операцию логическое <b>AND</b> между двумя или более выражений для поиска.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a4f4d-101">The <see cref="T:ExchangeWebServices.AndType" /> class represents a search expression that enables you to perform a Boolean <b>AND</b> operation between two or more search expressions.</span>
+      </span>
+      <span data-ttu-id="a4f4d-102">Результат <b>операции</b> является <b>значение true</b> , если все выражения поиска, содержащиеся в элементе <b>и</b> имеют <b>значение true</b>.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a4f4d-102">The result of the <b>AND</b> operation is <b>true</b> if all the search expressions contained within the <b>And</b> element are <b>true</b>.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AndType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AndType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a4f4d-103">
+            <see cref="T:ExchangeWebServices.AndType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AndType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4f4d-103">The <see cref="T:ExchangeWebServices.AndType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AndType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,81 @@
+<Type Name="ItemChangeDescriptionType" FullName="ExchangeWebServices.ItemChangeDescriptionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a9924d83297d698dd671f59bb9d786f5811f8a1" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611315" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ItemChangeDescriptionType : ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemChangeDescriptionType extends ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemChangeDescriptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemChangeDescriptionType&#xA;Inherits ChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemChangeDescriptionType : ExchangeWebServices::ChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AppendToItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeleteItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a5f56-101">
+        <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> Класс содержит данные, которые описывают изменения, которые применяются с помощью <see cref="M:ExchangeWebServices.ExchangeServiceBinding.UpdateItem(ExchangeWebServices.UpdateItemType)" /> метод.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a5f56-101">The <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> class contains data that describes changes that are applied by using the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.UpdateItem(ExchangeWebServices.UpdateItemType)" /> method.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemChangeDescriptionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ItemChangeDescriptionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemChangeDescriptionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a5f56-102">
+            <see cref="M:ExchangeWebServices.ItemChangeDescriptionType.#ctor" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5f56-102">The <see cref="M:ExchangeWebServices.ItemChangeDescriptionType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,125 @@
+<Type Name="ExternalAudience" FullName="ExchangeWebServices.ExternalAudience">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12cdcb5812f6ce8b1220085d38587b09248d3826" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610166" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ExternalAudience" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ExternalAudience extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExternalAudience" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExternalAudience" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ExternalAudience" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="504d6-101">
+        <see cref="T:ExchangeWebServices.ExternalAudience" /> Перечисление определяет, которому отправляются внешних сообщений об отсутствии на работе Office (отсутствие на работе).</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="504d6-101">The <see cref="T:ExchangeWebServices.ExternalAudience" /> enumeration determines to whom external Out of Office (OOF) messages are sent.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="504d6-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.UserOofSettings.ExternalAudience" /> свойства <see cref="T:ExchangeWebServices.UserOofSettings" /> объекта и <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> свойства <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="504d6-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.UserOofSettings.ExternalAudience" /> property of the <see cref="T:ExchangeWebServices.UserOofSettings" /> object and the <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property of the <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExternalAudience All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExternalAudience.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="504d6-103">Указывает, что отправителей электронной почты за пределами организации пользователя почтового ящика, отправлять сообщения для пользователя будет получать внешние ответа сообщение об отсутствии на работе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="504d6-103">Specifies that e-mail senders outside the mailbox user's organization who send messages to the user will receive an external OOF message response.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Known">
+      <MemberSignature Language="C#" Value="Known" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExternalAudience Known = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExternalAudience.Known" />
+      <MemberSignature Language="VB.NET" Value="Known" />
+      <MemberSignature Language="C++ CLI" Value="Known" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="504d6-104">Указывает, что отправителей электронной почты за пределами организации пользователя почтового ящика, которые отправляют сообщения, чтобы пользователь получит только внешние ответа сообщение об отсутствии на работе Если отправитель входит в Exchange пользователя хранить список контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="504d6-104">Specifies that e-mail senders outside the mailbox user's organization who send messages to the user will only receive an external OOF message response if the sender is in the user's Exchange store contact list.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExternalAudience None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExternalAudience.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="504d6-105">Указывает, что отправителей электронной почты за пределами организации пользователя почтового ящика, отправлять сообщения пользователю, не получают ответа на внешние сообщения об отсутствии на работе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="504d6-105">Specifies that e-mail senders outside the mailbox user's organization who send messages to the user will not receive an external OOF message response.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

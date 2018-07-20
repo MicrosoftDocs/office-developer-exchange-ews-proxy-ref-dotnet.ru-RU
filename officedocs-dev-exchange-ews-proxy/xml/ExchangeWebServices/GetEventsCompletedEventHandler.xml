@@ -1,0 +1,46 @@
+<Type Name="GetEventsCompletedEventHandler" FullName="ExchangeWebServices.GetEventsCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f6e38a9f5fdbbfc77340257241e29ea607c753f4" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611303" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void GetEventsCompletedEventHandler(object sender, GetEventsCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GetEventsCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetEventsCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub GetEventsCompletedEventHandler(sender As Object, e As GetEventsCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void GetEventsCompletedEventHandler(System::Object ^ sender, GetEventsCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.GetEventsCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>
+      <span data-ttu-id="2c662-101">
+        <see cref="T:ExchangeWebServices.GetEventsCompletedEventHandler" /> — Это тип делегата, который определяет обработчик событий, который будет вызываться при завершении соответствующей асинхронной операции.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c662-101">The <see cref="T:ExchangeWebServices.GetEventsCompletedEventHandler" /> is the delegate type that defines the event handler that is called when the corresponding asynchronous operation is complete.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

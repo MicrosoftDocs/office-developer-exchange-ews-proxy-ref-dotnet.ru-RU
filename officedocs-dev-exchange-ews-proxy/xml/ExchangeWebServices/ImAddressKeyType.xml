@@ -1,0 +1,125 @@
+<Type Name="ImAddressKeyType" FullName="ExchangeWebServices.ImAddressKeyType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fe7b2ec41c4793c487df2c58d27fd925ab78f280" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611271" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ImAddressKeyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ImAddressKeyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ImAddressKeyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ImAddressKeyType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ImAddressKeyType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="41fa7-101">
+        <see cref="T:ExchangeWebServices.ImAddressKeyType" /> Перечисление представляет обмена мгновенными сообщениями адресов для контакта.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="41fa7-101">The <see cref="T:ExchangeWebServices.ImAddressKeyType" /> enumeration represents the instant messaging addresses for a contact.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="41fa7-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Key" /> свойства <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="41fa7-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Key" /> property of the <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ImAddress1">
+      <MemberSignature Language="C#" Value="ImAddress1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ImAddressKeyType ImAddress1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ImAddressKeyType.ImAddress1" />
+      <MemberSignature Language="VB.NET" Value="ImAddress1" />
+      <MemberSignature Language="C++ CLI" Value="ImAddress1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImAddressKeyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="41fa7-103">Определяет первый обмена мгновенными сообщениями, адрес для пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="41fa7-103">Identifies the first instant messaging address for the user.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress2">
+      <MemberSignature Language="C#" Value="ImAddress2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ImAddressKeyType ImAddress2 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ImAddressKeyType.ImAddress2" />
+      <MemberSignature Language="VB.NET" Value="ImAddress2" />
+      <MemberSignature Language="C++ CLI" Value="ImAddress2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImAddressKeyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="41fa7-104">Определяет второй обмена мгновенными сообщениями, адрес для пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="41fa7-104">Identifies the second instant messaging address for the user.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress3">
+      <MemberSignature Language="C#" Value="ImAddress3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ImAddressKeyType ImAddress3 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ImAddressKeyType.ImAddress3" />
+      <MemberSignature Language="VB.NET" Value="ImAddress3" />
+      <MemberSignature Language="C++ CLI" Value="ImAddress3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImAddressKeyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="41fa7-105">Идентифицирует третий обмена мгновенными сообщениями, адрес для пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="41fa7-105">Identifies the third instant messaging address for the user.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

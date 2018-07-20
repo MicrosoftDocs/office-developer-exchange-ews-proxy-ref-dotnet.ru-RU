@@ -1,0 +1,196 @@
+<Type Name="SyncFolderItemsChangesType" FullName="ExchangeWebServices.SyncFolderItemsChangesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b8813c91569e82b000d537583b534f9f01ace41c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610398" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsChangesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderItemsChangesType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsChangesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsChangesType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsChangesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="312fc-101">
+        <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> Класс содержит виртуализированный массив типы изменений, которые описывают различия между элементами на стороне клиента и элементов на сервере Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="312fc-101">The <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> class contains a sequenced array of change types that describe the differences between the items on the client and the items on the Exchange server.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderItemsChangesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderItemsChangesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderItemsChangesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="312fc-102">
+            <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-102">The <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public object[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As Object()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Object ^&gt; ^ Items { cli::array &lt;System::Object ^&gt; ^ get(); void set(cli::array &lt;System::Object ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlChoiceIdentifier("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Update", typeof(ExchangeWebServices.SyncFolderItemsCreateOrUpdateType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ReadFlagChange", typeof(ExchangeWebServices.SyncFolderItemsReadFlagType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Create", typeof(ExchangeWebServices.SyncFolderItemsCreateOrUpdateType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Delete", typeof(ExchangeWebServices.SyncFolderItemsDeleteType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="312fc-103">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> Свойство получает или задает коллекцию изменений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-103">The <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> property gets or sets a collection of changes.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="312fc-104">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> Свойство возвращает массив объектов, содержит изменения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-104">The <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> property returns an object array that contains changes.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="312fc-105">
+            <para>Массив объектов, который возвращается <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> свойство может содержать элементы из следующих типов:</para>
+            <list type="bullet">
+              <item>
+                <description>
+                  <see cref="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" />
+                </description>
+              </item>
+              <item>
+                <description>
+                  <see cref="T:ExchangeWebServices.SyncFolderItemsDeleteType" />
+                </description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-105">
+              <para>The object array that is returned by the <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> property can contain items of the following types:</para>
+              <list type="bullet">
+                <item>
+                  <description>
+                    <see cref="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" />
+                  </description>
+                </item>
+                <item>
+                  <description>
+                    <see cref="T:ExchangeWebServices.SyncFolderItemsDeleteType" />
+                  </description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsElementName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemsChoiceType2[] ItemsElementName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ItemsChoiceType2[] ItemsElementName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsElementName As ItemsChoiceType2()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemsChoiceType2&gt; ^ ItemsElementName { cli::array &lt;ExchangeWebServices::ItemsChoiceType2&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemsChoiceType2&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType2[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="312fc-106">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> Свойство получает или задает коллекцию изменений идентификаторы объектов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-106">The <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> property gets or sets a collection of change object identifiers.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="312fc-107">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> Свойство возвращает массив значений перечисления ItemsChoiceType2, которые указывают тип объекта в <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> семейства сайтов в соответствующий индекс.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="312fc-107">The <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> property returns an array of ItemsChoiceType2 enumeration values that indicate the type of object in the <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.Items" /> collection at the corresponding index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

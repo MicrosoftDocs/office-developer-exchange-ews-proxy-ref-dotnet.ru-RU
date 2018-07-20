@@ -1,0 +1,112 @@
+<Type Name="AggregateType" FullName="ExchangeWebServices.AggregateType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="67c982f0bfa83b2b26e08b9919f24d48072c79ce" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610617" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum AggregateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed AggregateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AggregateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AggregateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AggregateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="40bb0-101">
+        <see cref="T:ExchangeWebServices.AggregateType" /> Перечисление определяет, должен ли значения пример свойства используется для упорядочения элементов в группе.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="40bb0-101">The <see cref="T:ExchangeWebServices.AggregateType" /> enumeration identifies whether the maximum or minimum value of a representative property is used to order the items in a group.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="40bb0-102">&lt;b0&gt;При использовании объединение Сортировка элементов в группе, необходимо определить представитель свойство, по которому Сортировка групп. Использование &lt;b1&gt;&lt;/b1&gt; свойство для указания пример свойства и &lt;b2&gt;&lt;/b2&gt; свойство, указывающее, является ли группы сортируются по максимальное и минимальное значение указанное свойство. &lt;b3&gt;&lt;/b3&gt; Значение свойства к одной из следующих &lt;b4&gt;&lt;/b4&gt; значений перечисления:&lt;/b0&gt;&lt;b5&gt;&lt;b6&gt;&lt;b7&gt;&lt;b8&gt;&lt;b9&gt;&lt;b10&gt;&lt;b11&gt;&lt;/b11&gt;&lt;/b10&gt;&lt;/b9&gt;&lt;/b8&gt;&lt;/b7&gt;&lt;/b6&gt;&lt;/b5&gt;&lt;b12&gt;Если &lt;b13&gt;&lt;/b13&gt; задано значение &lt;b14&gt; &lt;/b14&gt;, группы сортируются, начиная с наибольшим значением для &lt;b15&gt;&lt;/b15&gt; свойство. Если &lt;b16&gt;&lt;/b16&gt; атрибута задано значение &lt;b17&gt; &lt;/b17&gt;, группы сортируются, начиная с наименьшего значения для &lt;b18&gt;&lt;/b18&gt; свойство.&lt;/b12&gt; &lt;b19&gt;К примеру, если вы хотите отправлять запрос FindItem сгруппированные группировки по отправителям, но требуется Упорядочение групп таким образом, группу с самыми последними электронной почты на верхней, можно группировать отправителя и выполняется статистическая обработка на даты/времени полученных с &lt;b20&gt;&lt;/b20&gt; свойство &lt; c2 1 настроек.&lt;/b19&gt;&lt;b22&gt;&lt;/b22&gt;</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="40bb0-102">
+          <para>When you are using aggregation to sort items within a group, you must identify a representative property by which to sort the groups. Use the <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property to specify the representative property and the <see cref="P:ExchangeWebServices.AggregateOnType.Aggregate" /> property to indicate whether the groups are sorted according to the maximum or the minimum value of the identified property. The <see cref="P:ExchangeWebServices.AggregateOnType.Aggregate" /> property value is set to one of the following <see cref="T:ExchangeWebServices.AggregateType" /> enumeration values:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="F:ExchangeWebServices.AggregateType.Maximum" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:ExchangeWebServices.AggregateType.Minimum" />
+              </description>
+            </item>
+          </list>
+          <para>If the <see cref="P:ExchangeWebServices.AggregateOnType.Aggregate" /> property is set to <see cref="F:ExchangeWebServices.AggregateType.Maximum" />, the groups are sorted starting with the largest value for the <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property. If the <see cref="P:ExchangeWebServices.AggregateOnType.Aggregate" /> attribute is set to <see cref="F:ExchangeWebServices.AggregateType.Minimum" />, the groups are sorted starting with the smallest value for the <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property.</para>
+          <para>For example, if you want to issue a FindItem grouped query, grouping by sender, but you want to order the groups so that the group that has the most recent e-mail is on top, you can group by sender and aggregate on date/time received with an <see cref="P:ExchangeWebServices.AggregateOnType.Aggregate" /> property of <see cref="F:ExchangeWebServices.AggregateType.Maximum" />.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Maximum">
+      <MemberSignature Language="C#" Value="Maximum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AggregateType Maximum = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AggregateType.Maximum" />
+      <MemberSignature Language="VB.NET" Value="Maximum" />
+      <MemberSignature Language="C++ CLI" Value="Maximum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AggregateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="40bb0-103">Указывает, что группы сортируются начиная с наибольшим значением для <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="40bb0-103">Indicates that the groups are sorted starting with the largest value for the <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Minimum">
+      <MemberSignature Language="C#" Value="Minimum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AggregateType Minimum = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AggregateType.Minimum" />
+      <MemberSignature Language="VB.NET" Value="Minimum" />
+      <MemberSignature Language="C++ CLI" Value="Minimum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AggregateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="40bb0-104">Указывает, что групп — сортировка, начиная с наименьшего значения для <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="40bb0-104">Indicates that the groups are sorted starting with the smallest value for the <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

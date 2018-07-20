@@ -1,0 +1,125 @@
+<Type Name="DisposalType" FullName="ExchangeWebServices.DisposalType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c473be14da310501379e1ac4f5e694c4d5407f76" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610637" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DisposalType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DisposalType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DisposalType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DisposalType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DisposalType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0fdc6-101">
+        <see cref="T:ExchangeWebServices.DisposalType" /> Перечисление описывает способ удаления элемента или папки.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fdc6-101">The <see cref="T:ExchangeWebServices.DisposalType" /> enumeration describes how an item or folder is deleted.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="0fdc6-102">
+        <para>Это перечисление используется с помощью операций DeleteFolder и DeleteItem. Это перечисление нужно задать на <see cref="P:ExchangeWebServices.DeleteItemType.DeleteType" /> свойство на <see cref="T:ExchangeWebServices.DeleteItemType" /> объекта и <see cref="P:ExchangeWebServices.DeleteFolderType.DeleteType" /> свойство на <see cref="T:ExchangeWebServices.DeleteFolderType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fdc6-102">
+          <para>This enumeration is used by the DeleteFolder and DeleteItem operations. This enumeration must be set on the <see cref="P:ExchangeWebServices.DeleteItemType.DeleteType" /> property on the <see cref="T:ExchangeWebServices.DeleteItemType" /> object and the <see cref="P:ExchangeWebServices.DeleteFolderType.DeleteType" /> property on the <see cref="T:ExchangeWebServices.DeleteFolderType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fdc6-103">Элемент окончательно удалить из хранилища.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fdc6-103">An item is permanently removed from the store.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fdc6-104">Сообщение перемещено в папку «Удаленные».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fdc6-104">An item is moved to the Deleted Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fdc6-105">Перемещено в корзину Если корзина включена.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fdc6-105">An item is moved to the dumpster if the dumpster is enabled.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

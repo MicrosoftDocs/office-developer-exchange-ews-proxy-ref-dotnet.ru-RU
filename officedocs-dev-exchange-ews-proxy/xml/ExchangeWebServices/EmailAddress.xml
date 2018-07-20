@@ -1,0 +1,190 @@
+<Type Name="EmailAddress" FullName="ExchangeWebServices.EmailAddress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4127bb674272df0d8109a33a8f369816a3cce7df" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610509" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailAddress" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EmailAddress extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EmailAddress" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailAddress" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddress" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="70660-101">
+        <see cref="T:ExchangeWebServices.EmailAddress" /> Класс представляет адрес почтового ящика пользователя.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="70660-101">The <see cref="T:ExchangeWebServices.EmailAddress" /> class represents the address of a mailbox user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.EmailAddress.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="70660-102">
+            <see cref="M:ExchangeWebServices.EmailAddress.#ctor" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-102">The <see cref="M:ExchangeWebServices.EmailAddress.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="70660-103">
+            <see cref="P:ExchangeWebServices.EmailAddress.Address" /> Свойство получает или задает строковое значение, задающее адрес электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-103">The <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property gets or sets a string value that specifies the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="70660-104">
+            <see cref="P:ExchangeWebServices.EmailAddress.Address" /> Свойство возвращает строковое значение, задающее адрес электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-104">The <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property returns a string value that specifies the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="70660-105">
+            <para>Значение <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> свойства указывает тип маршрутизации, чтобы использовать адрес электронной почты, заданный по <see cref="P:ExchangeWebServices.EmailAddress.Address" /> свойство. Если не указано значение для <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> свойства, SMTP, предполагается использование.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-105">
+              <para>The value of the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property specifies the type of routing to use for the e-mail address that is specified by the <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property. If no value is specified for the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property, SMTP is assumed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="70660-106">
+            <see cref="P:ExchangeWebServices.EmailAddress.Name" /> Свойство получает или задает строковое значение, задающее имя, связанное с адресом электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-106">The <see cref="P:ExchangeWebServices.EmailAddress.Name" /> property gets or sets a string value that specifies the name that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="70660-107">
+            <see cref="P:ExchangeWebServices.EmailAddress.Name" /> Свойство возвращает строковое значение, задающее имя, связанное с адресом электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-107">The <see cref="P:ExchangeWebServices.EmailAddress.Name" /> property returns a string value that specifies the name that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingType">
+      <MemberSignature Language="C#" Value="public string RoutingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoutingType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.RoutingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoutingType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RoutingType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="70660-108">
+            <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> Свойство получает или задает строковое значение, указывающее тип маршрутизации, связанное с адресом электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-108">The <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property gets or sets a string value that specifies the routing type that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="70660-109">
+            <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> Свойство возвращает строковое значение, указывающее тип маршрутизации, связанное с адресом электронной почты, представленного в этом экземпляре <see cref="T:ExchangeWebServices.EmailAddress" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-109">The <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property returns a string value that specifies the routing type that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="70660-110">
+            <para>Если не указано значение для <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> свойства, SMTP, предполагается использование.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="70660-110">
+              <para>If no value is specified for the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property, SMTP is assumed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

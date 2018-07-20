@@ -1,0 +1,143 @@
+<Type Name="MessageDispositionType" FullName="ExchangeWebServices.MessageDispositionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="59f6fbebe684e2b36357f0901ecf053edc5c26d7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610169" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MessageDispositionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MessageDispositionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MessageDispositionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MessageDispositionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MessageDispositionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="926a8-101">
+        <see cref="T:ExchangeWebServices.MessageDispositionType" /> Перечисление указывает порядок обработки сообщения после его создания или обновления.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="926a8-101">The <see cref="T:ExchangeWebServices.MessageDispositionType" /> enumeration specifies how a message item is handled after it is created or updated.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="926a8-102">
+        <para>При <see cref="T:ExchangeWebServices.MessageDispositionType" /> используется для <see cref="T:ExchangeWebServices.CreateItemType" />, он применяется только к сообщениям электронной почты. При <see cref="T:ExchangeWebServices.MessageDispositionType" /> используется для <see cref="T:ExchangeWebServices.UpdateItemType" /> тип, его можно применять к сообщениям электронной почты и сообщения о собраниях, включая отмен собрания, приглашений на собрания и ответы. Это перечисление не используется для объектов-ответа.</para>
+        <para>Ответы CreateItem возврата ItemId при <see cref="T:ExchangeWebServices.MessageDispositionType" /> задано значение <see cref="F:ExchangeWebServices.MessageDispositionType.SaveOnly" />.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="926a8-102">
+          <para>When the <see cref="T:ExchangeWebServices.MessageDispositionType" /> is used for the <see cref="T:ExchangeWebServices.CreateItemType" />, it only applies to e-mail messages. When the <see cref="T:ExchangeWebServices.MessageDispositionType" /> is used for the <see cref="T:ExchangeWebServices.UpdateItemType" /> type, it can apply to e-mail messages and meeting messages, including meeting cancellations, meeting requests, and meeting responses. This enumeration is not used for response objects.</para>
+          <para>CreateItem responses return an ItemId when <see cref="T:ExchangeWebServices.MessageDispositionType" /> is set to <see cref="F:ExchangeWebServices.MessageDispositionType.SaveOnly" />.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SaveOnly">
+      <MemberSignature Language="C#" Value="SaveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SaveOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SaveOnly" />
+      <MemberSignature Language="VB.NET" Value="SaveOnly" />
+      <MemberSignature Language="C++ CLI" Value="SaveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="926a8-103">При использовании в <see cref="T:ExchangeWebServices.CreateItemType" />, элемент сообщения электронной почты сохраняется в папку, заданную с <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> свойства, или в папку «Отправленные» при <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> не указан.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-103">When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is saved in the folder that is specified by the <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> property, or in the Sent Items folder if <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> is not specified.</span>
+          </span>
+          <span data-ttu-id="926a8-104">Сообщения могут быть отправлены более поздней версии с помощью <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SendItem(ExchangeWebServices.SendItemType)" /> метод <see cref="T:ExchangeWebServices.ExchangeServiceBinding" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-104">Messages can be sent later by using the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SendItem(ExchangeWebServices.SendItemType)" /> method on an <see cref="T:ExchangeWebServices.ExchangeServiceBinding" /> object.</span>
+          </span>
+          <span data-ttu-id="926a8-105">В этом случае возвращается идентификатор элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-105">An item identifier is returned in this case.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SendAndSaveCopy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="926a8-106">При использовании в <see cref="T:ExchangeWebServices.CreateItemType" />, элемент сообщения электронной почты отправляется и копия сохраняется в папку, заданную с <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> свойства, или в папку «Отправленные» при <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> не указан.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-106">When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is sent and a copy is saved in the folder that is specified by the <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> property, or in the Sent Items folder if <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> is not specified.</span>
+          </span>
+          <span data-ttu-id="926a8-107">В этом случае идентификатор элемента не возвращается.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-107">An item identifier is not returned in this case.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnly">
+      <MemberSignature Language="C#" Value="SendOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SendOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SendOnly" />
+      <MemberSignature Language="VB.NET" Value="SendOnly" />
+      <MemberSignature Language="C++ CLI" Value="SendOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="926a8-108">При использовании в <see cref="T:ExchangeWebServices.CreateItemType" />, отправляются сообщения электронной почты, но копия не сохраняется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-108">When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is sent but no copy is saved.</span>
+          </span>
+          <span data-ttu-id="926a8-109">В этом случае идентификатор элемента не возвращается.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="926a8-109">An item identifier is not returned in this case.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

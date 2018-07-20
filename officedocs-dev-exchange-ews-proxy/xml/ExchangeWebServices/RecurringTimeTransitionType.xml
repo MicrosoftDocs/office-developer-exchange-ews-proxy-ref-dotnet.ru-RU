@@ -1,0 +1,145 @@
+<Type Name="RecurringTimeTransitionType" FullName="ExchangeWebServices.RecurringTimeTransitionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1cd48a9807733c42dd0c892f6f0120463dc4dacc" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610505" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class RecurringTimeTransitionType : ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit RecurringTimeTransitionType extends ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RecurringTimeTransitionType&#xA;Inherits TransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringTimeTransitionType abstract : ExchangeWebServices::TransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.TransitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDayTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDateTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="68a2b-101">
+        <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> Класс является базовым классом для производных классов <see cref="T:ExchangeWebServices.RecurringDateTransitionType" /> и <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> , представляющие переходы часового пояса.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="68a2b-101">The <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> class is the base class for derived classes <see cref="T:ExchangeWebServices.RecurringDateTransitionType" /> and <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> that represent time zone transitions.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected RecurringTimeTransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurringTimeTransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; RecurringTimeTransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="68a2b-102">
+            <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68a2b-102">The <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="public int Month { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Month" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringTimeTransitionType.Month" />
+      <MemberSignature Language="VB.NET" Value="Public Property Month As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Month { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68a2b-103">
+            <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> Свойство получает или задает месяц, в котором осуществляется часового пояса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68a2b-103">The <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> property gets or sets the month in which the time zone transition occurs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68a2b-104">Значение <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> свойства — целое число, представляющее месяц, в котором осуществляется часового пояса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68a2b-104">The value of the <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> property is an integer that represents the month in which the time zone transition occurs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeOffset">
+      <MemberSignature Language="C#" Value="public string TimeOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeOffset As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeOffset { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="duration")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68a2b-105">
+            <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> Свойство получает или задает длительность смещение от по Гринвичу (UTC) для перехода часового пояса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68a2b-105">The <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> property gets or sets the duration offset from the Coordinated Universal Time (UTC) for the time zone transition.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68a2b-106">Значение <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> свойства — это строка, представляющая смещение в формате UTC.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68a2b-106">The value of the <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> property is a string that represents the offset from Coordinated Universal Time (UTC).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,163 @@
+<Type Name="MultipleOperandBooleanExpressionType" FullName="ExchangeWebServices.MultipleOperandBooleanExpressionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7c1af882a86526559a9ab7993632472548c5a2a5" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610077" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class MultipleOperandBooleanExpressionType : ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit MultipleOperandBooleanExpressionType extends ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MultipleOperandBooleanExpressionType&#xA;Inherits SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MultipleOperandBooleanExpressionType abstract : ExchangeWebServices::SearchExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SearchExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AndType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.OrType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7c5f5-101">
+        <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> Класс является базовым классом для производных классов, которые представляют ограничения, формат, более двух операндов типа Boolean.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7c5f5-101">The <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> class is the base class for derived classes that represent a restriction formed by two or more Boolean operands.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="7c5f5-102">
+        <para>
+          <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> Класс является базовым классом для <see cref="T:ExchangeWebServices.AndType" /> и <see cref="T:ExchangeWebServices.OrType" /> классы.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7c5f5-102">
+          <para>The <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> class is the base class for the <see cref="T:ExchangeWebServices.AndType" /> and <see cref="T:ExchangeWebServices.OrType" /> classes.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MultipleOperandBooleanExpressionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MultipleOperandBooleanExpressionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; MultipleOperandBooleanExpressionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7c5f5-103">
+            <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> Класс абстрактный и не может быть создан.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7c5f5-103">The <see cref="T:ExchangeWebServices.MultipleOperandBooleanExpressionType" /> class is abstract and cannot be instantiated.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchExpressionType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchExpressionType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MultipleOperandBooleanExpressionType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As SearchExpressionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::SearchExpressionType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::SearchExpressionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::SearchExpressionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Or", typeof(ExchangeWebServices.OrType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Excludes", typeof(ExchangeWebServices.ExcludesType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("And", typeof(ExchangeWebServices.AndType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchExpression", typeof(ExchangeWebServices.SearchExpressionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsGreaterThanOrEqualTo", typeof(ExchangeWebServices.IsGreaterThanOrEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Not", typeof(ExchangeWebServices.NotType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsEqualTo", typeof(ExchangeWebServices.IsEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsGreaterThan", typeof(ExchangeWebServices.IsGreaterThanType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Exists", typeof(ExchangeWebServices.ExistsType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contains", typeof(ExchangeWebServices.ContainsExpressionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsLessThan", typeof(ExchangeWebServices.IsLessThanType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsLessThanOrEqualTo", typeof(ExchangeWebServices.IsLessThanOrEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsNotEqualTo", typeof(ExchangeWebServices.IsNotEqualToType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchExpressionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7c5f5-104">
+            <see cref="P:ExchangeWebServices.MultipleOperandBooleanExpressionType.Items" /> Свойство получает или задает массив выражений поиска, который представляет набор операндов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7c5f5-104">The <see cref="P:ExchangeWebServices.MultipleOperandBooleanExpressionType.Items" /> property gets or sets an array of search expressions that represents a set of operands.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7c5f5-105">
+            <see cref="P:ExchangeWebServices.MultipleOperandBooleanExpressionType.Items" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.SearchExpressionType" /> объекты, которые представляют либо <see cref="T:ExchangeWebServices.AndType" /> или <see cref="T:ExchangeWebServices.OrType" /> поиск выражения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7c5f5-105">The <see cref="P:ExchangeWebServices.MultipleOperandBooleanExpressionType.Items" /> property returns an array of <see cref="T:ExchangeWebServices.SearchExpressionType" /> objects that represent either an <see cref="T:ExchangeWebServices.AndType" /> or an <see cref="T:ExchangeWebServices.OrType" /> search expression.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

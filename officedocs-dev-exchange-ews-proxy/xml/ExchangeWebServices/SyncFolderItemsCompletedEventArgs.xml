@@ -1,0 +1,78 @@
+<Type Name="SyncFolderItemsCompletedEventArgs" FullName="ExchangeWebServices.SyncFolderItemsCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="76ac97ccff0cf998cf1de9182f1e2d364474f81a" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610283" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SyncFolderItemsCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="67f19-101">
+        <see cref="T:ExchangeWebServices.SyncFolderItemsCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsCompleted" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="67f19-101">The <see cref="T:ExchangeWebServices.SyncFolderItemsCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsCompleted" /> event.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SyncFolderItemsResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SyncFolderItemsResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As SyncFolderItemsResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SyncFolderItemsResponseType ^ Result { ExchangeWebServices::SyncFolderItemsResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderItemsResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="67f19-102">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsCompletedEventArgs.Result" /> Свойство получает ответ от асинхронный вызов <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsAsync(ExchangeWebServices.SyncFolderItemsType)" /> метод.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="67f19-102">The <see cref="P:ExchangeWebServices.SyncFolderItemsCompletedEventArgs.Result" /> property gets the response from the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsAsync(ExchangeWebServices.SyncFolderItemsType)" /> method.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="67f19-103">
+            <see cref="P:ExchangeWebServices.SyncFolderItemsCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.SyncFolderItemsResponseType" /> объект, содержащий результаты асинхронного вызова <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsAsync(ExchangeWebServices.SyncFolderItemsType)" /> метод.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="67f19-103">The <see cref="P:ExchangeWebServices.SyncFolderItemsCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.SyncFolderItemsResponseType" /> object that contains the results of the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItemsAsync(ExchangeWebServices.SyncFolderItemsType)" /> method.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

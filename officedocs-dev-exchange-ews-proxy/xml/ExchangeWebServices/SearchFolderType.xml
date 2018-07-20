@@ -1,0 +1,121 @@
+<Type Name="SearchFolderType" FullName="ExchangeWebServices.SearchFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e3a8449e8701bf5f9c25f87b67637a869d5c248d" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610087" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SearchFolderType : ExchangeWebServices.FolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchFolderType extends ExchangeWebServices.FolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchFolderType&#xA;Inherits FolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolderType : ExchangeWebServices::FolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.FolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="be52c-101">
+        <see cref="T:ExchangeWebServices.SearchFolderType" /> Класс представляет папки поиска, которая содержится в почтовом ящике.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="be52c-101">The <see cref="T:ExchangeWebServices.SearchFolderType" /> class represents a search folder that is contained in a mailbox.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="be52c-102">
+        <para>
+          <b />
+          <see cref="T:ExchangeWebServices.SearchFolderType" /> Класс используется для папок поиска регулярных и MicrosoftOfficeOutlook и Outlook Web Access отображается папки поиска. Для папки поиска должна быть видна для Outlook и Outlook Web Access, необходимо создать папку в папке различающееся SearchFolders.</para>
+        <para>
+          <b>Примечание</b>: Если свойство календаря: Организатор используется для создания папки поиска, которая имеет ограничение, следующий вызов метода GetFolder возвращает ограничение с сообщением: из свойства вместо свойства календаря: Организатор. Эти два свойства сопоставить же базовым свойством MAPI.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="be52c-102">
+          <para>The<b /><see cref="T:ExchangeWebServices.SearchFolderType" /> class is used for both regular search folders and MicrosoftOfficeOutlook and Outlook Web Access visible search folders. For a search folder to be visible to Outlook and Outlook Web Access, the folder must be created under the SearchFolders distinguished folder.</para>
+          <para>
+            <b>Note</b>: If you use the calendar:Organizer property to create a search folder that has a restriction, a subsequent GetFolder call will return the restriction with the message:from property instead of the calendar:Organizer property. These two properties map to the same underlying MAPI property.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="be52c-103">
+            <see cref="T:ExchangeWebServices.SearchFolderType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SearchFolderType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="be52c-103">The <see cref="T:ExchangeWebServices.SearchFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SearchFolderType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchParameters">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchParametersType SearchParameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchParametersType SearchParameters" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchFolderType.SearchParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchParameters As SearchParametersType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchParametersType ^ SearchParameters { ExchangeWebServices::SearchParametersType ^ get(); void set(ExchangeWebServices::SearchParametersType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchParametersType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="be52c-104">
+            <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> Свойство получает или задает параметры, определяющие папки поиска.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="be52c-104">The <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> property gets or sets the parameters that define a search folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="be52c-105">
+            <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> Возвращает свойство <see cref="T:ExchangeWebServices.SearchParametersType" /> объект, который содержит параметры, определяющие папки поиска.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="be52c-105">The <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> property returns a <see cref="T:ExchangeWebServices.SearchParametersType" /> object that contains the parameters that define a search folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

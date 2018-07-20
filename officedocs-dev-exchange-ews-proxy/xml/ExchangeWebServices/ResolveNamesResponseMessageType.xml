@@ -1,0 +1,109 @@
+<Type Name="ResolveNamesResponseMessageType" FullName="ExchangeWebServices.ResolveNamesResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ee7f3eac394dfc4de2fb146c8ecb2d876dc27879" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610377" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ResolveNamesResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResolveNamesResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResolveNamesResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResolveNamesResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResolveNamesResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="016a1-101">
+        <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> Класс содержит состояние и результат запроса ResolveNames.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="016a1-101">The <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> class contains the status and result of a ResolveNames request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResolveNamesResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ResolveNamesResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResolveNamesResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="016a1-102">
+            <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="016a1-102">The <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolutionSet">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfResolutionType ResolutionSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfResolutionType ResolutionSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResolutionSet As ArrayOfResolutionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfResolutionType ^ ResolutionSet { ExchangeWebServices::ArrayOfResolutionType ^ get(); void set(ExchangeWebServices::ArrayOfResolutionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfResolutionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="016a1-103">
+            <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> Свойство получает или задает массив способы решения для разрешения неоднозначных псевдонимов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="016a1-103">The <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> property gets or sets an array of resolutions for an ambiguous name.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="016a1-104">
+            <para>A <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> свойство может содержать не более 100 разрешить сущности.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="016a1-104">
+              <para>A <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> property can contain a maximum of 100 resolved entities.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

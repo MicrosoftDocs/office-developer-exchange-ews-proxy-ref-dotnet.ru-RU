@@ -1,0 +1,99 @@
+<Type Name="DeleteFolderCompletedEventArgs" FullName="ExchangeWebServices.DeleteFolderCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e3c15c469830d4d6ddf1dda4fab68666662281ce" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610453" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeleteFolderCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeleteFolderCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteFolderCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteFolderCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteFolderCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7ee06-101">
+        <see cref="T:ExchangeWebServices.DeleteFolderCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.DeleteFolderCompleted" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7ee06-101">The <see cref="T:ExchangeWebServices.DeleteFolderCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.DeleteFolderCompleted" /> event.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="7ee06-102">
+        <para>Пример асинхронного веб-служб Exchange, в разделе <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> метод.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7ee06-102">
+          <para>For an asynchronous Exchange Web Services example, see the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DeleteFolderResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DeleteFolderResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteFolderCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As DeleteFolderResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DeleteFolderResponseType ^ Result { ExchangeWebServices::DeleteFolderResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeleteFolderResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7ee06-103">
+            <see cref="P:ExchangeWebServices.DeleteFolderCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> объект для асинхронного вызова DeleteFolder.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7ee06-103">The <see cref="P:ExchangeWebServices.DeleteFolderCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> object for an asynchronous DeleteFolder call.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7ee06-104">Свойство <see cref="P:ExchangeWebServices.DeleteFolderCompletedEventArgs.Result" /> возвращает объект <see cref="T:ExchangeWebServices.DeleteFolderResponseType" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7ee06-104">The <see cref="P:ExchangeWebServices.DeleteFolderCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7ee06-105">
+            <para>Пример асинхронного веб-служб Exchange, в разделе <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> метод.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7ee06-105">
+              <para>For an asynchronous Exchange Web Services example, see the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

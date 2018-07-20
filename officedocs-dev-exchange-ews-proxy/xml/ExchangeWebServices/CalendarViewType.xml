@@ -1,0 +1,168 @@
+<Type Name="CalendarViewType" FullName="ExchangeWebServices.CalendarViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ec120a52d5dbb067b5d18e31a0d20bc377a8de60" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610984" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d75e8-101">
+        <see cref="T:ExchangeWebServices.CalendarViewType" /> Класс представляет параметры, используемые для возврата элементов календаря, отображенные в календаре.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d75e8-101">The <see cref="T:ExchangeWebServices.CalendarViewType" /> class represents the settings that are used to return calendar items as they appear in a calendar.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="d75e8-102">
+        <para>Просмотр календаря возвращает элементы одного календаря и вхождения повторяющихся элементов календаря. Повторяющаяся элементов главного календаря, не повторяющихся вхождений календаря, возвращаются, если не используется представление "Календарь". Этот тип используется только в запросах FindItem операции.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d75e8-102">
+          <para>A Calendar View returns single calendar items and occurrences of recurring calendar items. Recurring master calendar items, not recurring calendar occurrences, are returned if the Calendar View is not used. This type is only used in FindItem operation requests.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d75e8-103">
+            <see cref="T:ExchangeWebServices.CalendarViewType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CalendarViewType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-103">The <see cref="T:ExchangeWebServices.CalendarViewType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarViewType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d75e8-104">
+            <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> Свойство задает окончания интервала времени для представления календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-104">The <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> property sets the end of the time span for a Calendar View.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d75e8-105">
+            <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> Свойство возвращает объект даты и времени окончания интервала времени представление "Календарь".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-105">The <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> property returns the DateTime object that represents the end of the Calendar View time span.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d75e8-106">
+            <para>Это свойство не возвращается в ответ FindItem.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-106">
+              <para>This property is not returned in a FindItem response.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d75e8-107">
+            <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> Свойство задает начало интервала времени для представления календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-107">The <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> property sets the start of the time span for a Calendar View.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d75e8-108">
+            <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> Свойство возвращает объект даты и времени, представляющий начало интервала времени представление "Календарь".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d75e8-108">The <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> property returns the DateTime object that represents the start of the Calendar View time span.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

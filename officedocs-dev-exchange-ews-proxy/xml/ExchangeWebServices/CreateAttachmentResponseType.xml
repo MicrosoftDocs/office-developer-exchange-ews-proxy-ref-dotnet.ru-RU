@@ -1,0 +1,72 @@
+<Type Name="CreateAttachmentResponseType" FullName="ExchangeWebServices.CreateAttachmentResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="17f07718ad344f4cc90acee1536683531e3f3aaa" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611191" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateAttachmentResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateAttachmentResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateAttachmentResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateAttachmentResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateAttachmentResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0a859-101">
+        <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> Класс содержит сведения о состоянии вызова <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateAttachment(ExchangeWebServices.CreateAttachmentType)" /> метод.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0a859-101">The <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> class contains the status for a call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateAttachment(ExchangeWebServices.CreateAttachmentType)" /> method.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateAttachmentResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateAttachmentResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateAttachmentResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0a859-102">
+            <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0a859-102">The <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

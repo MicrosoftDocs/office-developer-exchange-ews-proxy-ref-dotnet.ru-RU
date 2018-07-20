@@ -1,0 +1,225 @@
+<Type Name="MeetingRequestTypeType" FullName="ExchangeWebServices.MeetingRequestTypeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2e4cea6d504b853255588847953def029f51845" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611391" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MeetingRequestTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MeetingRequestTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MeetingRequestTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="24d0c-101">
+        <see cref="T:ExchangeWebServices.MeetingRequestTypeType" /> Перечисление Описание типов приглашений на собрания.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="24d0c-101">The <see cref="T:ExchangeWebServices.MeetingRequestTypeType" /> enumeration describes the types of meeting requests.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="24d0c-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> свойства <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="24d0c-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> property of the <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> object. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullUpdate">
+      <MemberSignature Language="C#" Value="FullUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType FullUpdate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.FullUpdate" />
+      <MemberSignature Language="VB.NET" Value="FullUpdate" />
+      <MemberSignature Language="C++ CLI" Value="FullUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-103">Определяет запрос на собрание как полное обновление для существующего запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-103">Identifies the meeting request as a full update to an existing request.</span>
+          </span>
+          <span data-ttu-id="24d0c-104">Полное обновление обновил времени и информационного контента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-104">A full update has updated time and informational content.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationalUpdate">
+      <MemberSignature Language="C#" Value="InformationalUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType InformationalUpdate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.InformationalUpdate" />
+      <MemberSignature Language="VB.NET" Value="InformationalUpdate" />
+      <MemberSignature Language="C++ CLI" Value="InformationalUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-105">Определяет запрос на собрание, содержащее обновления информационного контента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-105">Identifies the meeting request as only containing updated informational content.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMeetingRequest">
+      <MemberSignature Language="C#" Value="NewMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType NewMeetingRequest = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.NewMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="NewMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="NewMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-106">Указывает запрос на собрание в качестве нового приглашения на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-106">Identifies the meeting request as a new meeting request.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-107">Указывает, что собрание тип не определен.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-107">Indicates that the meeting request type is not defined.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outdated">
+      <MemberSignature Language="C#" Value="Outdated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType Outdated = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.Outdated" />
+      <MemberSignature Language="VB.NET" Value="Outdated" />
+      <MemberSignature Language="C++ CLI" Value="Outdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-108">Определяет запрос на собрание считается устаревшим.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-108">Identifies the meeting request as outdated.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalWantsCopy">
+      <MemberSignature Language="C#" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType PrincipalWantsCopy = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.PrincipalWantsCopy" />
+      <MemberSignature Language="VB.NET" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalWantsCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-109">Показывает, что запрос на собрание принадлежит участника, передаваемые сообщений о собрании делегата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-109">Indicates that the meeting request belongs to a principal who has forwarded meeting messages to a delegate.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SilentUpdate">
+      <MemberSignature Language="C#" Value="SilentUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType SilentUpdate = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.SilentUpdate" />
+      <MemberSignature Language="VB.NET" Value="SilentUpdate" />
+      <MemberSignature Language="C++ CLI" Value="SilentUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24d0c-110">Указывает запрос на собрание в качестве автоматической обновление для существующего собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24d0c-110">Identifies the meeting request as a silent update to an existing meeting.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

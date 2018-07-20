@@ -1,0 +1,118 @@
+<Type Name="AlternateIdBaseType" FullName="ExchangeWebServices.AlternateIdBaseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="227a8c56269bf1d8283fb0de4222265a9fe37d63" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610415" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AlternateIdBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit AlternateIdBaseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AlternateIdBaseType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AlternateIdBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateIdBaseType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternatePublicFolderItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternatePublicFolderIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternateIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="552fa-101">
+        <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> Класс является базовым классом для производных классов, которые описывают элемента, папки или общей папки идентификаторов для преобразования.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="552fa-101">The <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> class is the base class for derived classes that describe item, folder, or public folder identifiers to convert.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AlternateIdBaseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AlternateIdBaseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; AlternateIdBaseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="552fa-102">
+            <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> Класс абстрактный и не может быть создан.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="552fa-102">The <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> class is abstract and cannot be instantiated.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.IdFormatType Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.IdFormatType Format" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AlternateIdBaseType.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As IdFormatType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::IdFormatType Format { ExchangeWebServices::IdFormatType get(); void set(ExchangeWebServices::IdFormatType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="552fa-103">
+            <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> Свойство получает или задает формат источника в формате назначения в ответ ConvertId и ConvertId запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="552fa-103">The <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> property gets or sets the source format in a ConvertId request and the destination format in a ConvertId response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="552fa-104">
+            <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> Возвращает свойство <see cref="T:ExchangeWebServices.IdFormatType" /> перечисления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="552fa-104">The <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> property returns an <see cref="T:ExchangeWebServices.IdFormatType" /> enumeration.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

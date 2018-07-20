@@ -1,0 +1,129 @@
+<Type Name="PermissionActionType" FullName="ExchangeWebServices.PermissionActionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="945bc4c58d17dd6f8c57c41bbcd8c9055d8a32a6" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610068" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum PermissionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed PermissionActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PermissionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PermissionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PermissionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a2013-101">
+        <see cref="T:ExchangeWebServices.PermissionActionType" /> Перечисление определяет, какие элементы в папке пользователь имеет разрешение на изменение или удаление.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a2013-101">The <see cref="T:ExchangeWebServices.PermissionActionType" /> enumeration defines which items in a folder a user has permission to edit or delete.</span>
+      </span>
+      <span data-ttu-id="a2013-102">Это перечисление была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a2013-102">This enumeration was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a2013-103">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> свойство и <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> свойства <see cref="T:ExchangeWebServices.BasePermissionType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a2013-103">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> property and the <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> property of the <see cref="T:ExchangeWebServices.BasePermissionType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a2013-104">Указывает, что пользователь имеет разрешения на выполнение действия на всех элементов в папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a2013-104">Indicates that the user has permission to perform the action on all items in the folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a2013-105">Указывает, что пользователь не имеет разрешения на выполнение действий с любой элементов в папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a2013-105">Indicates that the user does not have permission to perform the action on any items in the folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owned">
+      <MemberSignature Language="C#" Value="Owned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType Owned = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.Owned" />
+      <MemberSignature Language="VB.NET" Value="Owned" />
+      <MemberSignature Language="C++ CLI" Value="Owned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a2013-106">Указывает, что пользователь имеет разрешения на выполнение действия для элементов в папке, которому принадлежит пользователь.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a2013-106">Indicates that the user has permission to perform the action on the items in the folder that the user owns.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

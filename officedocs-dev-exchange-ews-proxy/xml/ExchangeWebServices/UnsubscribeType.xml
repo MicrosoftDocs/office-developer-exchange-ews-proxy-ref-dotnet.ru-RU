@@ -1,0 +1,192 @@
+<Type Name="UnsubscribeType" FullName="ExchangeWebServices.UnsubscribeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b1c9393b68d7a3606143b2a2e74814390998335" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610210" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UnsubscribeType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UnsubscribeType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnsubscribeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnsubscribeType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnsubscribeType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7803d-101">
+        <see cref="T:ExchangeWebServices.UnsubscribeType" /> Класс представляет запрос на окончание подписку на уведомления о репликации по запросу.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7803d-101">The <see cref="T:ExchangeWebServices.UnsubscribeType" /> class represents a request to end a pull notification subscription.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="7803d-102">
+        <para>Мы рекомендуем намеренно окончания подписки запретив времени ожидания подписки.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7803d-102">
+          <para>We recommend that you intentionally end a subscription instead of letting a subscription time out. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="7803d-103">
+        <para>Следующем примере показано, как окончания одной подписки.</para>
+        <code>static void Unsubscribe(ExchangeServiceBinding esb)
+{
+    // Create the request by using a subscription ID.
+    UnsubscribeType &lt;span class="label"&gt;request&lt;/span&gt; = new UnsubscribeType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "a87a6b81-cf30-4fa0-b86a-6c66ff902123";
+
+    // Send the request and get the response.
+    UnsubscribeResponseType response = esb.Unsubscribe(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Subscription ended successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Unsubscribe failed.");
+        }
+    }
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7803d-103">
+          <para>The following example shows you how to end a single subscription.</para>
+          <code>static void Unsubscribe(ExchangeServiceBinding esb)
+{
+    // Create the request by using a subscription ID.
+    UnsubscribeType &lt;span class="label"&gt;request&lt;/span&gt; = new UnsubscribeType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "a87a6b81-cf30-4fa0-b86a-6c66ff902123";
+
+    // Send the request and get the response.
+    UnsubscribeResponseType response = esb.Unsubscribe(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Subscription ended successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Unsubscribe failed.");
+        }
+    }
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UnsubscribeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UnsubscribeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UnsubscribeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7803d-104">
+            <see cref="T:ExchangeWebServices.UnsubscribeType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UnsubscribeType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-104">The <see cref="T:ExchangeWebServices.UnsubscribeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UnsubscribeType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7803d-105">
+            <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> Свойство получает или задает идентификатор подписки отмены подписки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-105">The <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> property gets or sets the subscription identifier of a subscription to cancel.</span>
+          </span>
+          <span data-ttu-id="7803d-106">Это свойство является обязательным.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-106">This property is required.</span>
+          </span>
+          <span data-ttu-id="7803d-107">Это свойство чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-107">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7803d-108">
+            <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> Возвращает идентификатор GUID, представляющий идентификатор подписки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-108">The <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> property returns a GUID that represents a subscription identifier.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7803d-109">
+            <para>Получение <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> из подписки на операции или ответа GetEvents операции.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7803d-109">
+              <para>Get the <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> from the Subscribe operation or the GetEvents operation response.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

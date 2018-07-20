@@ -1,0 +1,53 @@
+<Type Name="GetRoomsCompletedEventHandler" FullName="ExchangeWebServices.GetRoomsCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="62d25bfc4023cd4c370a51bc028489f2ab8dbccb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611053" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void GetRoomsCompletedEventHandler(object sender, GetRoomsCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GetRoomsCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetRoomsCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub GetRoomsCompletedEventHandler(sender As Object, e As GetRoomsCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void GetRoomsCompletedEventHandler(System::Object ^ sender, GetRoomsCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.GetRoomsCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>
+      <span data-ttu-id="88658-101">
+        <para>
+          <b>Примечание</b>: этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="88658-101">
+          <para>
+            <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+</Type>

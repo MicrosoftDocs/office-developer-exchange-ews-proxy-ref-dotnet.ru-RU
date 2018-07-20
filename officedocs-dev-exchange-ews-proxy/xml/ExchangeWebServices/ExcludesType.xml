@@ -1,0 +1,170 @@
+<Type Name="ExcludesType" FullName="ExchangeWebServices.ExcludesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f93de7dd4f20f2c9ae6a0dbf03795acdea9e3a25" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610319" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExcludesType : ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExcludesType extends ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExcludesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExcludesType&#xA;Inherits SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExcludesType : ExchangeWebServices::SearchExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SearchExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2b078-101">
+        <see cref="T:ExchangeWebServices.ExcludesType" /> Класс выполняет битовую маску указанного свойства и заданное значение.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2b078-101">The <see cref="T:ExchangeWebServices.ExcludesType" /> class performs a bitwise mask of the specified property and a supplied value.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="2b078-102">
+        <para>
+          <see cref="T:ExchangeWebServices.ExcludesType" /> Ограничения могут применяться только к свойство, содержащее целое число. Если тип свойства — это что-либо кроме целого числа, код ошибки <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorUnsupportedPathForQuery" /> возвращаемого в ответе.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2b078-102">
+          <para>The <see cref="T:ExchangeWebServices.ExcludesType" /> restriction can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorUnsupportedPathForQuery" /> is returned in the response.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExcludesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2b078-103">
+            <see cref="T:ExchangeWebServices.ExcludesType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ExcludesType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-103">The <see cref="T:ExchangeWebServices.ExcludesType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ExcludesType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bitmask">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExcludesValueType Bitmask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ExcludesValueType Bitmask" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExcludesType.Bitmask" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bitmask As ExcludesValueType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExcludesValueType ^ Bitmask { ExchangeWebServices::ExcludesValueType ^ get(); void set(ExchangeWebServices::ExcludesValueType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExcludesValueType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2b078-104">
+            <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> Свойство получает или задает шестнадцатеричный или десятичный маска, которая будет использоваться во время операции ограничения Excludes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-104">The <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> property gets or sets a hexadecimal or decimal mask that is to be used during an Excludes restriction operation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2b078-105">
+            <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> Возвращает свойство <see cref="T:ExchangeWebServices.ExcludesValueType" /> объект, представляющее битовую маску.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-105">The <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> property returns an <see cref="T:ExchangeWebServices.ExcludesValueType" /> object that represents a bitmask.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2b078-106">
+            <para>Если битовая маска, которая представляет это шестнадцатеричный номер, он должен стоять 0 x или 0 X. В противном случае считается десятичного числа.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-106">
+              <para>If the bitmask represents a hexadecimal number, it must be prefixed by 0x or 0X. Otherwise, it will be considered a decimal number.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExcludesType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2b078-107">
+            <see cref="P:ExchangeWebServices.ExcludesType.Item" /> Свойство получает или задает путь к свойству, которое сравнивается с <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-107">The <see cref="P:ExchangeWebServices.ExcludesType.Item" /> property gets or sets the property path that is compared to the <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" />.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2b078-108">
+            <see cref="P:ExchangeWebServices.ExcludesType.Item" /> Возвращает свойство <see cref="T:ExchangeWebServices.BasePathToElementType" /> объект, представляющий либо <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, или <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2b078-108">The <see cref="P:ExchangeWebServices.ExcludesType.Item" /> property returns a <see cref="T:ExchangeWebServices.BasePathToElementType" /> object that represents either a <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, or <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

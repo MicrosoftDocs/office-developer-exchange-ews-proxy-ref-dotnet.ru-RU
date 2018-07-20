@@ -1,0 +1,78 @@
+<Type Name="GetUserAvailabilityCompletedEventArgs" FullName="ExchangeWebServices.GetUserAvailabilityCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="314ce70096bcbfd456173349fcc6814a4b10da5f" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610193" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetUserAvailabilityCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetUserAvailabilityCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserAvailabilityCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserAvailabilityCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c9e63-101">
+        <see cref="T:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityCompleted" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c9e63-101">The <see cref="T:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityCompleted" /> event.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetUserAvailabilityResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.GetUserAvailabilityResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As GetUserAvailabilityResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetUserAvailabilityResponseType ^ Result { ExchangeWebServices::GetUserAvailabilityResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetUserAvailabilityResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c9e63-102">
+            <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> Свойство получает ответ от асинхронный вызов <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> метод.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9e63-102">The <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> property gets the response from the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c9e63-103">
+            <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> объект, содержащий результаты асинхронного вызова <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> метод.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9e63-103">The <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> object that contains the results of the asychronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

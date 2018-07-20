@@ -1,0 +1,278 @@
+<Type Name="GetAttachmentType" FullName="ExchangeWebServices.GetAttachmentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d251799f24575573f6bfecff13206d6c46c46668" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611293" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetAttachmentType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetAttachmentType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetAttachmentType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetAttachmentType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="46022-101">
+        <see cref="T:ExchangeWebServices.GetAttachmentType" /> Класс представляет запрос на получение вложенные элементы и файлов на элемент в базе данных Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46022-101">The <see cref="T:ExchangeWebServices.GetAttachmentType" /> class represents a request to get attached items and files on an item in an Exchange database.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="46022-102">
+        <para>Позволяет получить идентификаторы вложений для использования в операции GetAttachment GetItem звонок.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46022-102">
+          <para>Use the GetItem call to get the attachment identifiers to use in the GetAttachment operation.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="46022-103">
+        <para>В следующем примере кода показан запрос get вложений для двух вложений.</para>
+        <code>static void GetAttachment(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    &lt;span class="label"&gt;GetAttachmentType&lt;/span&gt;&lt;span class="label"&gt;request&lt;/span&gt; = new GetAttachmentType();
+
+    // Create the response shape.
+    AttachmentResponseShapeType responseShape = new AttachmentResponseShapeType();
+    responseShape.BodyType = BodyTypeResponseType.Text;
+    responseShape.BodyTypeSpecified = true;
+
+    // Add the response shape to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentShape = responseShape;
+
+    // Identify the attachment IDs to get.
+    RequestAttachmentIdType[] ids = new RequestAttachmentIdType[2];
+    ids[0] = new RequestAttachmentIdType();
+    ids[1] = new RequestAttachmentIdType();
+    ids[0].Id = "AAAlAE1BQG1";
+    ids[1].Id = "AAAlAE1Bas";
+
+    // Add the attachment IDs to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentIds = ids;
+
+    try
+    {
+        GetAttachmentResponseType response = esb.GetAttachment(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ResponseMessageType[] rmta = response.ResponseMessages.Items;
+
+        foreach (ResponseMessageType responseMessage in rmta)
+        { 
+            AttachmentInfoResponseMessageType airmt = (responseMessage as AttachmentInfoResponseMessageType);
+            AttachmentType[] attachments = airmt.Attachments;
+            
+            // Type check for item or file attachment.
+            foreach (AttachmentType attachment in attachments)
+            {
+                if (attachment is FileAttachmentType)
+                {
+                    FileAttachmentType fat = (attachment as FileAttachmentType);
+
+                    // Assumes ASCII encoding.
+                    string myContent = ASCIIEncoding.ASCII.GetString(fat.Content);
+                }
+
+                // Attachment is item attachment.
+                else
+                {
+                    ItemAttachmentType iat = (attachment as ItemAttachmentType);
+                    // TODO: Handle the item attachment.
+                }
+            }
+        }
+    }
+    catch (Exception x)
+    {
+        Console.WriteLine(x.Message);
+    }
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46022-103">
+          <para>The following code example shows a get attachment request for two attachments.</para>
+          <code>static void GetAttachment(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    &lt;span class="label"&gt;GetAttachmentType&lt;/span&gt;&lt;span class="label"&gt;request&lt;/span&gt; = new GetAttachmentType();
+
+    // Create the response shape.
+    AttachmentResponseShapeType responseShape = new AttachmentResponseShapeType();
+    responseShape.BodyType = BodyTypeResponseType.Text;
+    responseShape.BodyTypeSpecified = true;
+
+    // Add the response shape to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentShape = responseShape;
+
+    // Identify the attachment IDs to get.
+    RequestAttachmentIdType[] ids = new RequestAttachmentIdType[2];
+    ids[0] = new RequestAttachmentIdType();
+    ids[1] = new RequestAttachmentIdType();
+    ids[0].Id = "AAAlAE1BQG1";
+    ids[1].Id = "AAAlAE1Bas";
+
+    // Add the attachment IDs to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentIds = ids;
+
+    try
+    {
+        GetAttachmentResponseType response = esb.GetAttachment(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ResponseMessageType[] rmta = response.ResponseMessages.Items;
+
+        foreach (ResponseMessageType responseMessage in rmta)
+        { 
+            AttachmentInfoResponseMessageType airmt = (responseMessage as AttachmentInfoResponseMessageType);
+            AttachmentType[] attachments = airmt.Attachments;
+            
+            // Type check for item or file attachment.
+            foreach (AttachmentType attachment in attachments)
+            {
+                if (attachment is FileAttachmentType)
+                {
+                    FileAttachmentType fat = (attachment as FileAttachmentType);
+
+                    // Assumes ASCII encoding.
+                    string myContent = ASCIIEncoding.ASCII.GetString(fat.Content);
+                }
+
+                // Attachment is item attachment.
+                else
+                {
+                    ItemAttachmentType iat = (attachment as ItemAttachmentType);
+                    // TODO: Handle the item attachment.
+                }
+            }
+        }
+    }
+    catch (Exception x)
+    {
+        Console.WriteLine(x.Message);
+    }
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetAttachmentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetAttachmentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetAttachmentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="46022-104">
+            <see cref="T:ExchangeWebServices.GetAttachmentType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetAttachmentType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46022-104">The <see cref="T:ExchangeWebServices.GetAttachmentType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetAttachmentType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentIds As RequestAttachmentIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ AttachmentIds { cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AttachmentId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RequestAttachmentIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46022-105">
+            <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> Свойство получает или задает идентификаторы вложений для возврата в ответе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46022-105">The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> property gets or sets the identifiers of the attachments to return in the response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="46022-106">
+            <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> Возвращает свойство <see cref="T:ExchangeWebServices.RequestAttachmentIdType" /> массива, идентифицирующее вложений для возврата.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46022-106">The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> property returns a <see cref="T:ExchangeWebServices.RequestAttachmentIdType" /> array that identifies the attachments to return.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttachmentResponseShapeType AttachmentShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttachmentResponseShapeType AttachmentShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentShape As AttachmentResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AttachmentResponseShapeType ^ AttachmentShape { ExchangeWebServices::AttachmentResponseShapeType ^ get(); void set(ExchangeWebServices::AttachmentResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttachmentResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46022-107">
+            <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> Свойство получает или задает дополнительных свойств, которые необходимо вернуть для вложений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46022-107">The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> property gets or sets which additional properties to return for the attachments.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="46022-108">
+            <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> Возвращает свойство <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> , который определяет дополнительных свойств, которые необходимо вернуть для вложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46022-108">The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> property returns an <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> that identifies which additional properties to return for attachments.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,205 @@
+<Type Name="IdFormatType" FullName="ExchangeWebServices.IdFormatType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9bf6c899f043ba0d1a9162e8e8c4715301d3db9a" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611097" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum IdFormatType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed IdFormatType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IdFormatType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IdFormatType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IdFormatType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="affcb-101">
+        <see cref="T:ExchangeWebServices.IdFormatType" /> Перечисление указывает формат исходного идентификатора преобразуемых или формат идентификатора после преобразования.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="affcb-101">The <see cref="T:ExchangeWebServices.IdFormatType" /> enumeration specifies the source format of the Id to be converted or the format of the Id after conversion.</span>
+      </span>
+      <span data-ttu-id="affcb-102">Это перечисление была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="affcb-102">This enumeration was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="affcb-103">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> свойства <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> объекта и по <see cref="P:ExchangeWebServices.ConvertIdType.DestinationFormat" /> свойства <see cref="T:ExchangeWebServices.ConvertIdType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="affcb-103">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> property of the <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> object and by the <see cref="P:ExchangeWebServices.ConvertIdType.DestinationFormat" /> property of the <see cref="T:ExchangeWebServices.ConvertIdType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EntryId">
+      <MemberSignature Language="C#" Value="EntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType EntryId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.EntryId" />
+      <MemberSignature Language="VB.NET" Value="EntryId" />
+      <MemberSignature Language="C++ CLI" Value="EntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-104">Описываются идентификаторы MAPI, как и свойство PR_ENTRYID.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-104">Describes MAPI identifiers, as in the PR_ENTRYID property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsId">
+      <MemberSignature Language="C#" Value="EwsId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType EwsId = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.EwsId" />
+      <MemberSignature Language="VB.NET" Value="EwsId" />
+      <MemberSignature Language="C++ CLI" Value="EwsId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-105">Описываются идентификаторы, которые создаются веб-служб Exchange, начиная с Exchange 2007 с пакетом обновления 1.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-105">Describes identifiers that are produced by Exchange Web Services starting with Exchange 2007 SP1.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsLegacyId">
+      <MemberSignature Language="C#" Value="EwsLegacyId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType EwsLegacyId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.EwsLegacyId" />
+      <MemberSignature Language="VB.NET" Value="EwsLegacyId" />
+      <MemberSignature Language="C++ CLI" Value="EwsLegacyId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-106">Описываются идентификаторы, которые создаются веб-служб Exchange в первоначальной версии Exchange 2007.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-106">Describes identifiers that are produced by Exchange Web Services in the initial release version of Exchange 2007.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HexEntryId">
+      <MemberSignature Language="C#" Value="HexEntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType HexEntryId = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.HexEntryId" />
+      <MemberSignature Language="VB.NET" Value="HexEntryId" />
+      <MemberSignature Language="C++ CLI" Value="HexEntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-107">Описывает представление шестнадцатеричном формате PR_ENTRYID свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-107">Describes a hexadecimal-encoded representation of the PR_ENTRYID property.</span>
+          </span>
+          <span data-ttu-id="affcb-108">Это формат идентификаторы событий календаря доступности.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-108">This is the format of availability calendar event identifiers.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaId">
+      <MemberSignature Language="C#" Value="OwaId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType OwaId = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.OwaId" />
+      <MemberSignature Language="VB.NET" Value="OwaId" />
+      <MemberSignature Language="C++ CLI" Value="OwaId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-109">Описывает идентификатор Microsoft Office Outlook Web Access.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-109">Describes a Microsoft Office Outlook Web Access identifier.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreId">
+      <MemberSignature Language="C#" Value="StoreId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IdFormatType StoreId = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IdFormatType.StoreId" />
+      <MemberSignature Language="VB.NET" Value="StoreId" />
+      <MemberSignature Language="C++ CLI" Value="StoreId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="affcb-110">Описываются идентификаторы хранилища Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="affcb-110">Describes Exchange store identifiers.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,104 @@
+<Type Name="NumberedRecurrenceRangeType" FullName="ExchangeWebServices.NumberedRecurrenceRangeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cac4b6429409728d944bd4afaa427498f0a5910a" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610900" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class NumberedRecurrenceRangeType : ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NumberedRecurrenceRangeType extends ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NumberedRecurrenceRangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NumberedRecurrenceRangeType&#xA;Inherits RecurrenceRangeBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NumberedRecurrenceRangeType : ExchangeWebServices::RecurrenceRangeBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrenceRangeBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f773b-101">
+        <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> Класс описывает даты начала и число вхождений повторяющегося элемента.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f773b-101">The <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> class describes the start date and number of occurrences of a recurring item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NumberedRecurrenceRangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NumberedRecurrenceRangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NumberedRecurrenceRangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f773b-102">
+            <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f773b-102">The <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfOccurrences">
+      <MemberSignature Language="C#" Value="public int NumberOfOccurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfOccurrences" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfOccurrences As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfOccurrences { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f773b-103">
+            <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> Свойство получает или задает число вхождений повторяющегося элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f773b-103">The <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> property gets or sets the number of occurrences of a recurring item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f773b-104">
+            <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> Свойство возвращает число вхождений повторяющегося элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f773b-104">The <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> property returns the number of occurrences of a recurring item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

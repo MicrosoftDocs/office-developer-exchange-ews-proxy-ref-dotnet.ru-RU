@@ -1,0 +1,98 @@
+<Type Name="DeletedOccurrenceInfoType" FullName="ExchangeWebServices.DeletedOccurrenceInfoType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e1d9ca5d68e9b5e1f337e0dee65d0565ca7c160a" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610915" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeletedOccurrenceInfoType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeletedOccurrenceInfoType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeletedOccurrenceInfoType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeletedOccurrenceInfoType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeletedOccurrenceInfoType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="cf5eb-101">
+        <see cref="T:ExchangeWebServices.DeletedOccurrenceInfoType" /> Класс представляет удаленных вхождение повторяющегося элемента календаря.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cf5eb-101">The <see cref="T:ExchangeWebServices.DeletedOccurrenceInfoType" /> class represents a deleted occurrence of a recurring calendar item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeletedOccurrenceInfoType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeletedOccurrenceInfoType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeletedOccurrenceInfoType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeletedOccurrenceInfoType.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cf5eb-102">
+            <see cref="P:ExchangeWebServices.DeletedOccurrenceInfoType.Start" /> Свойство получает или задает Пуск длительность.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cf5eb-102">The <see cref="P:ExchangeWebServices.DeletedOccurrenceInfoType.Start" /> property gets or sets the start of a duration.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="cf5eb-103">
+            <see cref="P:ExchangeWebServices.DeletedOccurrenceInfoType.Start" /> Свойство возвращает объект даты и времени.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cf5eb-103">The <see cref="P:ExchangeWebServices.DeletedOccurrenceInfoType.Start" /> property returns a DateTime object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

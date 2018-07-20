@@ -1,0 +1,118 @@
+<Type Name="RecurrenceRangeBaseType" FullName="ExchangeWebServices.RecurrenceRangeBaseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8abe32e22aeb1e19e53006ca7fa46bf5ec6ee46f" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610802" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class RecurrenceRangeBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit RecurrenceRangeBaseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RecurrenceRangeBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurrenceRangeBaseType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.NoEndRecurrenceRangeType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.EndDateRecurrenceRangeType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.NumberedRecurrenceRangeType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="287bc-101">
+        <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> Класс — абстрактный базовый класс для всех шаблоны повторения, которые содержат даты начала.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="287bc-101">The <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> class is the abstract base class for all recurrence patterns that have a start date.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected RecurrenceRangeBaseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurrenceRangeBaseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; RecurrenceRangeBaseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="287bc-102">
+            <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="287bc-102">The <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RecurrenceRangeBaseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurrenceRangeBaseType.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="date")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="287bc-103">
+            <see cref="P:ExchangeWebServices.RecurrenceRangeBaseType.StartDate" /> Свойство получает или задает дату начала диапазона повторения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="287bc-103">The <see cref="P:ExchangeWebServices.RecurrenceRangeBaseType.StartDate" /> property gets or sets the start date of a recurrence range.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="287bc-104">
+            <see cref="P:ExchangeWebServices.RecurrenceRangeBaseType.StartDate" /> Свойство возвращает значение даты и времени, даты начала диапазона повторения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="287bc-104">The <see cref="P:ExchangeWebServices.RecurrenceRangeBaseType.StartDate" /> property returns the date/time value of the recurrence range start date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

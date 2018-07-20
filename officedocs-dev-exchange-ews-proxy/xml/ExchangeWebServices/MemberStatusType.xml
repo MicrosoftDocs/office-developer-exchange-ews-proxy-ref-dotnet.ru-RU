@@ -1,0 +1,106 @@
+<Type Name="MemberStatusType" FullName="ExchangeWebServices.MemberStatusType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a92161e69bc3951cf449790d770601438eb76e36" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610803" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MemberStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MemberStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MemberStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MemberStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MemberStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+      <span data-ttu-id="176cf-101">
+        <para>
+          <b>Примечание</b>: этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="176cf-101">
+          <para>
+            <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Demoted">
+      <MemberSignature Language="C#" Value="Demoted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MemberStatusType Demoted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MemberStatusType.Demoted" />
+      <MemberSignature Language="VB.NET" Value="Demoted" />
+      <MemberSignature Language="C++ CLI" Value="Demoted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MemberStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MemberStatusType Normal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MemberStatusType.Normal" />
+      <MemberSignature Language="VB.NET" Value="Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MemberStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unrecognized">
+      <MemberSignature Language="C#" Value="Unrecognized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MemberStatusType Unrecognized = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MemberStatusType.Unrecognized" />
+      <MemberSignature Language="VB.NET" Value="Unrecognized" />
+      <MemberSignature Language="C++ CLI" Value="Unrecognized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MemberStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

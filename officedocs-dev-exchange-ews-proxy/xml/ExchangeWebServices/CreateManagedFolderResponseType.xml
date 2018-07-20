@@ -1,0 +1,85 @@
+<Type Name="CreateManagedFolderResponseType" FullName="ExchangeWebServices.CreateManagedFolderResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="42be608b8fa508840d4507855d87e52d1be18c56" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610616" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateManagedFolderResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateManagedFolderResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateManagedFolderResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateManagedFolderResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateManagedFolderResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="38314-101">
+        <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> Класс представляет ответ на <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateManagedFolder(ExchangeWebServices.CreateManagedFolderRequestType)" /> вызова метода.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="38314-101">The <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> class represents a response to a <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateManagedFolder(ExchangeWebServices.CreateManagedFolderRequestType)" /> method call.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="38314-102">
+        <para>Например, который использует <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> класса Добавление управляемых папок см.</para>
+        <para>A <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> возвращенный объект <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateManagedFolder(ExchangeWebServices.CreateManagedFolderRequestType)" /> метод.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="38314-102">
+          <para>For an example that uses the <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> class, see Adding Managed Folders.</para>
+          <para>A <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> object is returned by the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateManagedFolder(ExchangeWebServices.CreateManagedFolderRequestType)" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateManagedFolderResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateManagedFolderResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateManagedFolderResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="38314-103">
+            <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="38314-103">The <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,195 @@
+<Type Name="OccurrenceItemIdType" FullName="ExchangeWebServices.OccurrenceItemIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4b8f4b1cbff4127608d8859880a646fe6d33f141" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611418" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class OccurrenceItemIdType : ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OccurrenceItemIdType extends ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.OccurrenceItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class OccurrenceItemIdType&#xA;Inherits BaseItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OccurrenceItemIdType : ExchangeWebServices::BaseItemIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseItemIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d68d6-101">
+        <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> Определяет одно вхождение повторяющегося элемента.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d68d6-101">The <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> class identifies a single occurrence of a recurring item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OccurrenceItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.OccurrenceItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OccurrenceItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d68d6-102">
+            <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-102">The <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d68d6-103">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство получает или задает определенной версии одного экземпляра повторяющегося элемента шаблона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-103">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property gets or sets a specific version of a single occurrence of a recurring master item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d68d6-104">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство возвращает строку, содержащую изменить ключ, идентифицирующий определенной версии одного экземпляра повторяющегося элемента шаблона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-104">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property returns a string that contains a change key that identifies a specific version of a single occurrence of a recurring master item.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d68d6-105">
+            <para>
+              <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство определяет определенной версии образца повторения или вхождения элемента. Изменить хозяином повторяющиеся или любой из его вхождения, <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> изменений. <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Такое же для повторяющихся master и все вхождения.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-105">
+              <para>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property identifies a specific version of the recurring master or an item occurrence. If either the recurring master or any of its occurrences change, the <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> changes. The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> is the same for the recurring master and all occurrences.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceIndex">
+      <MemberSignature Language="C#" Value="public int InstanceIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstanceIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InstanceIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d68d6-106">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> Свойство получает или задает индекс экземпляра элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-106">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> property gets or sets the index of the item occurrence.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d68d6-107">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> Свойство возвращает индекс экземпляра элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-107">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> property returns the index of the item occurrence.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurringMasterId">
+      <MemberSignature Language="C#" Value="public string RecurringMasterId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecurringMasterId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurringMasterId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RecurringMasterId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d68d6-108">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> Свойство получает или задает идентификатор повторяющегося главных повторяющегося элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-108">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> property gets or sets the identifier of the recurring master of a recurring item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d68d6-109">
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> Свойство возвращает идентификатор повторяющегося главных повторяющегося элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d68d6-109">The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> property returns the identifier of the recurring master of a recurring item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

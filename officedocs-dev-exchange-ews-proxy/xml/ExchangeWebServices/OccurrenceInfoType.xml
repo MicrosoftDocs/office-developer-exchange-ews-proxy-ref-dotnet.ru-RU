@@ -1,0 +1,200 @@
+<Type Name="OccurrenceInfoType" FullName="ExchangeWebServices.OccurrenceInfoType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5cbcee67bc01896062af328a9787092ace56ff58" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610065" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class OccurrenceInfoType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OccurrenceInfoType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.OccurrenceInfoType" />
+  <TypeSignature Language="VB.NET" Value="Public Class OccurrenceInfoType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OccurrenceInfoType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="45014-101">
+        <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> Класс представляет измененной вхождения повторяющегося элемента календаря.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="45014-101">The <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> class represents a single modified occurrence of a recurring calendar item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OccurrenceInfoType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.OccurrenceInfoType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OccurrenceInfoType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="45014-102">
+            <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-102">The <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceInfoType.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="45014-103">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.End" /> Свойство получает или задает время окончания измененные вхождения повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-103">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.End" /> property gets or sets the end time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="45014-104">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.End" /> Свойство Возвращает время окончания измененные вхождения повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-104">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.End" /> property returns the end time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceInfoType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ItemId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="45014-105">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.ItemId" /> Свойство получает или задает идентификатор измененного вхождение повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-105">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.ItemId" /> property gets or sets the identifier of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="45014-106">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.ItemId" /> Свойство возвращает идентификатор измененного вхождение повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-106">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.ItemId" /> property returns the identifier of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStart">
+      <MemberSignature Language="C#" Value="public DateTime OriginalStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OriginalStart" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceInfoType.OriginalStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginalStart As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OriginalStart { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="45014-107">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.OriginalStart" /> Свойство получает или задает исходное время начала измененные вхождения повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-107">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.OriginalStart" /> property gets or sets the original start time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="45014-108">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.OriginalStart" /> Свойство возвращает исходное время начала измененные вхождения повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-108">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.OriginalStart" /> property returns the original start time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceInfoType.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="45014-109">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.Start" /> Свойство получает или задает время начала измененная копия повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-109">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.Start" /> property gets or sets the start time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="45014-110">
+            <see cref="P:ExchangeWebServices.OccurrenceInfoType.Start" /> Свойство Возвращает время начала измененная копия повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="45014-110">The <see cref="P:ExchangeWebServices.OccurrenceInfoType.Start" /> property returns the start time of a modified occurrence of a recurring calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

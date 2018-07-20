@@ -1,0 +1,149 @@
+<Type Name="CalendarItemTypeType" FullName="ExchangeWebServices.CalendarItemTypeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d02f1709e1e3fc423b4e52f193db4b13104b7592" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610129" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CalendarItemTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarItemTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarItemTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarItemTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarItemTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1951f-101">
+        <see cref="T:ExchangeWebServices.CalendarItemTypeType" /> Перечисление определяет тип элемента календаря.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1951f-101">The <see cref="T:ExchangeWebServices.CalendarItemTypeType" /> enumeration identifies the type of a calendar item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="1951f-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.CalendarItemType.CalendarItemType1" /> свойства <see cref="T:ExchangeWebServices.CalendarItemType" /> объекта и <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> свойства <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1951f-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.CalendarItemType.CalendarItemType1" /> property of the <see cref="T:ExchangeWebServices.CalendarItemType" /> object and the <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> property of the <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="Exception" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemTypeType Exception = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemTypeType.Exception" />
+      <MemberSignature Language="VB.NET" Value="Exception" />
+      <MemberSignature Language="C++ CLI" Value="Exception" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1951f-103">Указывает, что элемент является исключением для повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1951f-103">Specifies that the item is an exception to a recurring calendar item.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Occurrence">
+      <MemberSignature Language="C#" Value="Occurrence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemTypeType Occurrence = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemTypeType.Occurrence" />
+      <MemberSignature Language="VB.NET" Value="Occurrence" />
+      <MemberSignature Language="C++ CLI" Value="Occurrence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1951f-104">Указывает, что элемент вхождение повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1951f-104">Specifies that the item is an occurrence of a recurring calendar item.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurringMaster">
+      <MemberSignature Language="C#" Value="RecurringMaster" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemTypeType RecurringMaster = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemTypeType.RecurringMaster" />
+      <MemberSignature Language="VB.NET" Value="RecurringMaster" />
+      <MemberSignature Language="C++ CLI" Value="RecurringMaster" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1951f-105">Указывает, что элемент является основной, содержащее шаблон повторения для элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1951f-105">Specifies that the item is the master that contains the recurrence pattern for a calendar item.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Single">
+      <MemberSignature Language="C#" Value="Single" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemTypeType Single = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemTypeType.Single" />
+      <MemberSignature Language="VB.NET" Value="Single" />
+      <MemberSignature Language="C++ CLI" Value="Single" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1951f-106">Указывает, что элемент не связан с повторяющегося элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1951f-106">Specifies that the item is not associated with a recurring calendar item.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

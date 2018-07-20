@@ -1,0 +1,185 @@
+<Type Name="PermissionType" FullName="ExchangeWebServices.PermissionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c7b82d568efcd11a456563d5e345c1f9e8f88a86" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610441" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class PermissionType : ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PermissionType extends ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PermissionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PermissionType&#xA;Inherits BasePermissionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PermissionType : ExchangeWebServices::BasePermissionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePermissionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3c360-101">
+        <see cref="T:ExchangeWebServices.PermissionType" /> Класс определяет доступ пользователя к папке.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3c360-101">The <see cref="T:ExchangeWebServices.PermissionType" /> class defines the access that a user has to a folder.</span>
+      </span>
+      <span data-ttu-id="3c360-102">Этот класс была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3c360-102">This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PermissionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PermissionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PermissionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c360-103">
+            <see cref="T:ExchangeWebServices.PermissionType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.PermissionType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-103">The <see cref="T:ExchangeWebServices.PermissionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PermissionType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionLevelType PermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionLevelType PermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.PermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionLevel As PermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionLevelType PermissionLevel { ExchangeWebServices::PermissionLevelType get(); void set(ExchangeWebServices::PermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c360-104">
+            <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> Свойство получает или задает комбинации разрешений, которыми пользователь обладает на папку.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-104">The <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> property gets or sets the combination of permissions that a user has on a folder.</span>
+          </span>
+          <span data-ttu-id="3c360-105">Это свойство была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-105">This property was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c360-106">
+            <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.PermissionLevelType" /> перечисляемых значений, отображающих разрешения, которыми пользователь обладает на папку.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-106">The <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> property returns one of the <see cref="T:ExchangeWebServices.PermissionLevelType" /> enumeration values that indicate the permissions that a user has on a folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItems">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionReadAccessType ReadItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionReadAccessType ReadItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.ReadItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItems As PermissionReadAccessType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionReadAccessType ReadItems { ExchangeWebServices::PermissionReadAccessType get(); void set(ExchangeWebServices::PermissionReadAccessType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c360-107">
+            <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> Свойство получает или задает значение, указывающее, является ли пользователь имеет разрешение на чтение элементов в папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-107">The <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property gets or sets a value that indicates whether a user has permission to read items in a folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c360-108">
+            <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> значений перечисления, которые указывают, является ли пользователь имеет разрешение на чтение элементов в папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-108">The <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property returns one of the <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> enumeration values that indicate whether the user has permission to read items in a folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ReadItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c360-109">
+            <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-109">The <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="3c360-110">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-110">This property is required if the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c360-111">
+            <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c360-111">The <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

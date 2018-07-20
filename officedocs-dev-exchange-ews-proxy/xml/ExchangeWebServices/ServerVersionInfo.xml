@@ -1,0 +1,415 @@
+<Type Name="ServerVersionInfo" FullName="ExchangeWebServices.ServerVersionInfo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc3270c7d88a9c8966195b3f2a8dc0e93d6d6587" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610711" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServerVersionInfo : System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServerVersionInfo extends System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ServerVersionInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServerVersionInfo&#xA;Inherits SoapHeader" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServerVersionInfo : System::Web::Services::Protocols::SoapHeader" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.Services.Protocols.SoapHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlRoot(IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(AnonymousType=true, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3a75b-101">
+        <see cref="T:ExchangeWebServices.ServerVersionInfo" /> Класс содержит сведения о версии Microsoft Exchange Server.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3a75b-101">The <see cref="T:ExchangeWebServices.ServerVersionInfo" /> class contains the Microsoft Exchange Server version information.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerVersionInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ServerVersionInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServerVersionInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-102">
+            <see cref="T:ExchangeWebServices.ServerVersionInfo" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ServerVersionInfo" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-102">The <see cref="T:ExchangeWebServices.ServerVersionInfo" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ServerVersionInfo" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorBuildNumber">
+      <MemberSignature Language="C#" Value="public int MajorBuildNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MajorBuildNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorBuildNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MajorBuildNumber { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-103">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> Свойство получает или задает основной номер построения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-103">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> property gets or sets the major build number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-104">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> свойства — это основной номер построения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-104">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> property is the major build number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorBuildNumberSpecified">
+      <MemberSignature Language="C#" Value="public bool MajorBuildNumberSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MajorBuildNumberSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumberSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorBuildNumberSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MajorBuildNumberSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-105">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumberSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-105">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumberSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="3a75b-106">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-106">This property is required if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-107">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumberSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> сериализацию свойства в сообщении SOAP; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-107">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumberSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorBuildNumber" /> property is serialized in the SOAP message; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorVersion">
+      <MemberSignature Language="C#" Value="public int MajorVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MajorVersion" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MajorVersion { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-108">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> Свойство получает или задает основной номер версии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-108">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> property gets or sets the major version number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-109">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> свойства — это основной номер версии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-109">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> property is the major version number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorVersionSpecified">
+      <MemberSignature Language="C#" Value="public bool MajorVersionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MajorVersionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MajorVersionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorVersionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MajorVersionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-110">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersionSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-110">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersionSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="3a75b-111">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-111">This property is required if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-112">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersionSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> сериализацию свойства в сообщении SOAP; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-112">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersionSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MajorVersion" /> property is serialized in the SOAP message; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorBuildNumber">
+      <MemberSignature Language="C#" Value="public int MinorBuildNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinorBuildNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorBuildNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinorBuildNumber { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-113">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> Свойство получает или задает номер вспомогательные сборки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-113">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> property gets or sets the minor build number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-114">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> свойства — номер вспомогательной сборки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-114">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> property is the minor build number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorBuildNumberSpecified">
+      <MemberSignature Language="C#" Value="public bool MinorBuildNumberSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MinorBuildNumberSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumberSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorBuildNumberSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinorBuildNumberSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-115">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumberSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-115">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumberSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="3a75b-116">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-116">This property is required if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-117">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumberSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> сериализацию свойства в сообщении SOAP; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-117">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumberSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorBuildNumber" /> property is serialized in the SOAP message; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorVersion">
+      <MemberSignature Language="C#" Value="public int MinorVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinorVersion" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinorVersion { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-118">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> Свойство получает или задает дополнительный номер версии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-118">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> property gets or sets the minor version number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-119">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> свойства — это дополнительный номер версии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-119">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> property is the minor version number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorVersionSpecified">
+      <MemberSignature Language="C#" Value="public bool MinorVersionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MinorVersionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.MinorVersionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorVersionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinorVersionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-120">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersionSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> сериализацию свойства в сообщения SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-120">The <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersionSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="3a75b-121">Это свойство является обязательным, если <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> указанного свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-121">This property is required if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-122">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersionSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> сериализацию свойства в сообщении SOAP; в противном случае — значение <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-122">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersionSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.ServerVersionInfo.MinorVersion" /> property is serialized in the SOAP message; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServerVersionInfo.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3a75b-123">
+            <see cref="P:ExchangeWebServices.ServerVersionInfo.Version" /> Свойство получает или задает версию схемы веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-123">The <see cref="P:ExchangeWebServices.ServerVersionInfo.Version" /> property gets or sets the Exchange Web Services (EWS) schema version.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3a75b-124">Значение <see cref="P:ExchangeWebServices.ServerVersionInfo.Version" /> свойства — это версии продукта Exchange Server.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3a75b-124">The value of the <see cref="P:ExchangeWebServices.ServerVersionInfo.Version" /> property is the Exchange Server product version.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,146 @@
+<Type Name="PhoneNumberDictionaryEntryType" FullName="ExchangeWebServices.PhoneNumberDictionaryEntryType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b5296eef92c517f4cacde4a7abc59d3290285bf" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610436" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PhoneNumberDictionaryEntryType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneNumberDictionaryEntryType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9d475-101">
+        <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> Класс содержит номер телефона контакта.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9d475-101">The <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> class contains a telephone number for a contact.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhoneNumberDictionaryEntryType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PhoneNumberDictionaryEntryType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhoneNumberDictionaryEntryType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d475-102">
+            <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d475-102">The <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberKeyType Key { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PhoneNumberKeyType Key" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" />
+      <MemberSignature Language="VB.NET" Value="Public Property Key As PhoneNumberKeyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PhoneNumberKeyType Key { ExchangeWebServices::PhoneNumberKeyType get(); void set(ExchangeWebServices::PhoneNumberKeyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d475-103">
+            <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> Свойство получает или задает тип номер телефона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d475-103">The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> property gets or sets the type for the telephone number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d475-104">
+            <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.PhoneNumberKeyType" /> значений перечисления, которые указывают тип номер телефона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d475-104">The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> property returns one of the <see cref="T:ExchangeWebServices.PhoneNumberKeyType" /> enumeration values that indicate the type for the telephone number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d475-105">
+            <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> Свойство получает или задает номер телефона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d475-105">The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> property gets or sets the telephone number.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d475-106">
+            <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> Свойство возвращает строку, содержащую номер телефона.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d475-106">The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> property returns a string that contains the telephone number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

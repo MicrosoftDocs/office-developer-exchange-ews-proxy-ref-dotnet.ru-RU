@@ -1,0 +1,85 @@
+<Type Name="DeleteFolderResponseType" FullName="ExchangeWebServices.DeleteFolderResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="afcd8b8202160c9f85de5575cf42fecfc45a06eb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610987" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeleteFolderResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteFolderResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteFolderResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteFolderResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteFolderResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0fdf2-101">
+        <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> Класс представляет ответ на <see cref="M:ExchangeWebServices.ExchangeServiceBinding.DeleteFolder(ExchangeWebServices.DeleteFolderType)" /> вызова метода.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fdf2-101">The <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> class represents a response to a <see cref="M:ExchangeWebServices.ExchangeServiceBinding.DeleteFolder(ExchangeWebServices.DeleteFolderType)" /> method call.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="0fdf2-102">
+        <para>Например, который использует <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> класса см <see cref="T:ExchangeWebServices.DeleteFolderType" />.</para>
+        <para>A <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> возвращенный объект <see cref="M:ExchangeWebServices.ExchangeServiceBinding.DeleteFolder(ExchangeWebServices.DeleteFolderType)" /> метод.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fdf2-102">
+          <para>For an example that uses the <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> class, see <see cref="T:ExchangeWebServices.DeleteFolderType" />.</para>
+          <para>A <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> object is returned by the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.DeleteFolder(ExchangeWebServices.DeleteFolderType)" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteFolderResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteFolderResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteFolderResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fdf2-103">
+            <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fdf2-103">The <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DeleteFolderResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

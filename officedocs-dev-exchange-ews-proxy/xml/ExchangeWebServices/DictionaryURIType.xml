@@ -1,0 +1,338 @@
+<Type Name="DictionaryURIType" FullName="ExchangeWebServices.DictionaryURIType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5c969f545893493d7f1578e77c7f590aacf1f8c3" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610910" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DictionaryURIType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DictionaryURIType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DictionaryURIType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DictionaryURIType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DictionaryURIType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="512fe-101">
+        <see cref="T:ExchangeWebServices.DictionaryURIType" /> Свойство определяет часто упоминаемые свойства словаря по URI.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="512fe-101">The <see cref="T:ExchangeWebServices.DictionaryURIType" /> property identifies frequently referenced dictionary properties by URI.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="512fe-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.PathToIndexedFieldType.FieldURI" /> свойства <see cref="T:ExchangeWebServices.PathToIndexedFieldType" /> объекта. Необходимо также указать <see cref="P:ExchangeWebServices.PathToIndexedFieldType.FieldIndex" /> свойство для получения определенного словаря.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="512fe-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.PathToIndexedFieldType.FieldURI" /> property of the <see cref="T:ExchangeWebServices.PathToIndexedFieldType" /> object. You must also specify the <see cref="P:ExchangeWebServices.PathToIndexedFieldType.FieldIndex" /> property to get the particular dictionary entry.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="contactsEmailAddress">
+      <MemberSignature Language="C#" Value="contactsEmailAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsEmailAddress = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="contactsEmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="contactsEmailAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:EmailAddress")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-103">Определяет свойство EmailAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-103">Identifies the EmailAddresses property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsImAddress">
+      <MemberSignature Language="C#" Value="contactsImAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsImAddress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsImAddress" />
+      <MemberSignature Language="VB.NET" Value="contactsImAddress" />
+      <MemberSignature Language="C++ CLI" Value="contactsImAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:ImAddress")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-104">Определяет свойство ImAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-104">Identifies the ImAddresses property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhoneNumber">
+      <MemberSignature Language="C#" Value="contactsPhoneNumber" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhoneNumber = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="contactsPhoneNumber" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhoneNumber" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhoneNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-105">Определяет свойство PhoneNumbers.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-105">Identifies the PhoneNumbers property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhysicalAddressCity">
+      <MemberSignature Language="C#" Value="contactsPhysicalAddressCity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhysicalAddressCity = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhysicalAddressCity" />
+      <MemberSignature Language="VB.NET" Value="contactsPhysicalAddressCity" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhysicalAddressCity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhysicalAddress:City")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-106">Определяет свойство PhysicalAddressCity.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-106">Identifies the PhysicalAddressCity property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhysicalAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="contactsPhysicalAddressCountryOrRegion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhysicalAddressCountryOrRegion = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhysicalAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="contactsPhysicalAddressCountryOrRegion" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhysicalAddressCountryOrRegion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhysicalAddress:CountryOrRegion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-107">Определяет свойство PhysicalAddressCountryOrRegion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-107">Identifies the PhysicalAddressCountryOrRegion property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhysicalAddressPostalCode">
+      <MemberSignature Language="C#" Value="contactsPhysicalAddressPostalCode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhysicalAddressPostalCode = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhysicalAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="contactsPhysicalAddressPostalCode" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhysicalAddressPostalCode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhysicalAddress:PostalCode")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-108">Определяет свойство PhysicalAddressPostalCode.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-108">Identifies the PhysicalAddressPostalCode property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhysicalAddressState">
+      <MemberSignature Language="C#" Value="contactsPhysicalAddressState" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhysicalAddressState = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhysicalAddressState" />
+      <MemberSignature Language="VB.NET" Value="contactsPhysicalAddressState" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhysicalAddressState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhysicalAddress:State")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-109">Определяет свойство PhysicalAddressState.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-109">Identifies the PhysicalAddressState property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contactsPhysicalAddressStreet">
+      <MemberSignature Language="C#" Value="contactsPhysicalAddressStreet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType contactsPhysicalAddressStreet = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.contactsPhysicalAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="contactsPhysicalAddressStreet" />
+      <MemberSignature Language="C++ CLI" Value="contactsPhysicalAddressStreet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("contacts:PhysicalAddress:Street")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-110">Определяет свойство PhysicalAddressStreet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-110">Identifies the PhysicalAddressStreet property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="distributionlistMembersMember">
+      <MemberSignature Language="C#" Value="distributionlistMembersMember" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType distributionlistMembersMember = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.distributionlistMembersMember" />
+      <MemberSignature Language="VB.NET" Value="distributionlistMembersMember" />
+      <MemberSignature Language="C++ CLI" Value="distributionlistMembersMember" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("distributionlist:Members:Member")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="itemInternetMessageHeader">
+      <MemberSignature Language="C#" Value="itemInternetMessageHeader" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DictionaryURIType itemInternetMessageHeader = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DictionaryURIType.itemInternetMessageHeader" />
+      <MemberSignature Language="VB.NET" Value="itemInternetMessageHeader" />
+      <MemberSignature Language="C++ CLI" Value="itemInternetMessageHeader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("item:InternetMessageHeader")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DictionaryURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="512fe-111">Определяет свойство InternetMessageHeader.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="512fe-111">Identifies the InternetMessageHeader property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

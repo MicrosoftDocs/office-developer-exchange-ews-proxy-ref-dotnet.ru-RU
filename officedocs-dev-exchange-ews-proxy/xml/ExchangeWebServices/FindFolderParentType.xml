@@ -1,0 +1,634 @@
+<Type Name="FindFolderParentType" FullName="ExchangeWebServices.FindFolderParentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d78d82fecfdb011e7d9e68b3348076e5eb12793" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610228" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FindFolderParentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FindFolderParentType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FindFolderParentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FindFolderParentType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindFolderParentType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="034e2-101">
+        <see cref="T:ExchangeWebServices.FindFolderParentType" /> Класс содержит результаты поиска в одной корневой папке во время операции FindFolder.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="034e2-101">The <see cref="T:ExchangeWebServices.FindFolderParentType" /> class contains the results of a search of a single root folder during a FindFolder operation.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="034e2-102">
+        <para>A <see cref="T:ExchangeWebServices.FindFolderParentType" /> в FindFolder ответ возвращается объект.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="034e2-102">
+          <para>A <see cref="T:ExchangeWebServices.FindFolderParentType" /> object is returned in a FindFolder response.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FindFolderParentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FindFolderParentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FindFolderParentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-103">
+            <see cref="T:ExchangeWebServices.FindFolderParentType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FindFolderParentType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-103">The <see cref="T:ExchangeWebServices.FindFolderParentType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FindFolderParentType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominator">
+      <MemberSignature Language="C#" Value="public int AbsoluteDenominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AbsoluteDenominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AbsoluteDenominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-104">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> Свойство получает Далее делителя для использования в следующем запросе при выполнении дробная разбиение на страницы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-104">The <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> property gets the next denominator to use for the next request when doing fractional paging.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-105">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> Свойство возвращает целое число, представляющее следующий делителя для использования в следующем запросе при выполнении дробная разбиение на страницы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-105">The <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> property returns an integer that represents the next denominator to use for the next request when doing fractional paging.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-106">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-106">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominatorSpecified">
+      <MemberSignature Language="C#" Value="public bool AbsoluteDenominatorSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominatorSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AbsoluteDenominatorSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-107">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominatorSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> сериализацию свойства в ответе SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-107">The <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominatorSpecified" /> property gets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> property was serialized into the SOAP response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-108">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominatorSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-108">The <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominatorSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FindFolderParentType.AbsoluteDenominator" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Folders">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderType[] Folders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderType[] Folders" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.Folders" />
+      <MemberSignature Language="VB.NET" Value="Public Property Folders As BaseFolderType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderType ^&gt; ^ Folders { cli::array &lt;ExchangeWebServices::BaseFolderType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ContactsFolder", typeof(ExchangeWebServices.ContactsFolderType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("TasksFolder", typeof(ExchangeWebServices.TasksFolderType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("CalendarFolder", typeof(ExchangeWebServices.CalendarFolderType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Folder", typeof(ExchangeWebServices.FolderType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SearchFolder", typeof(ExchangeWebServices.SearchFolderType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-109">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.Folders" /> Свойство получает папки, которые находятся с помощью операции FindFolder.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-109">The <see cref="P:ExchangeWebServices.FindFolderParentType.Folders" /> property gets the folders that are found by using the FindFolder operation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-110">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.Folders" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.BaseFolderType" /> объектов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-110">The <see cref="P:ExchangeWebServices.FindFolderParentType.Folders" /> property returns an array of <see cref="T:ExchangeWebServices.BaseFolderType" /> objects.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-111">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-111">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <span data-ttu-id="034e2-112">
+            <para>RootFolder (FindFolderResponseMessage)</para>
+            <para>
+              <see cref="T:ExchangeWebServices.FindFolderType" />
+            </para>
+            <para>папок [Ex15WebSvcsOtherRef]</para>
+            <para>FindFolder операции</para>
+            <para>Поиска папок</para>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-112">
+              <para>RootFolder (FindFolderResponseMessage)</para>
+              <para>
+                <see cref="T:ExchangeWebServices.FindFolderType" />
+              </para>
+              <para>FindFolder operation</para>
+              <para>Folders[Ex15WebSvcsOtherRef]</para>
+              <para>Finding Folders</para>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRange">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRange" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-113">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> Свойство получает значение, указывающее, содержат ли текущие результаты последнюю папку в запросе, чтобы дополнительные разбиение на страницы не требуется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-113">The <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> property gets a value that indicates whether the current results contain the last folder in the query, so that additional paging is not required.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-114">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> Свойство возвращает <b>значение true</b> , если текущие результаты содержат последнюю папку в запросе; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-114">The <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> property returns <b>true</b> if the current results contain the last folder in the query; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-115">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-115">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRangeSpecified">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRangeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRangeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRangeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-116">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRangeSpecified" /> Свойство получает значение, указывающее, является ли <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> сериализацию свойства в ответе SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-116">The <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRangeSpecified" /> property gets a value that indicates whether the <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> property is serialized into the SOAP response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-117">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRangeSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-117">The <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRangeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FindFolderParentType.IncludesLastItemInRange" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-118">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-118">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffset">
+      <MemberSignature Language="C#" Value="public int IndexedPagingOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IndexedPagingOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int IndexedPagingOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-119">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> Свойство получает следующий индекс, который следует использовать для следующего запроса при использовании индексированного представления разбиение на страницы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-119">The <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> property gets the next index that should be used for the next request when using an indexed paging view.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-120">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> Свойство возвращает целое число, представляющее следующий индекс, который следует использовать для следующего запроса при использовании индексированного представления разбиение на страницы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-120">The <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> property returns an integer that represents the next index that should be used for the next request when using an indexed paging view.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-121">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-121">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool IndexedPagingOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IndexedPagingOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-122">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffsetSpecified" /> Свойство получает значение, указывающее, является ли <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> сериализацию свойства в ответе SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-122">The <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffsetSpecified" /> property gets a value that indicates whether the <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> property is serialized into the SOAP response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-123">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffsetSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-123">The <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffsetSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FindFolderParentType.IndexedPagingOffset" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-124">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-124">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffset">
+      <MemberSignature Language="C#" Value="public int NumeratorOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumeratorOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumeratorOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-125">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> Свойство представляет новое значение перечислителя использовать для следующего запроса при использовании дробная страницы представлений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-125">The <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> property represents the new numerator value to use for the next request when using fractional page views.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-126">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> Свойство возвращает значение типа integer, который представляет новое значение перечислителя использовать для следующего запроса при использовании дробная страницы представлений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-126">The <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> property returns an integer that represents the new numerator value to use for the next request when using fractional page views.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-127">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-127">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool NumeratorOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NumeratorOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.NumeratorOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NumeratorOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-128">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffsetSpecified" /> Свойство получает значение, указывающее, является ли <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> сериализацию свойства в ответе SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-128">The <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffsetSpecified" /> property gets a value that indicates whether the <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> property is serialized into the SOAP response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-129">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffsetSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-129">The <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffsetSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FindFolderParentType.NumeratorOffset" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-130">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-130">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInView">
+      <MemberSignature Language="C#" Value="public int TotalItemsInView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalItemsInView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalItemsInView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-131">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> Свойство возвращает общее число папок, которые ограничение игнорируется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-131">The <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> property gets the total number of folders that pass the restriction.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-132">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> Свойство возвращает целое число, представляющее общее число папок, ограничение игнорируется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-132">The <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> property returns an integer that represents the total number of folders that pass the restriction.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-133">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-133">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInViewSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalItemsInViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalItemsInViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderParentType.TotalItemsInViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalItemsInViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="034e2-134">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInViewSpecified" /> Свойство получает значение, указывающее, является ли <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> сериализацию свойства в ответе SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-134">The <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInViewSpecified" /> property gets a value that indicates whether the <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> property is serialized into the SOAP response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="034e2-135">
+            <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInViewSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-135">The <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInViewSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FindFolderParentType.TotalItemsInView" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="034e2-136">
+            <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="034e2-136">
+              <para>This property is read-only because it is only returned in a response. The property setter in the property signature is an artifact of the proxy generator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

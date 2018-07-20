@@ -1,0 +1,368 @@
+<Type Name="CalendarEventDetails" FullName="ExchangeWebServices.CalendarEventDetails">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b39bec6816ea4ea08dc6bf98e4bfdd04a0e234f" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610585" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarEventDetails" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarEventDetails extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarEventDetails" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarEventDetails" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarEventDetails" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="370bc-101">
+        <see cref="T:ExchangeWebServices.CalendarEventDetails" /> Класс предоставляет дополнительные сведения о событии календаря.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="370bc-101">The <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class provides additional information about a calendar event.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="370bc-102">
+        <para>
+          <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> Метод не возвращает подробные сведения о нем только при наличии вызывающего доступ на чтение в календаре конечного пользователя. Можно задать разрешения на доступ в календаре с помощью командной консоли Exchange.</para>
+        <para>Если <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> свойство имеет <b>значение true</b>, не <see cref="T:ExchangeWebServices.CalendarEventDetails" /> класса задано.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="370bc-102">
+          <para>The <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method does not return detailed caller information unless the caller has read access on the target user's calendar. You can set access permissions on the calendar by using the Exchange Management Shell.</para>
+          <para>If the <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property is <b>true</b>, no other <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class properties are set.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarEventDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarEventDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarEventDetails();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-103">
+            <see cref="T:ExchangeWebServices.CalendarEventDetails" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CalendarEventDetails" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-103">The <see cref="T:ExchangeWebServices.CalendarEventDetails" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.ID" />
+      <MemberSignature Language="VB.NET" Value="Public Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-104">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> Свойство получает или задает идентификатор записи элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-104">The <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> property gets or sets the entry ID of the calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-105">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> Свойство возвращает строку, содержащую идентификатор записи элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-105">The <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> property returns a string that contains the entry ID of the calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsException">
+      <MemberSignature Language="C#" Value="public bool IsException { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsException" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsException" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsException As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsException { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-106">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> Свойство получает или задает логическое значение, указывающее, изменяется ли экземпляр повторяющегося элемента календаря из исходной.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-106">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> property gets or sets a Boolean value that indicates whether an instance of a recurring calendar item is changed from the original.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-107">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> Свойство возвращает <b>значение true,</b> Если изменяется элемента календаря из исходной; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-107">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> property returns <b>true</b> if the calendar item is changed from the original; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-108">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> Свойство получает или задает логическое значение, указывающее, является ли событие календаря собрания или встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-108">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> property gets or sets a Boolean value that indicates whether the calendar event is a meeting or an appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-109">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> Свойство возвращает <b>значение true</b> , если событие календаря собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-109">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> property returns <b>true</b> if the calendar event is a meeting.</span>
+          </span>
+          <span data-ttu-id="370bc-110">Если элемент календаря встречи, это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-110">If the calendar item is an appointment, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="370bc-111">
+            <para>Собрание — элемента календаря, который включает в себя участников. Встреча — элемента календаря, который не включает участников.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-111">
+              <para>A meeting is a calendar item that includes attendees. An appointment is a calendar item that does not include attendees.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPrivate">
+      <MemberSignature Language="C#" Value="public bool IsPrivate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPrivate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPrivate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPrivate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-112">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> Свойство получает или задает логическое значение, которое указывает, является ли закрытый элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-112">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property gets or sets a Boolean value that indicates whether the calendar item is private.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-113">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> Свойство возвращает <b>значение true,</b> Если элемент календаря private; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-113">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property returns <b>true</b> if the calendar item is private; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="370bc-114">
+            <para>Если <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> задано значение <b>true</b>, другие свойства в <see cref="T:ExchangeWebServices.CalendarEventDetails" /> задать экземпляра.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-114">
+              <para>If the <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property is set to <b>true</b>, no other properties in the <see cref="T:ExchangeWebServices.CalendarEventDetails" /> instance are set.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-115">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> Свойство получает или задает логическое значение, указывающее, является ли элемент календаря повторяется.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-115">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> property gets or sets a Boolean value that indicates whether the calendar item recurs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-116">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> Свойство возвращает <b>значение true,</b> Если элемент календаря повторения; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-116">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> property returns <b>true</b> if the calendar item is set to recur; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-117">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> Свойство получает или задает логическое значение, которое указывает, установил ли напоминания для событий календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-117">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> property gets or sets a Boolean value that indicates whether a reminder is set for the calendar event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-118">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> Свойство возвращает <b>значение true,</b> если напоминание задано для события календаря; в противном случае это свойство возвращает <b>значение false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-118">The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> property returns <b>true</b> if a reminder is set for the calendar event; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-119">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> Свойство получает или задает место размещения элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-119">The <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> property gets or sets the location of the calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-120">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> Свойство возвращает строку, содержащую поля расположения элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-120">The <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> property returns a string that contains the location field of the calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="370bc-121">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> Свойство получает или задает тему элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-121">The <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> property gets or sets the subject of the calendar item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="370bc-122">
+            <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> Свойство возвращает строку, содержащую поле Тема элемента календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="370bc-122">The <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> property returns a string that contains the subject field of the calendar item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

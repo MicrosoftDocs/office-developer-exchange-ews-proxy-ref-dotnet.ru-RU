@@ -1,0 +1,121 @@
+<Type Name="FieldURIOrConstantType" FullName="ExchangeWebServices.FieldURIOrConstantType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9ff26b86bae96c810374e65e9fc0b1b178f759fd" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610883" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FieldURIOrConstantType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FieldURIOrConstantType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FieldURIOrConstantType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FieldURIOrConstantType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FieldURIOrConstantType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="20835-101">
+        <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> Класс содержит свойство или постоянное значение для использования при сравнении с другого свойства.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="20835-101">The <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> class contains either a property or a constant value to be used when comparing with another property.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FieldURIOrConstantType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FieldURIOrConstantType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FieldURIOrConstantType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="20835-102">
+            <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="20835-102">The <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FieldURIOrConstantType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Constant", typeof(ExchangeWebServices.ConstantValueType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Path", typeof(ExchangeWebServices.BasePathToElementType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="20835-103">
+            <see cref="P:ExchangeWebServices.FieldURIOrConstantType.Item" /> Свойство получает или задает поля или константы для сравнения в качестве ограничения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="20835-103">The <see cref="P:ExchangeWebServices.FieldURIOrConstantType.Item" /> property gets or sets a field or constant to compare in a restriction.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="20835-104">
+            <see cref="P:ExchangeWebServices.FieldURIOrConstantType.Item" /> Свойство возвращает объект, представляющий либо <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToExtendedFieldType" />, или <see cref="T:ExchangeWebServices.ConstantValueType" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="20835-104">The <see cref="P:ExchangeWebServices.FieldURIOrConstantType.Item" /> property returns an object that represents either a <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToExtendedFieldType" />, or <see cref="T:ExchangeWebServices.ConstantValueType" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

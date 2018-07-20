@@ -1,0 +1,116 @@
+<Type Name="SmartResponseType" FullName="ExchangeWebServices.SmartResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8c910e9d24835f7eac191b8c9ffe5c78eea28887" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610694" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SmartResponseType : ExchangeWebServices.SmartResponseBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SmartResponseType extends ExchangeWebServices.SmartResponseBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SmartResponseType&#xA;Inherits SmartResponseBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SmartResponseType : ExchangeWebServices::SmartResponseBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SmartResponseBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CancelCalendarItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyAllToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ForwardItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="12b29-101">
+        <see cref="T:ExchangeWebServices.SmartResponseType" /> Класс является базовым классом для отмены, переадресация и ответ на сообщения.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="12b29-101">The <see cref="T:ExchangeWebServices.SmartResponseType" /> class is the base class for canceling, forwarding, and replying to messages.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SmartResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SmartResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SmartResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="12b29-102">
+            <see cref="T:ExchangeWebServices.SmartResponseType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SmartResponseType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="12b29-102">The <see cref="T:ExchangeWebServices.SmartResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SmartResponseType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewBodyContent">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType NewBodyContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType NewBodyContent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SmartResponseType.NewBodyContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewBodyContent As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ NewBodyContent { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="12b29-103">
+            <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" /> Свойство получает или задает новое содержимое тело объекта ответа на сообщение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="12b29-103">The <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" /> property gets or sets the new body content of a Message Response object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="12b29-104">
+            <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" /> Возвращает свойство <see cref="T:ExchangeWebServices.BodyType" /> объект, представляющий новое содержимое текста объекта ответа на сообщение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="12b29-104">The <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" /> property returns a <see cref="T:ExchangeWebServices.BodyType" /> object that represents the new body content of a Message Response object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

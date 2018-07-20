@@ -1,0 +1,109 @@
+<Type Name="AlternatePublicFolderItemIdType" FullName="ExchangeWebServices.AlternatePublicFolderItemIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="51e83539ba39a105aad6c242243344add86f9b06" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611252" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderItemIdType : ExchangeWebServices.AlternatePublicFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AlternatePublicFolderItemIdType extends ExchangeWebServices.AlternatePublicFolderIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AlternatePublicFolderItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderItemIdType&#xA;Inherits AlternatePublicFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderItemIdType : ExchangeWebServices::AlternatePublicFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AlternatePublicFolderIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="058fb-101">
+        <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> Класс описывает идентификатор элемента общей папки для преобразования в другой формат идентификатора.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="058fb-101">The <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> class describes a public folder item identifier to convert to another identifier format.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AlternatePublicFolderItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="058fb-102">
+            <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="058fb-102">The <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public string ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="058fb-103">
+            <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> Свойство получает или задает идентификатор элемента общей папки для преобразования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="058fb-103">The <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> property gets or sets the public folder item identifier to convert.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="058fb-104">
+            <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> Свойство возвращает строку, представляющую идентификатор элемента общей папки для преобразования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="058fb-104">The <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> property returns a string that represents the public folder item identifier to convert.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

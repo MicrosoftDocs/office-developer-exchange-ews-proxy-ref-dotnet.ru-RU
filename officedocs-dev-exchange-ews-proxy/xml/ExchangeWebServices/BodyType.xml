@@ -1,0 +1,196 @@
+<Type Name="BodyType" FullName="ExchangeWebServices.BodyType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a4f8fdf912630af4fe154d47f571980686ce8087" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611108" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class BodyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit BodyType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BodyType" />
+  <TypeSignature Language="VB.NET" Value="Public Class BodyType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BodyType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4b15a-101">
+        <see cref="T:ExchangeWebServices.BodyType" /> Класс представляет содержимое основного текста элемента.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4b15a-101">The <see cref="T:ExchangeWebServices.BodyType" /> class represents the body content of an item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BodyType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BodyType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; BodyType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b15a-102">
+            <see cref="M:ExchangeWebServices.BodyType.#ctor" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.BodyType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b15a-102">The <see cref="M:ExchangeWebServices.BodyType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.BodyType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyType1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyTypeType BodyType1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.BodyTypeType BodyType1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BodyType.BodyType1" />
+      <MemberSignature Language="VB.NET" Value="Public Property BodyType1 As BodyTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyTypeType BodyType1 { ExchangeWebServices::BodyTypeType get(); void set(ExchangeWebServices::BodyTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute("BodyType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b15a-103">
+            <see cref="P:ExchangeWebServices.BodyType.BodyType1" /> Свойство получает или задает один из допустимых <see cref="T:ExchangeWebServices.BodyTypeType" /> значений перечисления, указывающее формат содержимого текста.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b15a-103">The <see cref="P:ExchangeWebServices.BodyType.BodyType1" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.BodyTypeType" /> enumeration values that specifies how the content of the body is formatted.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b15a-104">
+            <see cref="P:ExchangeWebServices.BodyType.BodyType1" /> Свойство возвращает один из допустимых <see cref="T:ExchangeWebServices.BodyTypeType" /> значений перечисления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b15a-104">The <see cref="P:ExchangeWebServices.BodyType.BodyType1" /> property returns one of the valid <see cref="T:ExchangeWebServices.BodyTypeType" /> enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTruncated">
+      <MemberSignature Language="C#" Value="public bool IsTruncated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTruncated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BodyType.IsTruncated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTruncated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTruncated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTruncatedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsTruncatedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTruncatedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BodyType.IsTruncatedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTruncatedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTruncatedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BodyType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b15a-105">
+            <see cref="P:ExchangeWebServices.BodyType.Value" /> Свойство получает или задает строковое значение, которое представляет содержимое текста.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b15a-105">The <see cref="P:ExchangeWebServices.BodyType.Value" /> property gets or sets a string value that represents the content of the body.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b15a-106">
+            <see cref="P:ExchangeWebServices.BodyType.Value" /> Свойство возвращает строковое значение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b15a-106">The <see cref="P:ExchangeWebServices.BodyType.Value" /> property returns a string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,153 @@
+<Type Name="RefreshSharingFolderType" FullName="ExchangeWebServices.RefreshSharingFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b5d7a13fd12025a0ba3e9063d86783e7c20a5ca3" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610837" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RefreshSharingFolderType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RefreshSharingFolderType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RefreshSharingFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RefreshSharingFolderType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RefreshSharingFolderType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="29ba2-101">
+        <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> Класс представляет запрос на обновление общих данных в указанной локальной папке.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="29ba2-101">The <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> class represents a request to refresh shared data in the specified local folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <span data-ttu-id="29ba2-102">
+        <para>В следующем примере кода показано, как обновить указанный локальную папку с использованием последних данных из папки "Общий". В этом примере — IdOfLocalFolder <see cref="T:ExchangeWebServices.FolderIdType" /> , определяющий локальную папку, которую требуется обновить.</para>
+        <code>
+static void RefreshSharingFolderTest(ExchangeServiceBinding esb)
+{
+    // Create the sharing request.
+    RefreshSharingFolderType rsfRequest = new RefreshSharingFolderType();
+    
+    // Specify the identifier for the local folder that is to be refreshed.
+    rsfRequest.SharingFolderId = &lt;span class="label"&gt;IdOfLocalFolder&lt;/span&gt;; 
+    
+    try
+    {
+      // Send the request and get the response.
+      RefreshSharingFolderResponseMessageType rsfResponse = esb.RefreshSharingFolder(rsfRequest);
+    }
+    catch (Exception e) 
+    {
+      Console.WriteLine(e.Message); 
+    }
+}
+</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="29ba2-102">
+          <para>The following code example shows you how to refresh the specified local folder with the latest data from the folder that is being shared. In this example, IdOfLocalFolder is the <see cref="T:ExchangeWebServices.FolderIdType" /> object that identifies the local folder that is to be refreshed.</para>
+          <code>
+static void RefreshSharingFolderTest(ExchangeServiceBinding esb)
+{
+    // Create the sharing request.
+    RefreshSharingFolderType rsfRequest = new RefreshSharingFolderType();
+    
+    // Specify the identifier for the local folder that is to be refreshed.
+    rsfRequest.SharingFolderId = &lt;span class="label"&gt;IdOfLocalFolder&lt;/span&gt;; 
+    
+    try
+    {
+      // Send the request and get the response.
+      RefreshSharingFolderResponseMessageType rsfResponse = esb.RefreshSharingFolder(rsfRequest);
+    }
+    catch (Exception e) 
+    {
+      Console.WriteLine(e.Message); 
+    }
+}
+</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RefreshSharingFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RefreshSharingFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RefreshSharingFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="29ba2-103">
+            <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="29ba2-103">The <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RefreshSharingFolderType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharingFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType SharingFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType SharingFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RefreshSharingFolderType.SharingFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharingFolderId As FolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderIdType ^ SharingFolderId { ExchangeWebServices::FolderIdType ^ get(); void set(ExchangeWebServices::FolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="29ba2-104">
+            <see cref="P:ExchangeWebServices.RefreshSharingFolderType.SharingFolderId" /> Свойство получает или задает <see cref="T:ExchangeWebServices.FolderIdType" /> объект, который определяет локальную папку в отношении общего доступа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="29ba2-104">The <see cref="P:ExchangeWebServices.RefreshSharingFolderType.SharingFolderId" /> property gets or sets a <see cref="T:ExchangeWebServices.FolderIdType" /> object that identifies the local folder in a sharing relationship.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="29ba2-105">Значение <see cref="P:ExchangeWebServices.RefreshSharingFolderType.SharingFolderId" /> — это свойство <see cref="T:ExchangeWebServices.FolderIdType" /> объект, который определяет локальную папку в отношении общего доступа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="29ba2-105">The value of the <see cref="P:ExchangeWebServices.RefreshSharingFolderType.SharingFolderId" /> property is a <see cref="T:ExchangeWebServices.FolderIdType" /> object that identifies the local folder in a sharing relationship.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
