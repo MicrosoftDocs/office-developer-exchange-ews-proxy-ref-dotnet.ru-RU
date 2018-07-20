@@ -1,0 +1,164 @@
+<Type Name="MailboxData" FullName="ExchangeWebServices.MailboxData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9bfe27007571d0d5eefd0b6b4316f466a98b4082" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610042" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MailboxData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MailboxData extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailboxData" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailboxData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.MailboxData" /> Класс представляет для отдельного почтового ящика пользователя и параметры для типа данных должно быть возвращено о пользователя почтового ящика.</summary>
+    <remarks>
+      <para>Этот класс используется <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.MailboxDataArray" /> свойства <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MailboxData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.MailboxData" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.MailboxData" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MeetingAttendeeType AttendeeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MeetingAttendeeType AttendeeType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.AttendeeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeType As MeetingAttendeeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MeetingAttendeeType AttendeeType { ExchangeWebServices::MeetingAttendeeType get(); void set(ExchangeWebServices::MeetingAttendeeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.MailboxData.AttendeeType" /> Свойство получает или задает значение, указывающее тип участника, который идентифицируется средством <see cref="P:ExchangeWebServices.MailboxData.Email" /> свойство. Это свойство является обязательным в схеме. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.MailboxData.AttendeeType" /> Возвращает свойство <see cref="T:ExchangeWebServices.MeetingAttendeeType" /> значение перечисления.</value>
+        <remarks>
+          <para>Если это свойство не задано, при использовании прокси-сервера, которая создается по Microsoft Visual Studio 2005, значение по умолчанию <see cref="F:ExchangeWebServices.MeetingAttendeeType.Organizer" /> будет использоваться.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddress Email { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddress Email" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.Email" />
+      <MemberSignature Language="VB.NET" Value="Public Property Email As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddress ^ Email { ExchangeWebServices::EmailAddress ^ get(); void set(ExchangeWebServices::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.MailboxData.Email" /> Свойство получает или задает почтовый ящик пользователя на запрос GetUserAvailability.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.MailboxData.Email" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddress" /> объекта.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflicts">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflicts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflicts" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.ExcludeConflicts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflicts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflicts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> Свойство получает или задает значение, указывающее, нужно ли возвращать предложенного времени для время календаря, конфликтующие среди участников. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> Свойство возвращает <b>значение true</b> , если учитываются конфликтующие время календаря для предложенных собраний времени; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflictsSpecified">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflictsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflictsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflictsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflictsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP). Это свойство является обязательным, если <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> свойству. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> сериализацию свойства в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,40 @@
+<Type Name="RemoveContactFromImListCompletedEventHandler" FullName="ExchangeWebServices.RemoveContactFromImListCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="672888e205a3bce67f004862e41ffcd6e5d7c6b0" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610040" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void RemoveContactFromImListCompletedEventHandler(object sender, RemoveContactFromImListCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RemoveContactFromImListCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RemoveContactFromImListCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub RemoveContactFromImListCompletedEventHandler(sender As Object, e As RemoveContactFromImListCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void RemoveContactFromImListCompletedEventHandler(System::Object ^ sender, RemoveContactFromImListCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.RemoveContactFromImListCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
