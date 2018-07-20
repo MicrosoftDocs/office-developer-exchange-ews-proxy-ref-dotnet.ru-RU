@@ -1,0 +1,107 @@
+<Type Name="IndexBasePointType" FullName="ExchangeWebServices.IndexBasePointType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6e3e2b0b6dbe4b02e4439658cc3137033de424c9" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610030" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum IndexBasePointType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed IndexBasePointType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IndexBasePointType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IndexBasePointType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IndexBasePointType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="785a2-101">
+        <see cref="T:ExchangeWebServices.IndexBasePointType" /> Перечисление указывает, начинается ли страница элементов в начале или конце набор элементов, найденных с помощью условий поиска.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="785a2-101">The <see cref="T:ExchangeWebServices.IndexBasePointType" /> enumeration specifies whether the page of items will start at the beginning or the end of the set of items that are found by using the search criteria.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="785a2-102">
+        <para>Это перечисление используется с <see cref="P:ExchangeWebServices.IndexedPageViewType.BasePoint" /> свойства <see cref="T:ExchangeWebServices.IndexedPageViewType" /> объекта. </para>
+        <para>При использовании <see cref="F:ExchangeWebServices.IndexBasePointType.End" /> значение, следует помнить, что при поиске с конца включает в себя перемещение происхождения, который идентифицируется средством смещение. Кроме того указатель возвращается назад на число запрошенных записей. Например если существует 100 записей и смещение равно 25 с конца, поиск начинается с 75. Если будет возвращено 10 записей, указатель мыши перемещается назад дополнительные 10 записей 66 и возвращает записи 66 через 75. Следующий индекс — 65. Следующего смещения от конца страницы равно 100 минус 65, что равно 35. 35 — это значение следующего смещения от конца для получения следующей страницы индексированных.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="785a2-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.IndexedPageViewType.BasePoint" /> property of the <see cref="T:ExchangeWebServices.IndexedPageViewType" /> object. </para>
+          <para>When you are using the <see cref="F:ExchangeWebServices.IndexBasePointType.End" /> value, be aware that seeking from the end involves moving to the origin that is identified by the offset. Additionally, the pointer is moved back by the number of requested records. For example, if there are 100 records and the offset is 25 from the end, the search starts from 75. If 10 records are returned, the pointer is moved backward an additional 10 records to 66 and returns records 66 through 75. The next index is 65. The next offset from the end for a page is 100 minus 65, which equals 35. 35 is the value for the next offset from the end to get the next indexed page.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Beginning">
+      <MemberSignature Language="C#" Value="Beginning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IndexBasePointType Beginning = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IndexBasePointType.Beginning" />
+      <MemberSignature Language="VB.NET" Value="Beginning" />
+      <MemberSignature Language="C++ CLI" Value="Beginning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IndexBasePointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="785a2-103">Указывает, что постраничное представление начинается с начала набора обнаруженного элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="785a2-103">Specifies that the paged view starts at the beginning of the found item set.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="End" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IndexBasePointType End = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IndexBasePointType.End" />
+      <MemberSignature Language="VB.NET" Value="End" />
+      <MemberSignature Language="C++ CLI" Value="End" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IndexBasePointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="785a2-104">Указывает, что постраничное представление начинается в конце последовательности найденный элемент.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="785a2-104">Specifies that the paged view starts at the end of the found item set.</span>
+          </span>
+          <span data-ttu-id="785a2-105">При поиске с конца всегда ищет в обратном направлении.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="785a2-105">Seeking from the end always searches backward.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
