@@ -1,0 +1,62 @@
+<Type Name="WeeklyRegeneratingPatternType" FullName="ExchangeWebServices.WeeklyRegeneratingPatternType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d63f5000e0e781cd0b1a50730601494ab064441d" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611218" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WeeklyRegeneratingPatternType : ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WeeklyRegeneratingPatternType extends ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WeeklyRegeneratingPatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class WeeklyRegeneratingPatternType&#xA;Inherits RegeneratingPatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WeeklyRegeneratingPatternType : ExchangeWebServices::RegeneratingPatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RegeneratingPatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.WeeklyRegeneratingPatternType" /> Класс описывает интервала, через недели, в которых генерируется задачи.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyRegeneratingPatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WeeklyRegeneratingPatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyRegeneratingPatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.WeeklyRegeneratingPatternType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.WeeklyRegeneratingPatternType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

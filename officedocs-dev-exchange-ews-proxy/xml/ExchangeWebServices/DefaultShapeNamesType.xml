@@ -1,0 +1,138 @@
+<Type Name="DefaultShapeNamesType" FullName="ExchangeWebServices.DefaultShapeNamesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f097d199d775568bbae3cc049b8b1c1fc0157ffb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610911" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DefaultShapeNamesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DefaultShapeNamesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DefaultShapeNamesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DefaultShapeNamesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DefaultShapeNamesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> Перечисление определяет стандартные наборы свойств, чтобы вернуться в элемент или папку ответ.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.ItemResponseShapeType.BaseShape" /> свойства <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> объекта и <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> свойства <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> объект.</para>
+      <para>Свойства, возвращаемые фигур AllProperties, по умолчанию и IdOnly можно дополнить свойствами, которые определены в свойстве AdditionalProperties на <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> и <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> объекты.</para>
+      <para>В следующей таблице приведены свойства, которые возвращаются для каждой папки при <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> возвращаются свойства для папки ответа. Все вложенные папки указанной папки возвращаются в порядке по имени.</para>
+      <para>Свойства по умолчанию</para>
+      <list type="table">
+        <item>
+          <term>Папки "Входящие"</term>
+          <description>FolderId, отображать имя, число непрочтенных сообщений, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>Контакты</term>
+          <description>FolderId, отображаемое имя, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>календаря</term>
+          <description>FolderId , отображаемое имя, count вложенной папке</description>
+        </item>
+        <item>
+          <term>Черновики</term>
+          <description>FolderId, отображать имя, число непрочтенных сообщений, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>Удаленные</term>
+          <description>FolderId, отображать имя, число непрочтенных сообщений, общее число, вложенную папку число</description>
+        </item>
+        <item>
+          <term>другие папки</term>
+          <description>FolderId, отображать имя, число непрочтенных сообщений, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>Исходящие</term>
+          <description>FolderId, отображать имя, число непрочтенных сообщений, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>Задачи</term>
+          <description>Идентификатор папки, отображаемое имя, прошедшие оплаты count, общее число, число вложенной папке</description>
+        </item>
+        <item>
+          <term>Заметки о</term>
+          <description>FolderId, отображаемое имя, общее число, число вложенной папке</description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllProperties">
+      <MemberSignature Language="C#" Value="AllProperties" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType AllProperties = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.AllProperties" />
+      <MemberSignature Language="VB.NET" Value="AllProperties" />
+      <MemberSignature Language="C++ CLI" Value="AllProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Возвращает все свойства, которые определены для AllProperties фигуры. Этот параметр не возвращает все доступные свойства для элемента или папки.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType Default = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Возвращает набор свойств, которые определены по умолчанию для элемента или папки. Приведены в таблице далее в данном разделе приведены дополнительные сведения о свойствах, которые возвращаются для папок.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="IdOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType IdOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="IdOnly" />
+      <MemberSignature Language="C++ CLI" Value="IdOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Возвращает только идентификатор элемента или папки</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

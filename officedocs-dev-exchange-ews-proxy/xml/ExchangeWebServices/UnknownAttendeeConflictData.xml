@@ -1,0 +1,62 @@
+<Type Name="UnknownAttendeeConflictData" FullName="ExchangeWebServices.UnknownAttendeeConflictData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="732170628f6005ecc5f9112181321f03e386ede8" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611338" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UnknownAttendeeConflictData : ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UnknownAttendeeConflictData extends ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnknownAttendeeConflictData" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnknownAttendeeConflictData&#xA;Inherits AttendeeConflictData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnknownAttendeeConflictData : ExchangeWebServices::AttendeeConflictData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AttendeeConflictData</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.UnknownAttendeeConflictData" /> Класс представляет участника неразрешимые собрания или участник собрания, который не является пользователем, список рассылки или контактов.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UnknownAttendeeConflictData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UnknownAttendeeConflictData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UnknownAttendeeConflictData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.UnknownAttendeeConflictData" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UnknownAttendeeConflictData" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

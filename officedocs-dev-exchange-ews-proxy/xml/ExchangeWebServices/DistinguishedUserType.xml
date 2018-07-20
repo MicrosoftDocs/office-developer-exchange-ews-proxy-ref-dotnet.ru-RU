@@ -1,0 +1,78 @@
+<Type Name="DistinguishedUserType" FullName="ExchangeWebServices.DistinguishedUserType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fa9c2b7566e3e2c10faa821c4c2d81bd47b7d026" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611183" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DistinguishedUserType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DistinguishedUserType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedUserType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DistinguishedUserType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DistinguishedUserType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.DistinguishedUserType" /> Перечисление определяет учетные записи пользователей анонимные пользователи и по умолчанию для доступа делегата. Это перечисление была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> свойства <see cref="T:ExchangeWebServices.UserIdType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Anonymous">
+      <MemberSignature Language="C#" Value="Anonymous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedUserType Anonymous = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedUserType.Anonymous" />
+      <MemberSignature Language="VB.NET" Value="Anonymous" />
+      <MemberSignature Language="C++ CLI" Value="Anonymous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedUserType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Описание по умолчанию для пользователей делегата, добавленный к почтовому ящику участника.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedUserType Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedUserType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedUserType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Описание настройки доступа делегата, для которых анонимных пользователей на почтовый ящик участника.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,135 @@
+<Type Name="CalendarItemUpdateOperationType" FullName="ExchangeWebServices.CalendarItemUpdateOperationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="335caf71f53789d1a09db51d23553d044f11d449" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610786" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CalendarItemUpdateOperationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarItemUpdateOperationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarItemUpdateOperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarItemUpdateOperationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarItemUpdateOperationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CalendarItemUpdateOperationType" /> Перечисление указывает способ обновления собрания передаются после обновления элемента календаря.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> свойства <see cref="T:ExchangeWebServices.UpdateItemType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemUpdateOperationType.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Обновлены элемента календаря и обновление собрания отправляется всех участников, но не сохраняются в папке, который идентифицируется средством <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> свойство.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnlyToChanged">
+      <MemberSignature Language="C#" Value="SendOnlyToChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendOnlyToChanged = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemUpdateOperationType.SendOnlyToChanged" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToChanged" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Обновлены элемента календаря и обновление собрания отправляется только участникам, которые повлияет переход на собрании.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendToAllAndSaveCopy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemUpdateOperationType.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Обновления элемента календаря, сообщения о встрече всем участникам и копия сохраняется в папку, определяемую средством <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> свойство.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToChangedAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendToChangedAndSaveCopy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemUpdateOperationType.SendToChangedAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToChangedAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Обновлено элемента календаря, сообщения о встрече для всех участников, которые повлияет переход на собрании и копия сохраняется в папку, определяемую средством <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> свойство.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemUpdateOperationType.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Обновление элемента календаря, но обновления не отправляются участникам.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

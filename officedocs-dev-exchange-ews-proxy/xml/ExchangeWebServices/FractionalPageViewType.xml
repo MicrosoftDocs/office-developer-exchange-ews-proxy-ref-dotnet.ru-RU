@@ -1,0 +1,126 @@
+<Type Name="FractionalPageViewType" FullName="ExchangeWebServices.FractionalPageViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="736d6527b6ea8663443c3a4a14c380849440ce84" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610516" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FractionalPageViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FractionalPageViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FractionalPageViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FractionalPageViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FractionalPageViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.FractionalPageViewType" /> Класс описывает начала страничного представления и максимальное число элементов, возвращаемых в FindItem или FindFolder ответа.</summary>
+    <remarks>
+      <para>Смещение страничного представления от начала набора элементов, обнаруженные описывается функцией. Дроби, которая определяется <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> и <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> свойства, описывает начало страницы сведений. Например если <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> равно четыре и <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> равно пять, страница возвращенных данных начинается в запись, расположены четыре пятых длины способ в наборе результатов.</para> Задайте 
+      <para>Если дроби является ноль, который указывает начало результаты. Если дроби оценивается как одно, указывает конечных результатах.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FractionalPageViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FractionalPageViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FractionalPageViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.FractionalPageViewType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FractionalPageViewType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Denominator">
+      <MemberSignature Language="C#" Value="public int Denominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Denominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FractionalPageViewType.Denominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Denominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Denominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> Свойство получает или задает делителя дробная смещением от начала общее число элементов в наборе результатов.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> Свойство возвращает делителя дробная смещение.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> Должно быть больше нуля.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Numerator">
+      <MemberSignature Language="C#" Value="public int Numerator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Numerator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FractionalPageViewType.Numerator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Numerator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Numerator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> Свойство получает или задает числитель дробная смещением от начала общее число элементов в наборе результатов.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> Свойство возвращает числитель дробная смещения.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> Должно быть больше или равно нулю. <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> Должен быть меньше или равно <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

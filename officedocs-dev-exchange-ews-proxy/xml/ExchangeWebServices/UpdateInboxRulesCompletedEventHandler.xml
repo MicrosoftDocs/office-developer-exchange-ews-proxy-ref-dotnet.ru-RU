@@ -1,0 +1,40 @@
+<Type Name="UpdateInboxRulesCompletedEventHandler" FullName="ExchangeWebServices.UpdateInboxRulesCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="02a4487adf6454caeb9e05a3a46d76b4ab15b34c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611352" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void UpdateInboxRulesCompletedEventHandler(object sender, UpdateInboxRulesCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UpdateInboxRulesCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateInboxRulesCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub UpdateInboxRulesCompletedEventHandler(sender As Object, e As UpdateInboxRulesCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void UpdateInboxRulesCompletedEventHandler(System::Object ^ sender, UpdateInboxRulesCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.UpdateInboxRulesCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

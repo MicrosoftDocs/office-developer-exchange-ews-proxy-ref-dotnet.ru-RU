@@ -1,0 +1,100 @@
+<Type Name="TrackingPropertyType" FullName="ExchangeWebServices.TrackingPropertyType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="94dc4de7be458e2c31e198f11f8243e4f796445c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610701" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TrackingPropertyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TrackingPropertyType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TrackingPropertyType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TrackingPropertyType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TrackingPropertyType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TrackingPropertyType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TrackingPropertyType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TrackingPropertyType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TrackingPropertyType.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TrackingPropertyType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,105 @@
+<Type Name="ExpandDLType" FullName="ExchangeWebServices.ExpandDLType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f5882c73d385e4fc86a57f2ce6d8edcd59deec3" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611332" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExpandDLType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExpandDLType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExpandDLType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandDLType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExpandDLType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ExpandDLType" /> Класс представляет запрос на разверните список рассылки.</summary>
+    <remarks>
+      <para>Частной и общедоступной рассылки могут быть раскрыты.</para>
+      <para>
+        <b>Примечание</b>: Если EmailAddress, которое задано в запросе не соответствует в список рассылки или ItemId, указанного в запросе соответствует в список рассылки неконфиденциальные произойдет ошибка.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>В следующем примере кода показано, как создается запрос расширение списка рассылки.</para>
+      <code>// Create an ExpandDLType.
+ExpandDLType &lt;span class="label"&gt;expandDl&lt;/span&gt; = new ExpandDLType();
+
+// Set the e-mail address and routing type of the distribution list.
+&lt;span class="label"&gt;expandDl&lt;/span&gt;.Mailbox = new EmailAddressType();
+&lt;span class="label"&gt;expandDl&lt;/span&gt;.Mailbox.EmailAddress = "myDL@myDomain.com";
+
+// Expand the distribution list.
+ExpandDLResponseType expandDlResponse = esb.ExpandDL(&lt;span class="label"&gt;expandDl&lt;/span&gt;);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExpandDLType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExpandDLType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExpandDLType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ExpandDLType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ExpandDLType" /> типа.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> Свойство получает или задает идентификатор элемента списка рассылки, чтобы развернуть. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddressType" /> объекта.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> Свойство <see cref="T:ExchangeWebServices.EmailAddressType" /> объект, содержащий адрес электронной почты в список рассылки общедоступных либо идентификатор элемента списка рассылки закрытый.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

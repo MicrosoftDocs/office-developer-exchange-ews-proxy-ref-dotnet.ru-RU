@@ -1,0 +1,186 @@
+<Type Name="AttendeeType" FullName="ExchangeWebServices.AttendeeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="49ecebf12ca7f6c9987f6ce84827b9dbf741f01c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610832" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AttendeeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AttendeeType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AttendeeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AttendeeType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttendeeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.AttendeeType" /> Класс представляет участников и ресурсы, необходимые для собрания.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AttendeeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.AttendeeType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AttendeeType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResponseTime">
+      <MemberSignature Language="C#" Value="public DateTime LastResponseTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastResponseTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.LastResponseTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastResponseTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastResponseTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> Свойство получает или задает дату и время последней был получен ответ.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> Свойство возвращает значение даты и времени, которое указывает дату и время последней был получен ответ.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResponseTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool LastResponseTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LastResponseTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastResponseTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LastResponseTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> сериализацию свойства в сообщения SOAP. Это свойство является обязательным, если <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> указанного свойства.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> сериализацию свойства в сообщении SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AttendeeType.Mailbox" /> Свойство получает или задает адрес электронной почты полностью разрешенной.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AttendeeType.Mailbox" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddressType" /> объект, содержащий адрес электронной почты полностью разрешенной.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseTypeType ResponseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseTypeType ResponseType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.ResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseType As ResponseTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseTypeType ResponseType { ExchangeWebServices::ResponseTypeType get(); void set(ExchangeWebServices::ResponseTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> Свойство получает тип ответа, полученные при проведении собраний. Это свойство доступно только для чтения.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.ResponseTypeType" /> значений перечисления, которые указывают тип ответа, полученные при проведении собраний.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> Свойство относится только к элемента календаря Организатор собрания.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool ResponseTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ResponseTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ResponseTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> сериализацию свойства в сообщения SOAP. Это свойство является обязательным, если <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> указанного свойства.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> сериализацию свойства в сообщении SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

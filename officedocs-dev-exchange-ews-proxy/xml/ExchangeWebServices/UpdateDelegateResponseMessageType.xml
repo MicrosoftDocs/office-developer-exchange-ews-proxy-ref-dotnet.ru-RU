@@ -1,0 +1,62 @@
+<Type Name="UpdateDelegateResponseMessageType" FullName="ExchangeWebServices.UpdateDelegateResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e32c09bacded0e21c7414eec4d3884b823371fa9" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610308" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UpdateDelegateResponseMessageType : ExchangeWebServices.BaseDelegateResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UpdateDelegateResponseMessageType extends ExchangeWebServices.BaseDelegateResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateDelegateResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateDelegateResponseMessageType&#xA;Inherits BaseDelegateResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateDelegateResponseMessageType : ExchangeWebServices::BaseDelegateResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.UpdateDelegateResponseMessageType" /> Класс содержит состояние и результат вызова <see cref="M:ExchangeWebServices.ExchangeServiceBinding.UpdateDelegate(ExchangeWebServices.UpdateDelegateType)" /> метод.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UpdateDelegateResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UpdateDelegateResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UpdateDelegateResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.UpdateDelegateResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UpdateDelegateResponseMessageType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

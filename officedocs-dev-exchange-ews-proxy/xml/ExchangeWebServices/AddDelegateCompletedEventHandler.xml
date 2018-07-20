@@ -1,0 +1,41 @@
+<Type Name="AddDelegateCompletedEventHandler" FullName="ExchangeWebServices.AddDelegateCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="69c1ce866e8298961ead1cf6079c245ff4fb496b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610407" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void AddDelegateCompletedEventHandler(object sender, AddDelegateCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AddDelegateCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AddDelegateCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AddDelegateCompletedEventHandler(sender As Object, e As AddDelegateCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AddDelegateCompletedEventHandler(System::Object ^ sender, AddDelegateCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.AddDelegateCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>
+      <see cref="T:ExchangeWebServices.AddDelegateCompletedEventHandler" /> — Это тип делегата, который определяет обработчик событий, который будет вызываться при завершении соответствующей асинхронной операции.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

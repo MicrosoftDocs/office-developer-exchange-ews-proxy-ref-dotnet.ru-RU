@@ -1,0 +1,88 @@
+<Type Name="ArrayOfTimeZoneDefinitionType" FullName="ExchangeWebServices.ArrayOfTimeZoneDefinitionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5a5cf1395b098012b811cdee4b77144635905822" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610419" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ArrayOfTimeZoneDefinitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfTimeZoneDefinitionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfTimeZoneDefinitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfTimeZoneDefinitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" /> Класс содержит массив определения часового пояса.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfTimeZoneDefinitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfTimeZoneDefinitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfTimeZoneDefinitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZoneDefinition">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeZoneDefinitionType[] TimeZoneDefinition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeZoneDefinitionType[] TimeZoneDefinition" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfTimeZoneDefinitionType.TimeZoneDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZoneDefinition As TimeZoneDefinitionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::TimeZoneDefinitionType ^&gt; ^ TimeZoneDefinition { cli::array &lt;ExchangeWebServices::TimeZoneDefinitionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::TimeZoneDefinitionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("TimeZoneDefinition")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeZoneDefinitionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ArrayOfTimeZoneDefinitionType.TimeZoneDefinition" /> Свойство получает или задает коллекцию определения часового пояса.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.ArrayOfTimeZoneDefinitionType.TimeZoneDefinition" /> свойства представляет собой массив из <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" /> объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

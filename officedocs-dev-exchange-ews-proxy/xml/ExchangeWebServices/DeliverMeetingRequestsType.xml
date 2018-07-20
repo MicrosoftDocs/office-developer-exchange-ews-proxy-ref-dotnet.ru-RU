@@ -1,0 +1,116 @@
+<Type Name="DeliverMeetingRequestsType" FullName="ExchangeWebServices.DeliverMeetingRequestsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="81412d8f2af1bea5682264a2a9a9f2a73873f41c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610267" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DeliverMeetingRequestsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DeliverMeetingRequestsType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeliverMeetingRequestsType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeliverMeetingRequestsType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeliverMeetingRequestsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.DeliverMeetingRequestsType" /> Перечисление указывает порядок обработки приглашений на собрания между делегата и участника. Это перечисление была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.AddDelegateType.DeliverMeetingRequests" /> свойства <see cref="T:ExchangeWebServices.AddDelegateType" /> объекта, <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> свойства <see cref="T:ExchangeWebServices.UpdateDelegateType" /> объекта и <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> свойства <see cref="T:ExchangeWebServices.GetDelegateResponseMessageType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelegatesAndMe">
+      <MemberSignature Language="C#" Value="DelegatesAndMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DeliverMeetingRequestsType DelegatesAndMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DeliverMeetingRequestsType.DelegatesAndMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Приглашения на собрания, пересылаются на делегат и оставаться в папке "Входящие" в почтовом ящике участника.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesAndSendInformationToMe">
+      <MemberSignature Language="C#" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DeliverMeetingRequestsType DelegatesAndSendInformationToMe = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DeliverMeetingRequestsType.DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndSendInformationToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Приглашения на собрания, пересылаются на делегат и оставаться в папке "Входящие" в почтовом ящике участника, но кнопки принять, под вопросом и отклонить не отображаются в области чтения Microsoft Office Outlook.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesOnly">
+      <MemberSignature Language="C#" Value="DelegatesOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DeliverMeetingRequestsType DelegatesOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DeliverMeetingRequestsType.DelegatesOnly" />
+      <MemberSignature Language="VB.NET" Value="DelegatesOnly" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Приглашения на собрания пересылку делегата и перемещено в папку «Удаленные» в почтовом ящике участника.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoForward">
+      <MemberSignature Language="C#" Value="NoForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DeliverMeetingRequestsType NoForward = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DeliverMeetingRequestsType.NoForward" />
+      <MemberSignature Language="VB.NET" Value="NoForward" />
+      <MemberSignature Language="C++ CLI" Value="NoForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

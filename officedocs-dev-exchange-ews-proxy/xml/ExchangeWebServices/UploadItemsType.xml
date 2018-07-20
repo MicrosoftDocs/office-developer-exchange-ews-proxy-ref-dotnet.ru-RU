@@ -1,0 +1,89 @@
+<Type Name="UploadItemsType" FullName="ExchangeWebServices.UploadItemsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a892bf318ddf955155e509cbe8ade74195550402" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610710" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UploadItemsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UploadItemsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UploadItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UploadItemsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UploadItemsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+      <para>
+        <b>Примечание</b>: этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UploadItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UploadItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UploadItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UploadItemType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UploadItemType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UploadItemsType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As UploadItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::UploadItemType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::UploadItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::UploadItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Item", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UploadItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Возвращает <see cref="T:ExchangeWebServices.UploadItemType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,63 @@
+<Type Name="CopyItemCompletedEventArgs" FullName="ExchangeWebServices.CopyItemCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7e2196f9bd5a1b6f1aa763355cfe8340b633d967" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610835" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CopyItemCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CopyItemCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CopyItemCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CopyItemCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CopyItemCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CopyItemCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CopyItemCompleted" /> события.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CopyItemResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CopyItemResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CopyItemCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CopyItemResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CopyItemResponseType ^ Result { ExchangeWebServices::CopyItemResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CopyItemResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.CopyItemCompletedEventArgs.Result" /> Свойство получает ответ от асинхронный вызов CopyItem операции.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.CopyItemCompletedEventArgs.Result" /> Возвращает свойство <see cref="T:ExchangeWebServices.CopyItemResponseType" /> объект из асинхронный вызов CopyItem операции.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

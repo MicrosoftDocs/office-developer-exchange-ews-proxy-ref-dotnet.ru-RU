@@ -1,0 +1,346 @@
+<Type Name="FindFolderType" FullName="ExchangeWebServices.FindFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e997bd1fb1374ad0c54e2309daa7c7c1fc4aeebe" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610515" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FindFolderType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FindFolderType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FindFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FindFolderType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindFolderType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.FindFolderType" /> Класс представляет запрос для поиска папок в почтовом ящике.</summary>
+    <remarks>Операция <para>FindFolder ищет вложенные папки заданной папки. Операция FindFolder возвращает только первые 512 байт поддерживающего потоковую передачу свойства. Для кодировки Юникод операция FindFolder возвращает первые 255 знаков, используя строку Юникода символом null. Для получения дополнительных свойств папки используйте операцию GetFolder.</para><para>Ограничения на доступ к свойствам папки, но не свойства элемента, разрешены. Функциональные возможности сортировки для ответов FindFolder недоступен. Сгруппированные запросы недоступны для FindFolder запросов. </para><para /></remarks>
+    <example>
+      <para>В следующем примере показано FindFolder запроса, который возвращает следующие результаты:</para>
+      <list type="number">
+        <item>
+          <description>Глубоко обхода поиска из папки «Входящие».</description>
+        </item>
+        <item>
+          <description>Всех свойств, определенных для FolderShape по умолчанию в ходе операции FindFolder.</description>
+        </item>
+        <item>
+          <description>Все папках отображаемое имя SentOnlyToMe. Регистр не обязательно должны совпадать.</description>
+        </item>
+        <item>
+          <description>Схему дробная разбиение на страницы, которая возвращает по крайней мере одной папке, которая начинается после первой папки.</description>
+        </item>
+      </list>
+      <code>static void FindFolder(ExchangeServiceBinding esb)
+{
+    // Create the request and specify the traversal type.
+    FindFolderType &lt;span class="label"&gt;findFolderRequest&lt;/span&gt; = new FindFolderType();
+    &lt;span class="label"&gt;findFolderRequest&lt;/span&gt;.Traversal = FolderQueryTraversalType.Deep;
+
+    // Define the properties to be returned in the response.
+    FolderResponseShapeType responseShape = new FolderResponseShapeType();
+    responseShape.BaseShape = DefaultShapeNamesType.Default;
+    &lt;span class="label"&gt;findFolderRequest&lt;/span&gt;.FolderShape = responseShape;
+
+    // Identify which folders to search.
+    DistinguishedFolderIdType[] folderIDArray = new DistinguishedFolderIdType[1];
+    folderIDArray[0] = new DistinguishedFolderIdType();
+    folderIDArray[0].Id = DistinguishedFolderIdNameType.inbox;
+
+    // Add the folders to search to the request.
+    &lt;span class="label"&gt;findFolderRequest&lt;/span&gt;.ParentFolderIds = folderIDArray;
+
+    // Restriction based on the folder display name.
+    RestrictionType restriction = new RestrictionType();
+    PathToUnindexedFieldType fldrRestriction = new PathToUnindexedFieldType();
+    fldrRestriction.FieldURI = UnindexedFieldURIType.folderDisplayName;
+    // Identify the folder name to restrict on.
+    ContainsExpressionType contains = new ContainsExpressionType();
+    contains.ContainmentMode = ContainmentModeType.Substring;
+    contains.ContainmentModeSpecified = true;
+    contains.ContainmentComparison = ContainmentComparisonType.IgnoreCase;
+    contains.ContainmentComparisonSpecified = true;
+    contains.Item = fldrRestriction;
+    contains.Constant = new ConstantValueType();
+    contains.Constant.Value = "SentOnlyToMe";
+    restriction.Item = contains;
+    &lt;span class="label"&gt;findFolderRequest&lt;/span&gt;.Restriction = restriction;
+
+    // Define the paging scheme for the result set.
+    FractionalPageViewType fpvt = new FractionalPageViewType();
+    fpvt.MaxEntriesReturned = 1;
+    fpvt.MaxEntriesReturnedSpecified = true;
+    fpvt.Numerator = 1;
+    fpvt.Denominator = 4;
+    &lt;span class="label"&gt;findFolderRequest&lt;/span&gt;.Item = fpvt;
+
+    try
+    {
+        // Send the request and get the response.
+        FindFolderResponseType findFolderResponse = esb.FindFolder(&lt;span class="label"&gt;findFolderRequest&lt;/span&gt;);
+
+        // Get the response messages.
+        ResponseMessageType[] rmta = findFolderResponse.ResponseMessages.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            FindFolderResponseMessageType ffrmt = (rmt as FindFolderResponseMessageType);
+
+            FindFolderParentType ffpt = ffrmt.RootFolder;
+            BaseFolderType[] folders = ffpt.Folders;
+            
+            foreach (BaseFolderType folder in folders)
+            {
+                // Check folder type
+                if (folder is CalendarFolderType)
+                {
+                    CalendarFolderType fldr = (folder as CalendarFolderType);
+                    // TODO: Handle calendar folder
+                }
+                else 
+                { 
+                    // TODO: Handle folders, search folders, tasks folders,
+                    // and contacts folder
+                }
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FindFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FindFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FindFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.FindFolderType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FindFolderType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderResponseShapeType FolderShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderResponseShapeType FolderShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderType.FolderShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderShape As FolderResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderResponseShapeType ^ FolderShape { ExchangeWebServices::FolderResponseShapeType ^ get(); void set(ExchangeWebServices::FolderResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FindFolderType.FolderShape" /> Свойство получает или задает фигуры набора запроса. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FindFolderType.FolderShape" /> Возвращает свойство <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> объект, который содержит описание свойств, которые запрашиваются возвращаться в наборе результатов.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FindFolderType.FolderShape" /> Свойство описание свойств, которые возвращаются FindFolder ответа.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePagingType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePagingType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePagingType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePagingType ^ Item { ExchangeWebServices::BasePagingType ^ get(); void set(ExchangeWebServices::BasePagingType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FractionalPageFolderView", typeof(ExchangeWebServices.FractionalPageViewType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedPageFolderView", typeof(ExchangeWebServices.IndexedPageViewType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePagingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FindFolderType.Item" /> Свойство получает или задает тип разбиения по страницам, описывающий, как набора результатов запросов, полученных в ответе. Данное свойство Возвращает или задает либо <see cref="T:ExchangeWebServices.IndexedPageViewType" /> или <see cref="T:ExchangeWebServices.FractionalPageViewType" /> объекта. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FindFolderType.Item" /> Возвращает свойство <see cref="T:ExchangeWebServices.BasePagingType" /> , представляющий тип разбиение на страницы выполняется для набора запроса.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FindFolderType.Item" /> Может быть установлено с помощью <see cref="T:ExchangeWebServices.IndexedPageViewType" /> или <see cref="T:ExchangeWebServices.FractionalPageViewType" /> объектов. Все эти типы расширяют <see cref="T:ExchangeWebServices.BasePagingType" />, которая является абстрактный класс. Это свойство является необязательным. Если это свойство не задано, по умолчанию является возвращение представления, который содержит все папки в наборе результатов.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] ParentFolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] ParentFolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderType.ParentFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentFolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ ParentFolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FindFolderType.ParentFolderIds" /> Свойство Возвращает или задает папки, которые выполняет операцию FindFolder. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FindFolderType.ParentFolderIds" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.BaseFolderIdType" /> объектов, которые содержит идентификаторы всех папок для операции FindFolder для поиска.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FindItemType.ParentFolderIds" /> Может быть установлено с массивами либо <see cref="T:ExchangeWebServices.FolderIdType" /> или <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> объектов. Расширение обоих типов <see cref="T:ExchangeWebServices.BaseFolderIdType" />, которая является абстрактный класс.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restriction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RestrictionType Restriction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RestrictionType Restriction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderType.Restriction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Restriction As RestrictionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RestrictionType ^ Restriction { ExchangeWebServices::RestrictionType ^ get(); void set(ExchangeWebServices::RestrictionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RestrictionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FindFolderType.Restriction" /> Свойство получает или задает параметры поиска, которыми определяется запрос папки. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FindFolderType.Restriction" /> Возвращает свойство <see cref="T:ExchangeWebServices.RestrictionType" /> объект, который содержит параметры поиска, определяющие запрос.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.FindFolderType.Restriction" /> Свойства, если она используется, следует использовать только свойства папки. <see cref="P:ExchangeWebServices.FindFolderType.Restriction" /> Свойство может содержать следующие выражения поиска:</para>
+          <list type="bullet">
+            <item>
+              <description>и</description>
+            </item>
+            <item>
+              <description>содержит</description>
+            </item>
+            <item>
+              <description>Excludes</description>
+            </item>
+            <item>
+              <description>Exists</description>
+            </item>
+            <item>
+              <description>выражение IsEqualTo</description>
+            </item>
+            <item>
+              <description>IsGreaterThan</description>
+            </item>
+            <item>
+              <description>IsGreaterThanOrEqualTo</description>
+            </item>
+            <item>
+              <description>IsLessThan </description>
+            </item>
+            <item>
+              <description>IsLessThanOrEqualTo</description>
+            </item>
+            <item>
+              <description>IsNotEqualTo</description>
+            </item>
+            <item>
+              <description>не</description>
+            </item>
+            <item>
+              <description>или</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderQueryTraversalType Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.FolderQueryTraversalType Traversal" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindFolderType.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As FolderQueryTraversalType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderQueryTraversalType Traversal { ExchangeWebServices::FolderQueryTraversalType get(); void set(ExchangeWebServices::FolderQueryTraversalType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderQueryTraversalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FindFolderType.Traversal" /> Свойство получает или задает схему обхода, который используется для поиска папок. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FindFolderType.Traversal" /> Возвращает свойство <see cref="T:ExchangeWebServices.FolderQueryTraversalType" /> перечисление, определяющее тип обхода, который выполняется для поиска.</value>
+        <remarks>
+          <para>Операция FindFolder поддерживает поиск папки частичного и глубину обхода.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

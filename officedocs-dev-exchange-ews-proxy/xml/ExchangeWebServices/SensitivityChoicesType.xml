@@ -1,0 +1,116 @@
+<Type Name="SensitivityChoicesType" FullName="ExchangeWebServices.SensitivityChoicesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b26944f9f05d23302277662761a6540d6e99164f" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610394" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SensitivityChoicesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SensitivityChoicesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SensitivityChoicesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SensitivityChoicesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SensitivityChoicesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SensitivityChoicesType" /> Указывает типы уровне чувствительности, доступные для элемента.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> свойства <see cref="T:ExchangeWebServices.ItemType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Confidential">
+      <MemberSignature Language="C#" Value="Confidential" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SensitivityChoicesType Confidential = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SensitivityChoicesType.Confidential" />
+      <MemberSignature Language="VB.NET" Value="Confidential" />
+      <MemberSignature Language="C++ CLI" Value="Confidential" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SensitivityChoicesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Идентифицирует элемент конфиденциальными.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SensitivityChoicesType Normal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SensitivityChoicesType.Normal" />
+      <MemberSignature Language="VB.NET" Value="Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SensitivityChoicesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Определяет элемент в обычном режиме.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Personal">
+      <MemberSignature Language="C#" Value="Personal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SensitivityChoicesType Personal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SensitivityChoicesType.Personal" />
+      <MemberSignature Language="VB.NET" Value="Personal" />
+      <MemberSignature Language="C++ CLI" Value="Personal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SensitivityChoicesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Определяет элемент как личные.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Private">
+      <MemberSignature Language="C#" Value="Private" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SensitivityChoicesType Private = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SensitivityChoicesType.Private" />
+      <MemberSignature Language="VB.NET" Value="Private" />
+      <MemberSignature Language="C++ CLI" Value="Private" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SensitivityChoicesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Определяет элемент как частного.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

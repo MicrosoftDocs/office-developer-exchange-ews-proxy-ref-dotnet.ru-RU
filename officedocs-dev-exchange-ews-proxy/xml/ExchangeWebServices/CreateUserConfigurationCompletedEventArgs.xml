@@ -1,0 +1,60 @@
+<Type Name="CreateUserConfigurationCompletedEventArgs" FullName="ExchangeWebServices.CreateUserConfigurationCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="428b2bce52a6e74442f8ad915c7ce6e962456c17" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610618" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateUserConfigurationCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateUserConfigurationCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateUserConfigurationCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateUserConfigurationCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateUserConfigurationCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CreateUserConfigurationResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CreateUserConfigurationResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateUserConfigurationCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CreateUserConfigurationResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CreateUserConfigurationResponseType ^ Result { ExchangeWebServices::CreateUserConfigurationResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateUserConfigurationResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Возвращает <see cref="T:ExchangeWebServices.CreateUserConfigurationResponseType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

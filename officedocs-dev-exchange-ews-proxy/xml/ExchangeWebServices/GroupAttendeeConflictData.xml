@@ -1,0 +1,168 @@
+<Type Name="GroupAttendeeConflictData" FullName="ExchangeWebServices.GroupAttendeeConflictData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8f72a7bd0e268e35198b2c1ab6d9273b215339dc" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611000" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GroupAttendeeConflictData : ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupAttendeeConflictData extends ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GroupAttendeeConflictData" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupAttendeeConflictData&#xA;Inherits AttendeeConflictData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupAttendeeConflictData : ExchangeWebServices::AttendeeConflictData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AttendeeConflictData</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> Класс содержит конфликта статистические сведения о количество пользователей, которые доступны, количество пользователей, конфликтов и количество пользователей, у которых нет сведений о доступности в списке рассылки для предложенного собрания.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> объект присутствует в <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> экземпляра, который возвращается с <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> метод, когда участник в объект запроса решена в список рассылки. </para>
+      <para>
+        <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> Определяет три состояния для членов списка рассылки: доступны, конфликта, или без данных. Раскрытие списка рассылки будут поддерживать до 100 элементов; Таким образом, максимальное значение <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> свойства равно 100. </para>
+      <para>Раскрытие списков рассылки — это рекурсивный. Если список рассылки содержит список рассылки дочерним, которая расширяет общий список членства более 100 членов, списка рассылки дочерним не развернуто и будет считаться одной операции из <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> свойство. Если общий список членства не приводит к более 100 членов списка рассылки дочерним могут быть развернуты, развернуть список рассылки дочерним и число элементов добавляются в число <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> свойств класса.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupAttendeeConflictData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GroupAttendeeConflictData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupAttendeeConflictData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembers">
+      <MemberSignature Language="C#" Value="public int NumberOfMembers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembers As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembers { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> Свойство получает или задает количество пользователей, ресурсов и комнат в списке рассылки.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> Свойство возвращает число пользователей, ресурсов и комнат в списке рассылки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersAvailable">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersAvailable" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersAvailable As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersAvailable { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> Свойство получает или задает число рассылки список элементов, доступных для предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> Свойство возвращает число рассылки список элементов, доступных для предложенного собрания.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> Свойство — это число участников, для которых имеет состояние доступности <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Free" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithConflict">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithConflict { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithConflict" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersWithConflict As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithConflict { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> Свойство получает или задает число рассылки список элементов, имеющих конфликте с предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> Свойство возвращает число рассылки список элементов, имеющих конфликте с предложенного собрания.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> Свойство — это число участников, для которых имеет состояние availiblity <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Busy" />, <see cref="F:ExchangeWebServices.LegacyFreeBusyType.OOF" />, или <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Tentative" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithNoData">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithNoData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithNoData" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersWithNoData As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithNoData { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> Свойство получает или задает число рассылки список элементов, которые не были опубликованы данные о доступности для сравнения для предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> Свойство возвращает число рассылки список элементов, которые не были опубликованы данные о доступности для сравнения для предложенного собрания.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> Свойство представляет число участников в список рассылки, имеющих <see cref="F:ExchangeWebServices.LegacyFreeBusyType.NoData" /> состояние, или она представляет членов списка рассылки, в которой слишком велик для расширения.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

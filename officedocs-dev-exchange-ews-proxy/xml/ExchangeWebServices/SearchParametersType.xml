@@ -1,0 +1,176 @@
+<Type Name="SearchParametersType" FullName="ExchangeWebServices.SearchParametersType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="584b20a7ef4ef5e999b676223968c2982b552887" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610080" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SearchParametersType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchParametersType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchParametersType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchParametersType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchParametersType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SearchParametersType" /> Класс содержит параметры, определяющие папки поиска.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchParametersType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchParametersType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchParametersType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.SearchParametersType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SearchParametersType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseFolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] BaseFolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] BaseFolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseFolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ BaseFolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> Свойство получает или задает массив идентификаторов папок, чтобы указать, какие папки выполняется поиск.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.BaseFolderIdType" /> объектов, чтобы указать папки, в которых выполняется поиск по папки поиска.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> Свойство может содержать либо <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> или <see cref="T:ExchangeWebServices.FolderIdType" /> объектов.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restriction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RestrictionType Restriction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RestrictionType Restriction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.Restriction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Restriction As RestrictionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RestrictionType ^ Restriction { ExchangeWebServices::RestrictionType ^ get(); void set(ExchangeWebServices::RestrictionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RestrictionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SearchParametersType.Restriction" /> Свойство получает или задает запрос, который определяет содержимое папки поиска.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SearchParametersType.Restriction" /> Возвращает свойство <see cref="T:ExchangeWebServices.RestrictionType" /> объект, содержащий ограничение, которое используется для фильтрации результатов для папки поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchFolderTraversalType Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SearchFolderTraversalType Traversal" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As SearchFolderTraversalType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchFolderTraversalType Traversal { ExchangeWebServices::SearchFolderTraversalType get(); void set(ExchangeWebServices::SearchFolderTraversalType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchFolderTraversalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> Свойство получает или задает глубину обхода папки поиска.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> Возвращает свойство <see cref="T:ExchangeWebServices.SearchFolderTraversalType" /> перечисление, указывающее, глубина обхода папки поиска.</value>
+        <remarks>
+          <para>Обход папки поиска может быть <b>глубокой</b> или <b>частичного</b>.</para>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> сериализацию свойства в сообщения SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraversalSpecified">
+      <MemberSignature Language="C#" Value="public bool TraversalSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TraversalSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraversalSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TraversalSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> сериализацию свойства в сообщения SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> Свойство возвращает значение <b>true</b> , если <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

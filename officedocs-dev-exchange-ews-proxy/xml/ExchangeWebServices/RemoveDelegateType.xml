@@ -1,0 +1,144 @@
+<Type Name="RemoveDelegateType" FullName="ExchangeWebServices.RemoveDelegateType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5965dcc7932b20e8602f9f6a34ae78c266500de0" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610525" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RemoveDelegateType : ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RemoveDelegateType extends ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RemoveDelegateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveDelegateType&#xA;Inherits BaseDelegateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RemoveDelegateType : ExchangeWebServices::BaseDelegateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.RemoveDelegateType" /> Класс представляет запрос на удаление делегатов из почтового ящика.</summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <para>Приведенный ниже показано, как удалить два делегата из почтового ящика пользователя user1. В этом примере один делегат удаляется с помощью делегата основной адрес Simple Mail Transfer Protocol (SMTP) и другой удаляется с помощью делегата идентификатор безопасности (SID).</para>
+      <code>static void RemoveDelegate()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Identify the delegates to be removed.
+    UserIdType delegateUser1 = new UserIdType();
+    UserIdType delegateUser2 = new UserIdType();
+    delegateUser1.PrimarySmtpAddress = "user2@example.com";
+    delegateUser2.SID = "S-1-5-21-1333220396-2200287332-232816053-1123";
+    UserIdType[] delegateUsers = new UserIdType[2] { delegateUser1, delegateUser2 };
+
+    // Form the RemoveDelegate request.
+    RemoveDelegateType request = new RemoveDelegateType();
+    request.Mailbox = new EmailAddressType();
+    request.Mailbox.EmailAddress = "user1@example.com";
+    request.UserIds = delegateUsers;
+
+    try
+    {
+        // Send the RemoveDelegate request and get the response.
+        RemoveDelegateResponseMessageType response = esb.RemoveDelegate(request);
+        DelegateUserResponseMessageType[] durmt = new DelegateUserResponseMessageType[] { };
+        durmt = response.ResponseMessages;
+
+        // Check each response message.
+        foreach (DelegateUserResponseMessageType resp in durmt)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Delegate user was removed.");
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Delegate user was not removed, due to error: " + resp.MessageText);
+            }
+            else
+            {
+                Console.WriteLine("Warning: " + resp.MessageText);
+            }
+        }
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RemoveDelegateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RemoveDelegateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RemoveDelegateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.RemoveDelegateType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.RemoveDelegateType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType[] UserIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType[] UserIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RemoveDelegateType.UserIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserIds As UserIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ UserIds { cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("UserId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.RemoveDelegateType.UserIds" /> Свойство получает или задает <see cref="T:ExchangeWebServices.UserIdType" /> массива, который представляет делегатов для удаления из почтового ящика.</summary>
+        <value>Свойство <b>UserIds</b> возвращает массив <see cref="T:ExchangeWebServices.UserIdType" /> , который представляет делегатов для удаления из почтового ящика.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

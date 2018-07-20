@@ -1,0 +1,106 @@
+<Type Name="AcceptItemType" FullName="ExchangeWebServices.AcceptItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="35389f1722169e96942d2ea9417a18864e577911" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610405" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AcceptItemType : ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AcceptItemType extends ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AcceptItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AcceptItemType&#xA;Inherits WellKnownResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AcceptItemType : ExchangeWebServices::WellKnownResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.WellKnownResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.AcceptItemType" /> Класс представляет объект ответа принять, используемый для ответа на собрании элемента календаря или запроса.</summary>
+    <remarks>
+      <para>
+        <see cref="T:ExchangeWebServices.AcceptItemType" /> Объект используется для принятия приглашения на собрание или элемент в календаре. Хотя <see cref="T:ExchangeWebServices.AcceptItemType" /> наследует много участников из многих базовых классов, единственный параметр, который необходимо установить на <see cref="T:ExchangeWebServices.AcceptItemType" /> — это объект <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> свойство.</para>
+      <para>
+        <b>Примечание</b>: пользователь не может принимать приглашения на собрание или календаря элемента, для которого пользователь является организатором.</para> Приглашения на собрания 
+      <para>имеют ItemClass IPM. Schedule.Meeting.Request. поиск только приглашений на собрания при использовании папок поиска или запросов FindItem ограничить результирующий набор по свойству ItemClass.</para><para>Если <see cref="P:ExchangeWebServices.CreateItemType.MessageDisposition" /> не установлено свойство <see cref="T:ExchangeWebServices.CreateItemType" />, <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorMessageDispositionRequired" /> будет возвращена ошибка.</para><para /></remarks>
+    <example>
+      <para>В следующем примере показано, как для принятия приглашения на собрание. Идентификатор элемента запроса на проведение собрания используется в <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> свойство.</para>
+      <code>static void AcceptItem(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    CreateItemType request = new CreateItemType();
+    
+    // Set the message disposition on the request.
+    request.MessageDisposition = MessageDispositionType.SendAndSaveCopy;
+    request.MessageDispositionSpecified = true;
+
+    // Create the AcceptItem response object.
+    AcceptItemType acceptItem = new AcceptItemType();
+    
+    // Identify the meeting request to accept.
+    acceptItem.ReferenceItemId = new ItemIdType();
+    acceptItem.ReferenceItemId.Id = "AAAnAHJheA=";
+
+    // Add the AcceptItem response object to the request.
+    request.Items = new NonEmptyArrayOfAllItemsType();
+    request.Items.Items = new ItemType[1];
+    request.Items.Items[0] = acceptItem;
+
+    // Send the request and get the response.
+    CreateItemResponseType response = esb.CreateItem(request);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+        if (iirmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Successfully accepted meeting");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AcceptItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AcceptItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AcceptItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.AcceptItemType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AcceptItemType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

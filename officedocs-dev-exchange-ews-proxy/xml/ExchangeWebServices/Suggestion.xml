@@ -1,0 +1,164 @@
+<Type Name="Suggestion" FullName="ExchangeWebServices.Suggestion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3dd7d8af4b7e116ce8e777731dc846771675c4d" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610287" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Suggestion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit Suggestion extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.Suggestion" />
+  <TypeSignature Language="VB.NET" Value="Public Class Suggestion" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Suggestion" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.Suggestion" /> Класс представляет предложение одного собрания.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Suggestion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.Suggestion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Suggestion();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.Suggestion" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.Suggestion" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeConflictDataArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttendeeConflictData[] AttendeeConflictDataArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttendeeConflictData[] AttendeeConflictDataArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeConflictDataArray As AttendeeConflictData()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ AttendeeConflictDataArray { cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.GroupAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.IndividualAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.TooBigGroupAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.UnknownAttendeeConflictData))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttendeeConflictData[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" /> Свойство получает или задает описание конфликты между пользователями и ресурсы и предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.AttendeeConflictData" /> объекты, которые описывают конфликты между пользователями и ресурсы и предложенного собрания.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWorkTime">
+      <MemberSignature Language="C#" Value="public bool IsWorkTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWorkTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.IsWorkTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsWorkTime As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWorkTime { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.Suggestion.IsWorkTime" /> Свойство получает или задает логическое значение, указывающее, присутствует ли во время запланированных трудозатрат предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.Suggestion.IsWorkTime" /> Свойство возвращает <b>значение true,</b> Если заданное время предложенного собрания во время запланированных трудозатрат; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingTime">
+      <MemberSignature Language="C#" Value="public DateTime MeetingTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MeetingTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.MeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MeetingTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.Suggestion.MeetingTime" /> Свойство получает или задает время предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.Suggestion.MeetingTime" /> Свойство возвращает предложенного собрания.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionQuality">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionQuality SuggestionQuality { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SuggestionQuality SuggestionQuality" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.SuggestionQuality" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionQuality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SuggestionQuality SuggestionQuality { ExchangeWebServices::SuggestionQuality get(); void set(ExchangeWebServices::SuggestionQuality value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> Свойство получает или задает значение, указывающее, качество предложения о собрании.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> Возвращает свойство <see cref="T:ExchangeWebServices.SuggestionQuality" /> значение перечисления, которое указывает, качество предложения о собрании.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

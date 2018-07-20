@@ -1,0 +1,93 @@
+<Type Name="ExcludesValueType" FullName="ExchangeWebServices.ExcludesValueType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="37f1afd5538abdf7ba80d55d6ceb8e02ca873171" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610686" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExcludesValueType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExcludesValueType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExcludesValueType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExcludesValueType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExcludesValueType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ExcludesValueType" /> Класс представляет шестнадцатеричном или десятичном маска для использования во время операции ограничения Excludes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesValueType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExcludesValueType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesValueType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ExcludesValueType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ExcludesValueType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExcludesValueType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExcludesValueType.Value" /> Свойство получает или задает decimal или шестнадцатеричную битовую маску.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExcludesValueType.Value" /> Свойство возвращает строку, представляющую либо decimal или шестнадцатеричную битовую маску.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.ExcludesValueType.Value" /> Значение свойства должен соответствовать типу следующее регулярное выражение: ((0 x | 0 X) [0-9A-ОС f]*) | () [0-9]*).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

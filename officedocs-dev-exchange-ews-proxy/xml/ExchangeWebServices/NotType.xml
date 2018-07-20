@@ -1,0 +1,190 @@
+<Type Name="NotType" FullName="ExchangeWebServices.NotType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8136b40c9230e22936cb476a9de1a86ac2c67c83" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610821" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class NotType : ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NotType extends ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NotType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NotType&#xA;Inherits SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NotType : ExchangeWebServices::SearchExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SearchExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.NotType" /> Класс представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, который он содержит.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NotType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NotType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.NotType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.NotType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchExpressionType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchExpressionType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As SearchExpressionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchExpressionType ^ Item { ExchangeWebServices::SearchExpressionType ^ get(); void set(ExchangeWebServices::SearchExpressionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsLessThanOrEqualTo", typeof(ExchangeWebServices.IsLessThanOrEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsLessThan", typeof(ExchangeWebServices.IsLessThanType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Or", typeof(ExchangeWebServices.OrType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchExpression", typeof(ExchangeWebServices.SearchExpressionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Not", typeof(ExchangeWebServices.NotType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsNotEqualTo", typeof(ExchangeWebServices.IsNotEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("And", typeof(ExchangeWebServices.AndType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contains", typeof(ExchangeWebServices.ContainsExpressionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Excludes", typeof(ExchangeWebServices.ExcludesType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Exists", typeof(ExchangeWebServices.ExistsType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsEqualTo", typeof(ExchangeWebServices.IsEqualToType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsGreaterThan", typeof(ExchangeWebServices.IsGreaterThanType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IsGreaterThanOrEqualTo", typeof(ExchangeWebServices.IsGreaterThanOrEqualToType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchExpressionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.NotType.Item" /> Свойство получает или задает выражение отрицательным поиска.</summary>
+        <value>Свойство <see cref="P:ExchangeWebServices.NotType.Item" /> возвращает объект <see cref="T:ExchangeWebServices.SearchExpressionType" />.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.NotType.Item" /> Может быть установлено с помощью любого из следующих типов:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AndType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ContainsExpressionType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ExcludesType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.ExistsType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsGreaterThanType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsGreaterThanOrEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsLessThanType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsLessThanOrEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.IsNotEqualToType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.NotType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.OrType" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

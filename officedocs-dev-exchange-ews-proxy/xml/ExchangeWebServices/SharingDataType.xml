@@ -1,0 +1,75 @@
+<Type Name="SharingDataType" FullName="ExchangeWebServices.SharingDataType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4b92329cd9adc5d52a2abbeeaf11379b938fbdba" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610685" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SharingDataType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SharingDataType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SharingDataType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SharingDataType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SharingDataType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SharingDataType" /> Перечисление указывает тип данных, которая совместно используется.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SharingDataType Calendar = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SharingDataType.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SharingDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что общей папке содержит данные календаря.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SharingDataType Contacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SharingDataType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SharingDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что общей папке содержит контактные сведения.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

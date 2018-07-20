@@ -1,0 +1,147 @@
+<Type Name="OccurrenceItemIdType" FullName="ExchangeWebServices.OccurrenceItemIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4b8f4b1cbff4127608d8859880a646fe6d33f141" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611418" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class OccurrenceItemIdType : ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OccurrenceItemIdType extends ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.OccurrenceItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class OccurrenceItemIdType&#xA;Inherits BaseItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OccurrenceItemIdType : ExchangeWebServices::BaseItemIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseItemIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> Определяет одно вхождение повторяющегося элемента.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OccurrenceItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.OccurrenceItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OccurrenceItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство получает или задает определенной версии одного экземпляра повторяющегося элемента шаблона.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство возвращает строку, содержащую изменить ключ, идентифицирующий определенной версии одного экземпляра повторяющегося элемента шаблона.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Свойство определяет определенной версии образца повторения или вхождения элемента. Изменить хозяином повторяющиеся или любой из его вхождения, <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> изменений. <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> Такое же для повторяющихся master и все вхождения.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceIndex">
+      <MemberSignature Language="C#" Value="public int InstanceIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstanceIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InstanceIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> Свойство получает или задает индекс экземпляра элемента.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> Свойство возвращает индекс экземпляра элемента.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurringMasterId">
+      <MemberSignature Language="C#" Value="public string RecurringMasterId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecurringMasterId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurringMasterId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RecurringMasterId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> Свойство получает или задает идентификатор повторяющегося главных повторяющегося элемента.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> Свойство возвращает идентификатор повторяющегося главных повторяющегося элемента.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,133 @@
+<Type Name="ContactsFolderType" FullName="ExchangeWebServices.ContactsFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2689228273573deb9d526a450d727da850801b88" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610827" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactsFolderType : ExchangeWebServices.BaseFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ContactsFolderType extends ExchangeWebServices.BaseFolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ContactsFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactsFolderType&#xA;Inherits BaseFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactsFolderType : ExchangeWebServices::BaseFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseFolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ContactsFolderType" /> Класс представляет папку контактов в почтовом ящике.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactsFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ContactsFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactsFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ContactsFolderType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ContactsFolderType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionSet">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionSetType PermissionSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PermissionSetType PermissionSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactsFolderType.PermissionSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionSet As PermissionSetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionSetType ^ PermissionSet { ExchangeWebServices::PermissionSetType ^ get(); void set(ExchangeWebServices::PermissionSetType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionSetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ContactsFolderType.PermissionSet" /> Свойство получает или задает <see cref="T:ExchangeWebServices.PermissionSetType" /> объект, представляющий все разрешения, которые настроены для указанной папки.</summary>
+        <value>Возвращает свойство <b>PermissionSet</b><see cref="T:ExchangeWebServices.PermissionSetType" /> объект, представляющий все разрешения, которые настроены для папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharingEffectiveRights">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionReadAccessType SharingEffectiveRights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionReadAccessType SharingEffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharingEffectiveRights As PermissionReadAccessType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionReadAccessType SharingEffectiveRights { ExchangeWebServices::PermissionReadAccessType get(); void set(ExchangeWebServices::PermissionReadAccessType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" /> Свойство получает или задает <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> объект, представляющий разрешения, которые клиент имеет для контактных данных, общий.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" /> — это свойство <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> объекта.</value>
+        <remarks>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRightsSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" /> сериализацию свойства в запрос SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharingEffectiveRightsSpecified">
+      <MemberSignature Language="C#" Value="public bool SharingEffectiveRightsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SharingEffectiveRightsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRightsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharingEffectiveRightsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SharingEffectiveRightsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRightsSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" /> сериализацию свойства в запрос SOAP.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRightsSpecified" /> свойство имеет <b>значение true</b> , если <see cref="P:ExchangeWebServices.ContactsFolderType.SharingEffectiveRights" /> сериализацию свойства в запрос SOAP; в противном случае — значение <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

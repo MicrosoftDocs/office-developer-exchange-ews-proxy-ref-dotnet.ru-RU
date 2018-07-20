@@ -1,0 +1,164 @@
+<Type Name="ForwardItemType" FullName="ExchangeWebServices.ForwardItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="18995d9cb02b22500076a869b9e07151047e938c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610174" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ForwardItemType : ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ForwardItemType extends ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ForwardItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ForwardItemType&#xA;Inherits SmartResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ForwardItemType : ExchangeWebServices::SmartResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SmartResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ForwardItemType" /> Класс представляет объект ответа прямого элемента, который используется для пересылки сообщений о собрании другому получателю.</summary>
+    <remarks>
+      <para>Необходимо задать свойство ReferenceItemId <see cref="T:ExchangeWebServices.ForwardItemType" /> объект для определения, отправляемого сообщения собрания. ToRecipients, CcRecipients или BccRecipients должен иметь значение получателей сообщения переадресованных собрания. Необходимо задать один получатель, если сообщение отправляется. Нет необходимости получателя, установите для ликвидации сообщения является сохранение.</para>
+      <para>Ниже перечислены только свойства, которые являются допустимыми для <see cref="T:ExchangeWebServices.ForwardItemType" />:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Subject" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Body" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.ToRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.CcRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.BccRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.From" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+    <example>
+      <para>Следующем примере показано, как пересылать приглашения на собрание для одного получателя и добавление контента в теле сообщения. Идентификатор элемента запроса на проведение собрания используется в <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> свойство.</para>
+      <code>static void ForwardItem(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    CreateItemType &lt;span class="label"&gt;request&lt;/span&gt; = new CreateItemType();
+
+    // Set the message disposition on the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDisposition = MessageDispositionType.SendAndSaveCopy;
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDispositionSpecified = true;
+    
+    // Create the ForwardItem response object.
+    ForwardItemType forwardItem = new ForwardItemType();
+    forwardItem.ToRecipients = new EmailAddressType[1];
+    forwardItem.ToRecipients[0] = new EmailAddressType();
+    forwardItem.ToRecipients[0].EmailAddress=  "someone@example.com";
+    forwardItem.NewBodyContent = new BodyType();
+    forwardItem.NewBodyContent.BodyType1 = BodyTypeType.Text;
+    forwardItem.NewBodyContent.Value = "You may want to attend this meeting.";
+
+    // Identify the meeting request to forward.
+    forwardItem.ReferenceItemId = new ItemIdType();
+    forwardItem.ReferenceItemId.Id = "AAArAG1za2lubmVyQG1haW5lcmNvbnRvc28";
+    forwardItem.ReferenceItemId.ChangeKey = "CwAAABYAAAAMoHzy8/QATr21q";
+
+    // Add the ForwardItem response object to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items = new NonEmptyArrayOfAllItemsType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items = new ItemType[1];
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items[0] = forwardItem;
+
+    // Send the request and get the response.
+    CreateItemResponseType response = esb.CreateItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+        if (iirmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Successfully forwarded meeting.");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ForwardItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ForwardItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ForwardItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ForwardItemType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ForwardItemType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,96 @@
+<Type Name="ItemQueryTraversalType" FullName="ExchangeWebServices.ItemQueryTraversalType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c9e205cf45ee7c428a53f9fbecea3527b9fba39c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610378" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ItemQueryTraversalType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ItemQueryTraversalType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemQueryTraversalType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ItemQueryTraversalType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemQueryTraversalType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Определяет, будет ли поиск элементов в папках или в корзину папки.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.FindItemType.Traversal" /> свойства <see cref="T:ExchangeWebServices.FindItemType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Associated">
+      <MemberSignature Language="C#" Value="Associated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemQueryTraversalType Associated = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemQueryTraversalType.Associated" />
+      <MemberSignature Language="VB.NET" Value="Associated" />
+      <MemberSignature Language="C++ CLI" Value="Associated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemQueryTraversalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemQueryTraversalType Shallow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemQueryTraversalType.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="C++ CLI" Value="Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemQueryTraversalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Возвращает только элементы в папке.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDeleted">
+      <MemberSignature Language="C#" Value="SoftDeleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemQueryTraversalType SoftDeleted = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemQueryTraversalType.SoftDeleted" />
+      <MemberSignature Language="VB.NET" Value="SoftDeleted" />
+      <MemberSignature Language="C++ CLI" Value="SoftDeleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemQueryTraversalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Возвращает только элементы, которые находятся в корзине папки.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

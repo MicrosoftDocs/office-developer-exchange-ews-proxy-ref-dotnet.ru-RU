@@ -1,0 +1,40 @@
+<Type Name="SetImListMigrationCompletedCompletedEventHandler" FullName="ExchangeWebServices.SetImListMigrationCompletedCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d4efbf1afc4be84e3e8917ea2ca7543055c4835e" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611219" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void SetImListMigrationCompletedCompletedEventHandler(object sender, SetImListMigrationCompletedCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SetImListMigrationCompletedCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SetImListMigrationCompletedCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SetImListMigrationCompletedCompletedEventHandler(sender As Object, e As SetImListMigrationCompletedCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SetImListMigrationCompletedCompletedEventHandler(System::Object ^ sender, SetImListMigrationCompletedCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.SetImListMigrationCompletedCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

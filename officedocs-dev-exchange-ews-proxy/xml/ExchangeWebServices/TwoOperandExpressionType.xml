@@ -1,0 +1,139 @@
+<Type Name="TwoOperandExpressionType" FullName="ExchangeWebServices.TwoOperandExpressionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b7b005b2620caf41e62ffcee9cededd1058457f7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611026" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class TwoOperandExpressionType : ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit TwoOperandExpressionType extends ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TwoOperandExpressionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TwoOperandExpressionType&#xA;Inherits SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TwoOperandExpressionType abstract : ExchangeWebServices::SearchExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SearchExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsNotEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsGreaterThanOrEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsGreaterThanType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsLessThanType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IsLessThanOrEqualToType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.TwoOperandExpressionType" /> Класс является базовым классом для производных классов, которые представляют ограничение, которое формируется путем сравнения двух значений от друг с другом.</summary>
+    <remarks>
+      <para>
+        <see cref="T:ExchangeWebServices.TwoOperandExpressionType" /> Класс является базовым классом для <see cref="T:ExchangeWebServices.IsEqualToType" />, <see cref="T:ExchangeWebServices.IsGreaterThanType" />, <see cref="T:ExchangeWebServices.IsGreaterThanOrEqualToType" />, <see cref="T:ExchangeWebServices.IsLessThanType" />, <see cref="T:ExchangeWebServices.IsLessThanOrEqualToType" />, и <see cref="T:ExchangeWebServices.IsNotEqualToType" /> классы.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected TwoOperandExpressionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TwoOperandExpressionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; TwoOperandExpressionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.TwoOperandExpressionType" /> Класс абстрактный и не может быть создан.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldURIOrConstant">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FieldURIOrConstantType FieldURIOrConstant { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FieldURIOrConstantType FieldURIOrConstant" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TwoOperandExpressionType.FieldURIOrConstant" />
+      <MemberSignature Language="VB.NET" Value="Public Property FieldURIOrConstant As FieldURIOrConstantType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FieldURIOrConstantType ^ FieldURIOrConstant { ExchangeWebServices::FieldURIOrConstantType ^ get(); void set(ExchangeWebServices::FieldURIOrConstantType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FieldURIOrConstantType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.TwoOperandExpressionType.FieldURIOrConstant" /> Свойство получает или задает значение свойства или константу, сравнивается с каждого элемента или папки в качестве ограничения.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.TwoOperandExpressionType.FieldURIOrConstant" /> Возвращает свойство <see cref="T:ExchangeWebServices.FieldURIOrConstantType" /> объекта, который задает свойство или константа, сравнивается с значение <see cref="P:ExchangeWebServices.TwoOperandExpressionType.Item" /> свойства.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TwoOperandExpressionType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.TwoOperandExpressionType.Item" /> Свойство получает или задает путь к свойству, которое выполняется поиск для каждого элемента или папки в поиск.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.TwoOperandExpressionType.Item" /> Возвращает свойство <see cref="T:ExchangeWebServices.BasePathToElementType" /> объект, представляющий либо <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, или <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> объекта.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

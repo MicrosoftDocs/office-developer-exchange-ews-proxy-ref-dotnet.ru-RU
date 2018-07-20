@@ -1,0 +1,114 @@
+<Type Name="GetSharingMetadataResponseMessageType" FullName="ExchangeWebServices.GetSharingMetadataResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8b18f5d6f483887a5d7a8f657a58ea2ff66530c9" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610324" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetSharingMetadataResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetSharingMetadataResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetSharingMetadataResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetSharingMetadataResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> Класс содержит состояние и результат одного вызова операции GetSharingMetadata.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetSharingMetadataResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetSharingMetadataResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetSharingMetadataResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedSharedFolderDataCollection">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EncryptedSharedFolderDataType[] EncryptedSharedFolderDataCollection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EncryptedSharedFolderDataType[] EncryptedSharedFolderDataCollection" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedSharedFolderDataCollection As EncryptedSharedFolderDataType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ EncryptedSharedFolderDataCollection { cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EncryptedSharedFolderData", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EncryptedSharedFolderDataType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" /> Свойство получает или задает массив <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> объектов, которые клиент может использовать для авторизации, совместное использование данных календаря или контактов с помощью других клиентов.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" /> свойства представляет собой массив из <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.InvalidRecipientType[] InvalidRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.InvalidRecipientType[] InvalidRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvalidRecipients As InvalidRecipientType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ InvalidRecipients { cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("InvalidRecipient", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" /> Свойство получает недопустимых получателей запрос общий доступ.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" /> представляет собой массив из <see cref="T:ExchangeWebServices.InvalidRecipientType" /> объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

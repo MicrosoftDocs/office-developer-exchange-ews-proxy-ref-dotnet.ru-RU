@@ -1,0 +1,185 @@
+<Type Name="DeleteFolderType" FullName="ExchangeWebServices.DeleteFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d0bc7b6556c81bf2285906bb8e61ecae11218494" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611287" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeleteFolderType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteFolderType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteFolderType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteFolderType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.DeleteFolderType" /> Класс представляет запрос на удаление папки из почтового ящика.</summary>
+    <remarks>
+      <para>Использование <see cref="T:ExchangeWebServices.DeleteFolderType" /> типа для удаления неуправляемые и управляемые папки. Невозможно удалить папок по умолчанию, например папки "Входящие" или удаленных элементов, с помощью этой операции.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>В следующем примере кода показано удаление обратимо две папки.</para>
+      <code>static void DeleteFolder(ExchangeServiceBinding esb)
+{ 
+    // Identify the folders to delete.
+    FolderIdType folder1 = new FolderIdType();
+    FolderIdType folder2 = new FolderIdType();
+    folder1.Id = "AQAlAE1B1";
+    folder2.Id = "AQAlAE1B2";
+    FolderIdType[] folders = new FolderIdType[2] { folder1, folder2 };
+
+    // Form the delete folder request.
+    DeleteFolderType &lt;span class="label"&gt;request&lt;/span&gt; = new DeleteFolderType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderIds = folders;
+    &lt;span class="label"&gt;request&lt;/span&gt;.DeleteType = DisposalType.SoftDelete;
+
+    try
+    {
+        // Send the request and get the response.
+        DeleteFolderResponseType response = esb.DeleteFolder(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            if (rmt.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Folder was not deleted.");
+            }
+            else if (rmt.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Folder was deleted.");
+            }
+            else
+                Console.WriteLine("Warning");
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.DeleteFolderType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.DeleteFolderType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DisposalType DeleteType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DisposalType DeleteType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteFolderType.DeleteType" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteType As DisposalType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DisposalType DeleteType { ExchangeWebServices::DisposalType get(); void set(ExchangeWebServices::DisposalType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.DeleteFolderType.DeleteType" /> Свойство получает или задает перечисление, которое описывает способ удаления папок. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.DeleteFolderType.DeleteType" /> Возвращает свойство <see cref="T:ExchangeWebServices.DisposalType" /> перечисления.</value>
+        <remarks>
+          <para>Ниже приведены возможные значения для <see cref="T:ExchangeWebServices.DisposalType" /> перечисления:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="F:ExchangeWebServices.DisposalType.HardDelete" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:ExchangeWebServices.DisposalType.MoveToDeletedItems" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:ExchangeWebServices.DisposalType.SoftDelete" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] FolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] FolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteFolderType.FolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ FolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.DeleteFolderType.FolderIds" /> Свойство получает или задает набор идентификаторов папки для папок, которые следует удалить из почтового ящика. Данное свойство Возвращает или задает набор <see cref="T:ExchangeWebServices.FolderIdType" /> объектов. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.DeleteFolderType.FolderIds" /> Возвращает свойство <see cref="T:ExchangeWebServices.BaseFolderType" /> массив, содержащий все папках для создания.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

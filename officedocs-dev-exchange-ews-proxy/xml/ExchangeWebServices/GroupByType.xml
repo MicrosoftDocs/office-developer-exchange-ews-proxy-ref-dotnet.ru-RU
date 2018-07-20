@@ -1,0 +1,126 @@
+<Type Name="GroupByType" FullName="ExchangeWebServices.GroupByType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c938e503e766b1362c6113334b8e2ff81a38cca" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611091" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GroupByType : ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupByType extends ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GroupByType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupByType&#xA;Inherits BaseGroupByType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupByType : ExchangeWebServices::BaseGroupByType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseGroupByType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GroupByType" /> Класс представляет произвольной группировки для запросов FindItem.</summary>
+    <remarks>Ответ <para>FindItem будет содержать коллекцию групп. Каждой группе будет содержать все элементы, которым пришлось совпадающие значения для свойства GroupBy.</para><para>Увидеть <see cref="T:ExchangeWebServices.FindItemType" /> пример группового запроса.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupByType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GroupByType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GroupByType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GroupByType" /> класса.</summary>
+        <remarks>
+          <para>Просмотреть <see cref="T:ExchangeWebServices.FindItemType" /> пример группового запроса.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateOn">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AggregateOnType AggregateOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AggregateOnType AggregateOn" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupByType.AggregateOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateOn As AggregateOnType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AggregateOnType ^ AggregateOn { ExchangeWebServices::AggregateOnType ^ get(); void set(ExchangeWebServices::AggregateOnType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AggregateOnType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> Свойство получает или задает поле, которое используется для определения порядка групп в ответе.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> Возвращает свойство <see cref="T:ExchangeWebServices.AggregateOnType" /> объекта.</value>
+        <remarks>
+          <para>Просмотреть <see cref="T:ExchangeWebServices.FindItemType" /> пример группового запроса.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupByType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GroupByType.Item" /> Свойство получает или задает поле, которое указывает свойство, которое запросов FindItem используется для группирования результатов.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GroupByType.Item" /> Возвращает свойство <see cref="T:ExchangeWebServices.BasePathToElementType" /> объект, представляющий либо <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, или <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> объекта.</value>
+        <remarks>
+          <para>Просмотреть <see cref="T:ExchangeWebServices.FindItemType" /> пример группового запроса.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

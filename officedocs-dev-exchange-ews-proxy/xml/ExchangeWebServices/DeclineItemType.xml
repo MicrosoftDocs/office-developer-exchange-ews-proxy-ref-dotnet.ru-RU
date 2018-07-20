@@ -1,0 +1,120 @@
+<Type Name="DeclineItemType" FullName="ExchangeWebServices.DeclineItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="85a70a9dee2d5bf5bb94358b6ac416af0edf4b59" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610611" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeclineItemType : ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeclineItemType extends ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeclineItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeclineItemType&#xA;Inherits WellKnownResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeclineItemType : ExchangeWebServices::WellKnownResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.WellKnownResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.DeclineItemType" /> Класс представляет объект ответа отклонить элемента, используемый для ответа на собрании элемента календаря или запроса.</summary>
+    <remarks>
+      <para>Чтобы отклонить приглашение на собрание или элемент в календаре, необходимо выполнить следующие действия:</para>
+      <list type="number">
+        <item>
+          <description>Поиск приглашения на собрание или в календаре элементов с помощью операции FindItem.</description>
+        </item>
+        <item>
+          <description>Получить идентификатор элемента приглашения на собрание или элемент в календаре.</description>
+        </item>
+        <item>
+          <description>Передать идентификатор элемента запроса на проведение собрания или календаря элемента к свойству ReferenceItemId <see cref="T:ExchangeWebServices.DeclineItemType" />.</description>
+        </item>
+        <item>
+          <description>Звонок с помощью операции CreateItem <see cref="T:ExchangeWebServices.DeclineItemType" /> тип объекта ответа, чтобы отклонить приглашение на собрание или элемент в календаре.</description>
+        </item>
+      </list>
+      <para>
+        <b>Примечание</b>: пользователь не может отклонить приглашение на собрание или в календаре элемента, для которого пользователь является организатором.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>В следующем примере показано, как отклонение приглашения на собрание. Идентификатор элемента запроса на проведение собрания используется в <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> свойство.</para>
+      <code>static void DeclineItem(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    CreateItemType &lt;span class="label"&gt;request&lt;/span&gt; = new CreateItemType();
+
+    // Set the message disposition on the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDisposition = MessageDispositionType.SendAndSaveCopy;
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDispositionSpecified = true;
+
+    // Create the DeclineItem response object.
+    DeclineItemType declineItem = new DeclineItemType();
+
+    // Identify the meeting request to decline.
+    declineItem.ReferenceItemId = new ItemIdType();
+    declineItem.ReferenceItemId.Id = "AAArAG1z";
+
+    // Add the DeclineItem response object to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items = new NonEmptyArrayOfAllItemsType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items = new ItemType[1];
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items[0] = declineItem;
+
+    // Send the request and get the response.
+    CreateItemResponseType response = esb.CreateItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+        if (iirmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Successfully declined meeting");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeclineItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeclineItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeclineItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.DeclineItemType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.DeclineItemType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

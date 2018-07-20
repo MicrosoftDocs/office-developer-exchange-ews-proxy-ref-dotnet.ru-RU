@@ -1,0 +1,122 @@
+<Type Name="CalendarViewType" FullName="ExchangeWebServices.CalendarViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ec120a52d5dbb067b5d18e31a0d20bc377a8de60" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610984" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CalendarViewType" /> Класс представляет параметры, используемые для возврата элементов календаря, отображенные в календаре.</summary>
+    <remarks>
+      <para>Просмотр календаря возвращает элементы одного календаря и вхождения повторяющихся элементов календаря. Повторяющаяся элементов главного календаря, не повторяющихся вхождений календаря, возвращаются, если не используется представление "Календарь". Этот тип используется только в запросах FindItem операции.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.CalendarViewType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CalendarViewType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> Свойство задает окончания интервала времени для представления календаря.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> Свойство возвращает объект даты и времени окончания интервала времени представление "Календарь".</value>
+        <remarks>
+          <para>Это свойство не возвращается в ответ FindItem.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> Свойство задает начало интервала времени для представления календаря.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> Свойство возвращает объект даты и времени, представляющий начало интервала времени представление "Календарь".</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

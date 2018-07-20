@@ -1,0 +1,41 @@
+<Type Name="FindItemCompletedEventHandler" FullName="ExchangeWebServices.FindItemCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="db15d17dd4bb936224793e1b0ea1e1dda2f0479b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610679" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void FindItemCompletedEventHandler(object sender, FindItemCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FindItemCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FindItemCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub FindItemCompletedEventHandler(sender As Object, e As FindItemCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void FindItemCompletedEventHandler(System::Object ^ sender, FindItemCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.FindItemCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>
+      <see cref="T:ExchangeWebServices.FindItemCompletedEventHandler" /> — Это тип делегата, который определяет обработчик событий, который будет вызываться при завершении соответствующей асинхронной операции.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

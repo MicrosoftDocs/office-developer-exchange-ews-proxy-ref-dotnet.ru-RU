@@ -1,0 +1,96 @@
+<Type Name="BaseDelegateType" FullName="ExchangeWebServices.BaseDelegateType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7bea9de43d00f211917491e5eebb785bcc59de7d" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611286" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class BaseDelegateType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BaseDelegateType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseDelegateType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseDelegateType abstract : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveDelegateType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UpdateDelegateType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddDelegateType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetDelegateType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.BaseDelegateType" /> Класс является базовым классом для производных классов, которые представляют запроса, которая относится к делегировать управление.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseDelegateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BaseDelegateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseDelegateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.BaseDelegateType" /> Класс абстрактный и не может быть создан.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseDelegateType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseDelegateType.Mailbox" /> Свойство получает или задает <see cref="T:ExchangeWebServices.EmailAddressType" /> объект, который представляет объект почты службы каталогов Active Directory.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.BaseDelegateType.Mailbox" /> Возвращает свойство <see cref="T:ExchangeWebServices.EmailAddressType" /> объект, представляющий объект Active Directory с включенной поддержкой почты.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,114 @@
+<Type Name="ExchangeImpersonationType" FullName="ExchangeWebServices.ExchangeImpersonationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6259f9caff164411bf4d54a64a7a0863bf045b61" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610638" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExchangeImpersonationType : System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExchangeImpersonationType extends System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExchangeImpersonationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExchangeImpersonationType&#xA;Inherits SoapHeader" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExchangeImpersonationType : System::Web::Services::Protocols::SoapHeader" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.Services.Protocols.SoapHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlRoot("ExchangeImpersonation", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Экземпляр <see cref="T:ExchangeWebServices.ExchangeImpersonationType" /> класс используется в качестве заголовка SOAP запроса. При наличии этого экземпляра вызывающего олицетворяет учетную запись, которая содержится в <see cref="T:ExchangeWebServices.ExchangeImpersonationType" /> экземпляра.</summary>
+    <remarks>
+      <para>Вызывающий учетная запись должна иметь <b>ms-exch-impersonation</b> непосредственно на сервер клиентского доступа и <b>ms-exch-MayImpersonate</b> непосредственно в либо базы данных почтовых ящиков, почтовых ящиков для олицетворения или пользователей/контакт Active Directory объект.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExchangeImpersonationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExchangeImpersonationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExchangeImpersonationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ExchangeImpersonationType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ExchangeImpersonationType" /> типа.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnyAttr">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlAttribute[] AnyAttr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlAttribute[] AnyAttr" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExchangeImpersonationType.AnyAttr" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnyAttr As XmlAttribute()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ AnyAttr { cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ get(); void set(cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAnyAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlAttribute[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Возвращает <see cref="T:System.Xml.XmlAttribute" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectingSID">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConnectingSIDType ConnectingSID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ConnectingSIDType ConnectingSID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExchangeImpersonationType.ConnectingSID" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectingSID As ConnectingSIDType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ConnectingSIDType ^ ConnectingSID { ExchangeWebServices::ConnectingSIDType ^ get(); void set(ExchangeWebServices::ConnectingSIDType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConnectingSIDType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExchangeImpersonationType.ConnectingSID" /> Свойство получает или задает учетную запись для олицетворения при использовании заголовка ExchangeImpersonation SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExchangeImpersonationType.ConnectingSID" /> Свойство возвращает учетную запись для олицетворения.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

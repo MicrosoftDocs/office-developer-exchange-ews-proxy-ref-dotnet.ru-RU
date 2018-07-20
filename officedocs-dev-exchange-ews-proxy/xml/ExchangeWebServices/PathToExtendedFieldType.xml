@@ -1,0 +1,308 @@
+<Type Name="PathToExtendedFieldType" FullName="ExchangeWebServices.PathToExtendedFieldType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b8ad9cd7c979b233b6f2b452b037e7a656f5ac3b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610391" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class PathToExtendedFieldType : ExchangeWebServices.BasePathToElementType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PathToExtendedFieldType extends ExchangeWebServices.BasePathToElementType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PathToExtendedFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PathToExtendedFieldType&#xA;Inherits BasePathToElementType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathToExtendedFieldType : ExchangeWebServices::BasePathToElementType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePathToElementType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> Класс представляет расширенных свойств MAPI.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PathToExtendedFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PathToExtendedFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathToExtendedFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedPropertySetId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedPropertySetType DistinguishedPropertySetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedPropertySetType DistinguishedPropertySetId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedPropertySetId As DistinguishedPropertySetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedPropertySetType DistinguishedPropertySetId { ExchangeWebServices::DistinguishedPropertySetType get(); void set(ExchangeWebServices::DistinguishedPropertySetType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> Свойство получает или задает известных свойство значение идентификаторов для расширенных свойств MAPI.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> Возвращает свойство <see cref="T:ExchangeWebServices.DistinguishedPropertySetType" /> перечисления.</value>
+        <remarks>
+          <para>Если <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> используется свойство <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> свойства не может использоваться. Это свойство необходимо использовать либо <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> или <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> свойства и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyType" /> свойство.</para>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetIdSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> сериализацию свойства в сообщения SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedPropertySetIdSpecified">
+      <MemberSignature Language="C#" Value="public bool DistinguishedPropertySetIdSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DistinguishedPropertySetIdSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetIdSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedPropertySetIdSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DistinguishedPropertySetIdSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetIdSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> сериализацию свойства в сообщения SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetIdSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyId">
+      <MemberSignature Language="C#" Value="public int PropertyId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PropertyId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PropertyId { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> Свойство Возвращает или задает расширенное свойство по идентификатору его отправки.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> Свойство возвращает целое число, представляющее идентификатор диспетчеризации свойства.</value>
+        <remarks>
+          <para>Можно определить идентификатор диспетчеризации в десятичном или шестнадцатеричном форматах. <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> Свойства должен быть связан с либо <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> или <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> свойство.</para>
+          <para>Если <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> используется, <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> свойства не могут быть использованы.</para>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyIdSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> сериализацию свойства в сообщения SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyIdSpecified">
+      <MemberSignature Language="C#" Value="public bool PropertyIdSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PropertyIdSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertyIdSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyIdSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PropertyIdSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyIdSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> сериализацию свойства в сообщения SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyIdSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyName">
+      <MemberSignature Language="C#" Value="public string PropertyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PropertyName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PropertyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> Свойство Возвращает или задает расширенное свойство по его имени.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> Свойство возвращает строку, представляющую расширенном свойстве по имени.</value>
+        <remarks>
+          <para>Это свойство должен быть связан с либо <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> или <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> свойство.</para>
+          <para>При использовании этого атрибута <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> свойства не могут быть использованы.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySetId">
+      <MemberSignature Language="C#" Value="public string PropertySetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PropertySetId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySetId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PropertySetId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> Свойство получает или задает расширенных набор свойств или пространство имен по их идентификатору GUID MAPI.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> Свойство возвращает строку, представляющую идентификатор GUID.</value>
+        <remarks>
+          <para>Если это свойство используется, <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> свойства не может использоваться. Это свойство необходимо использовать либо <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> или <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> свойств и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyType" /> свойство.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyTag">
+      <MemberSignature Language="C#" Value="public string PropertyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PropertyTag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyTag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PropertyTag { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> Свойство получает или задает свойство tag без введите часть тега.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> Свойство возвращает строковое представление тега свойства без введите часть тега.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> Свойство может быть представлена как шестнадцатеричного или короткое целое число.</para>
+          <para>Диапазон от 0x8000 до 0xFFFE представляет собой настраиваемый диапазон свойств. База данных почтовых ящиков обнаруживает настраиваемого свойства в первый раз, назначает, настраиваемые свойства, тег свойства в диапазоне настраиваемое свойство 0x8000 0xFFFE. Тег указанного настраиваемого свойства вероятнее всего будут отличаться между базами данных. Таким образом запрос настраиваемого свойства, свойство tag можно вернуть различных свойств в разных базах данных. Использование <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> свойство запрещена для настраиваемых свойств. Используйте <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" /> свойство и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" /> или <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> свойство.</para>
+          <para>
+            <b>Важно</b>: доступ к любого настраиваемого свойства от 0x8000 до 0xFFFE с помощью идентификатора GUID + имя или идентификатор.</para>
+          <para>Если <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyTag" /> используется свойство <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" />, <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertySetId" />, <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyName" />, и <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyId" /> свойства не могут быть использованы.</para>
+          <b>Примечание</b>
+          <para>: Тег свойства нельзя использовать для свойств настраиваемых диапазона 0x8000 0xFFFE. В этом случае необходимо использовать именованное свойство.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MapiPropertyTypeType PropertyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MapiPropertyTypeType PropertyType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToExtendedFieldType.PropertyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyType As MapiPropertyTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MapiPropertyTypeType PropertyType { ExchangeWebServices::MapiPropertyTypeType get(); void set(ExchangeWebServices::MapiPropertyTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MapiPropertyTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyType" /> Свойство получает или задает тип свойства тега свойства.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToExtendedFieldType.PropertyType" /> Возвращает свойство <see cref="T:ExchangeWebServices.MapiPropertyTypeType" /> перечисление, определяющее тип свойства.</value>
+        <remarks>
+          <para>Тип свойства тега свойства соответствует бы значительные word в свойство tag.</para>
+          <para>В Microsoft .NET, значение типа Long — 64-разрядное целое число, тогда как MAPI и COM — 32-разрядное целое значение типа Long. Большинство разработчиков использовать Microsoft .NET Framework для разработки веб-служб Exchange клиентских приложений. Таким образом, именование .NET используется вместо MAPI именования. Например свойство PR_MESSAGE_FLAGS MAPI, 0x0E07, — это тип PT_LONG. В .NET это считается целое число. Расширенные свойства для PR_MESSAGE_FLAGS определяется как &lt;t:ExtendedFieldURI PropertyTag = «0x0E07» PropertyType = «Целое число» /&gt;.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

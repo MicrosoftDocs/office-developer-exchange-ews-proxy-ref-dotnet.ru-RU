@@ -1,0 +1,173 @@
+<Type Name="MeetingRequestTypeType" FullName="ExchangeWebServices.MeetingRequestTypeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2e4cea6d504b853255588847953def029f51845" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611391" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MeetingRequestTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MeetingRequestTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MeetingRequestTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.MeetingRequestTypeType" /> Перечисление Описание типов приглашений на собрания.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> свойства <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullUpdate">
+      <MemberSignature Language="C#" Value="FullUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType FullUpdate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.FullUpdate" />
+      <MemberSignature Language="VB.NET" Value="FullUpdate" />
+      <MemberSignature Language="C++ CLI" Value="FullUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Определяет запрос на собрание как полное обновление для существующего запроса. Полное обновление обновил времени и информационного контента.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationalUpdate">
+      <MemberSignature Language="C#" Value="InformationalUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType InformationalUpdate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.InformationalUpdate" />
+      <MemberSignature Language="VB.NET" Value="InformationalUpdate" />
+      <MemberSignature Language="C++ CLI" Value="InformationalUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Определяет запрос на собрание, содержащее обновления информационного контента.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMeetingRequest">
+      <MemberSignature Language="C#" Value="NewMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType NewMeetingRequest = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.NewMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="NewMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="NewMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Указывает запрос на собрание в качестве нового приглашения на собрание.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что собрание тип не определен.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outdated">
+      <MemberSignature Language="C#" Value="Outdated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType Outdated = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.Outdated" />
+      <MemberSignature Language="VB.NET" Value="Outdated" />
+      <MemberSignature Language="C++ CLI" Value="Outdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Определяет запрос на собрание считается устаревшим.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalWantsCopy">
+      <MemberSignature Language="C#" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType PrincipalWantsCopy = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.PrincipalWantsCopy" />
+      <MemberSignature Language="VB.NET" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalWantsCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Показывает, что запрос на собрание принадлежит участника, передаваемые сообщений о собрании делегата.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SilentUpdate">
+      <MemberSignature Language="C#" Value="SilentUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MeetingRequestTypeType SilentUpdate = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MeetingRequestTypeType.SilentUpdate" />
+      <MemberSignature Language="VB.NET" Value="SilentUpdate" />
+      <MemberSignature Language="C++ CLI" Value="SilentUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Указывает запрос на собрание в качестве автоматической обновление для существующего собрания.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,360 @@
+<Type Name="ExpandDLResponseMessageType" FullName="ExchangeWebServices.ExpandDLResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e06609ea393ee97390b53c989ab4ad6028d2e6d0" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20611290" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExpandDLResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExpandDLResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExpandDLResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandDLResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExpandDLResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.ExpandDLResponseMessageType" /> Класс содержит состояние и результат одного запроса ExpandDL.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExpandDLResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExpandDLResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExpandDLResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.ExpandDLResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.ExpandDLResponseMessageType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominator">
+      <MemberSignature Language="C#" Value="public int AbsoluteDenominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AbsoluteDenominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AbsoluteDenominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominator" /> Свойство получает Далее делителя для использования в следующем запросе при выполнении дробная разбиение на страницы.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominator" /> Свойство возвращает целое число, представляющее следующий делителя для использования в следующем запросе при выполнении дробная разбиение на страницы.</value>
+        <remarks>
+          <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominatorSpecified">
+      <MemberSignature Language="C#" Value="public bool AbsoluteDenominatorSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominatorSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AbsoluteDenominatorSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominatorSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominator" /> сериализацию свойства в ответе SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominatorSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.AbsoluteDenominator" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DLExpansion">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfDLExpansionType DLExpansion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfDLExpansionType DLExpansion" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.DLExpansion" />
+      <MemberSignature Language="VB.NET" Value="Public Property DLExpansion As ArrayOfDLExpansionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfDLExpansionType ^ DLExpansion { ExchangeWebServices::ArrayOfDLExpansionType ^ get(); void set(ExchangeWebServices::ArrayOfDLExpansionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfDLExpansionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.DLExpansion" /> Возвращает свойство или наборы и массив почтовых ящиков, которые содержатся в списке рассылки.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.DLExpansion" /> Возвращает свойство <see cref="T:ExchangeWebServices.ArrayOfDLExpansionType" /> объекта.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRange">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRange" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRange" /> Свойство получает или задает значение, указывающее, требуется ли дополнительные разбиение на страницы.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRange" /> Свойство возвращает <b>значение true</b> , если текущие результаты содержат последнего элемента в запросе; в противном случае это свойство возвращает значение false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRangeSpecified">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRangeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRangeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRangeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRangeSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRange" /> сериализацию свойства в ответе SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRangeSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IncludesLastItemInRange" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffset">
+      <MemberSignature Language="C#" Value="public int IndexedPagingOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IndexedPagingOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int IndexedPagingOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffset" /> Свойство получает следующий индекс, который следует использовать для следующего запроса при использовании индексированного представления разбиение на страницы.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffset" /> Свойство возвращает целое число, представляющее следующий индекс, который следует использовать для следующего запроса при использовании индексированного представления разбиение на страницы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool IndexedPagingOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IndexedPagingOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffsetSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffset" /> сериализацию свойства в ответе SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffsetSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.IndexedPagingOffset" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffset">
+      <MemberSignature Language="C#" Value="public int NumeratorOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumeratorOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumeratorOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffset" /> Свойство получает новое значение перечислителя использовать для следующего запроса при использовании просмотров страниц дроби.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffset" /> Свойство возвращает значение типа integer, который представляет новое значение перечислителя использовать для следующего запроса при использовании просмотров страниц дроби.</value>
+        <remarks>
+          <para>Это свойство только для чтения, так как он возвращается, только в ответ. Установщик свойства в подписи свойство является артефактов генератора прокси-сервера.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool NumeratorOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NumeratorOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NumeratorOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffsetSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffset" /> сериализацию свойства в ответе SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffsetSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.NumeratorOffset" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInView">
+      <MemberSignature Language="C#" Value="public int TotalItemsInView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalItemsInView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInView" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalItemsInView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInView" /> Свойство возвращает общее число элементов, которые ограничение игнорируется.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInView" /> Свойство возвращает целое число, представляющее общее число элементов, которые ограничение игнорируется.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInViewSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalItemsInViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalItemsInViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalItemsInViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInViewSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInView" /> сериализацию свойства в ответе SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInViewSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.ExpandDLResponseMessageType.TotalItemsInView" /> сериализацию свойства в ответе SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

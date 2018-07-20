@@ -1,0 +1,74 @@
+<Type Name="RetentionType" FullName="ExchangeWebServices.RetentionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6b4a9065f70a9bcd33192501523ef8e8ebc837aa" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610186" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RetentionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed RetentionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RetentionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Archive">
+      <MemberSignature Language="C#" Value="Archive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionType Archive = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionType.Archive" />
+      <MemberSignature Language="VB.NET" Value="Archive" />
+      <MemberSignature Language="C++ CLI" Value="Archive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionType Delete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

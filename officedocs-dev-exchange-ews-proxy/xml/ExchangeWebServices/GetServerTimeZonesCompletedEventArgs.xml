@@ -1,0 +1,62 @@
+<Type Name="GetServerTimeZonesCompletedEventArgs" FullName="ExchangeWebServices.GetServerTimeZonesCompletedEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2ac35ff6a066a3b0d19d2feff368d6749c4f246b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610690" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetServerTimeZonesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetServerTimeZonesCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetServerTimeZonesCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetServerTimeZonesCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetServerTimeZonesCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GetServerTimeZonesCompletedEventArgs" /> Класс предоставляет данные для <see cref="E:ExchangeWebServices.ExchangeServiceBinding.GetServerTimeZonesCompleted" /> события.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetServerTimeZonesResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.GetServerTimeZonesResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As GetServerTimeZonesResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetServerTimeZonesResponseType ^ Result { ExchangeWebServices::GetServerTimeZonesResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetServerTimeZonesResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetServerTimeZonesCompletedEventArgs.Result" /> Получает <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseType" /> объект для асинхронного вызова операции GetServerTimeZones.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.GetServerTimeZonesCompletedEventArgs.Result" /> — это свойство <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseType" /> объекта.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

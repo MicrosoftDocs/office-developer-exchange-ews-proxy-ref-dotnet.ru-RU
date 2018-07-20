@@ -1,0 +1,104 @@
+<Type Name="RecurringDayTransitionType" FullName="ExchangeWebServices.RecurringDayTransitionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="50d6e6c62f423dfbedb8204d6ec75319f0001865" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20610523" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RecurringDayTransitionType : ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RecurringDayTransitionType extends ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurringDayTransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecurringDayTransitionType&#xA;Inherits RecurringTimeTransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringDayTransitionType : ExchangeWebServices::RecurringTimeTransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurringTimeTransitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> Класс определяет часовой пояс перехода, что происходит в тот же день каждый год.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecurringDayTransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurringDayTransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RecurringDayTransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeek">
+      <MemberSignature Language="C#" Value="public string DayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" /> Свойство получает или задает день недели, на котором происходит переход часового пояса.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" /> свойства — это один из следующих значений: SundayMondayTuesdayWednesdayThursdayFridaySaturday строки</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Occurrence">
+      <MemberSignature Language="C#" Value="public int Occurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Occurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Occurrence As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Occurrence { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" /> Свойство Возвращает или задает день недели, месяца, которая происходит переход часового пояса.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" /> свойства — целое число, представляющее день недели, месяца, которая происходит переход часового пояса. В следующей таблице приведены возможные значения. ValueDescription1The первого появления указан определенный день недели от начала второй month.2The вхождения указан определенный день недели от начала третий month.3The вхождения указан определенный день недели от начала Четвертая month.4The вхождения указан определенный день недели от начала месяца.-1Процесс первого появления указан определенный день недели в конце месяца.-2The второй экземпляр указанного дня недели в конце месяца.-3Для Третий вхождения указан определенный день недели в конце месяца.-4The четвертый вхождения указан определенный день недели в конце месяца.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
