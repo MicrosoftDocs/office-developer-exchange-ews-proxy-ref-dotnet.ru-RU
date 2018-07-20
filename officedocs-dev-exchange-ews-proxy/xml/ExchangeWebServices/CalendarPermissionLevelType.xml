@@ -1,0 +1,268 @@
+<Type Name="CalendarPermissionLevelType" FullName="ExchangeWebServices.CalendarPermissionLevelType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0047248303f8d95896b3144cd8b58d44c2ce7889" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609653" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CalendarPermissionLevelType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarPermissionLevelType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarPermissionLevelType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarPermissionLevelType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarPermissionLevelType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CalendarPermissionLevelType" /> Перечисление уровень разрешений, который пользователь имеет папки календаря. Это перечисление была введена в пакете обновления 1 (SP1) для Microsoft Exchange Server 2007.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.CalendarPermissionType.CalendarPermissionLevel" /> свойства <see cref="T:ExchangeWebServices.CalendarPermissionType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Author">
+      <MemberSignature Language="C#" Value="Author" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Author = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Author" />
+      <MemberSignature Language="VB.NET" Value="Author" />
+      <MemberSignature Language="C++ CLI" Value="Author" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Пользователя можно создать и читать все элементы в папке и изменить и удалить только элементы, которые пользователь создает.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contributor">
+      <MemberSignature Language="C#" Value="Contributor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Contributor = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Contributor" />
+      <MemberSignature Language="VB.NET" Value="Contributor" />
+      <MemberSignature Language="C++ CLI" Value="Contributor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Пользователь может создавать элементы в папке. Содержимое папки не отображаются.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Custom = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="C++ CLI" Value="Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Пользователь имеет пользовательские разрешения доступа в общей папке.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Editor">
+      <MemberSignature Language="C#" Value="Editor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Editor = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Editor" />
+      <MemberSignature Language="VB.NET" Value="Editor" />
+      <MemberSignature Language="C++ CLI" Value="Editor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Пользователь может создание, чтение, изменение и удаление всех элементов в папке.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyTimeAndSubjectAndLocation">
+      <MemberSignature Language="C#" Value="FreeBusyTimeAndSubjectAndLocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType FreeBusyTimeAndSubjectAndLocation = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.FreeBusyTimeAndSubjectAndLocation" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyTimeAndSubjectAndLocation" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyTimeAndSubjectAndLocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Пользователь может просматривать занятости в календаре и тему и место встречи.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyTimeOnly">
+      <MemberSignature Language="C#" Value="FreeBusyTimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType FreeBusyTimeOnly = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.FreeBusyTimeOnly" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyTimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyTimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Пользователь может просматривать только занятости в календаре.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Пользователь не имеет разрешений на папку.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoneditingAuthor">
+      <MemberSignature Language="C#" Value="NoneditingAuthor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType NoneditingAuthor = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.NoneditingAuthor" />
+      <MemberSignature Language="VB.NET" Value="NoneditingAuthor" />
+      <MemberSignature Language="C++ CLI" Value="NoneditingAuthor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Пользователь можно создавать и читать все элементы в папке и удалить только элементы, которые пользователь создает.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="Owner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Owner = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Owner" />
+      <MemberSignature Language="VB.NET" Value="Owner" />
+      <MemberSignature Language="C++ CLI" Value="Owner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Пользователь может создание, чтение, изменить и удаление всех элементов в папке и создавать вложенные папки. Пользователь является владельцем папки и папки контактов.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingAuthor">
+      <MemberSignature Language="C#" Value="PublishingAuthor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType PublishingAuthor = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.PublishingAuthor" />
+      <MemberSignature Language="VB.NET" Value="PublishingAuthor" />
+      <MemberSignature Language="C++ CLI" Value="PublishingAuthor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Пользователя можно создавать и читать все элементы в папке, изменить и удалить только элементы, которые пользователь создает и создавать вложенные папки.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingEditor">
+      <MemberSignature Language="C#" Value="PublishingEditor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType PublishingEditor = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.PublishingEditor" />
+      <MemberSignature Language="VB.NET" Value="PublishingEditor" />
+      <MemberSignature Language="C++ CLI" Value="PublishingEditor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Пользователь может создание, чтение, изменить и удаление всех элементов в папке и создавать вложенные папки.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reviewer">
+      <MemberSignature Language="C#" Value="Reviewer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionLevelType Reviewer = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionLevelType.Reviewer" />
+      <MemberSignature Language="VB.NET" Value="Reviewer" />
+      <MemberSignature Language="C++ CLI" Value="Reviewer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Пользователи могут читать все элементы в папке.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

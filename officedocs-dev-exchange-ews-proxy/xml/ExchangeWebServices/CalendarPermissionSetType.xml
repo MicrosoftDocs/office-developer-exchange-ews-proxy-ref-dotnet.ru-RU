@@ -1,0 +1,116 @@
+<Type Name="CalendarPermissionSetType" FullName="ExchangeWebServices.CalendarPermissionSetType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d0589967f362fdcdd7e4e5646db72cc56e643b43" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609572" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarPermissionSetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarPermissionSetType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarPermissionSetType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarPermissionSetType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarPermissionSetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> Класс содержит все разрешения, которые настроены для папки «Календарь». Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarPermissionSetType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarPermissionSetType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarPermissionSetType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarPermissions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionType[] CalendarPermissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CalendarPermissionType[] CalendarPermissions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarPermissions As CalendarPermissionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ CalendarPermissions { cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("CalendarPermission", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" /> Свойство получает или задает календарь разрешения для папки.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.CalendarPermissionType" /> объекты, которые содержат календарь разрешения для папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnknownEntries">
+      <MemberSignature Language="C#" Value="public string[] UnknownEntries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] UnknownEntries" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnknownEntries As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ UnknownEntries { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("UnknownEntry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" /> Свойство получает или задает записи, которые не могут быть относительно службы каталогов Active Directory.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" /> Свойство возвращает массив строковых значений, содержащую записи, которые не могут быть относительно Active Directory.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

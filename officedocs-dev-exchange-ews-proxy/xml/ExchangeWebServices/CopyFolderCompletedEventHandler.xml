@@ -1,0 +1,41 @@
+<Type Name="CopyFolderCompletedEventHandler" FullName="ExchangeWebServices.CopyFolderCompletedEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c10e46eb341a2867dfb0ae9f7ba0dd3f26a2c6c5" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609836" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void CopyFolderCompletedEventHandler(object sender, CopyFolderCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CopyFolderCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CopyFolderCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub CopyFolderCompletedEventHandler(sender As Object, e As CopyFolderCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void CopyFolderCompletedEventHandler(System::Object ^ sender, CopyFolderCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.CopyFolderCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>
+      <see cref="T:ExchangeWebServices.CopyFolderCompletedEventHandler" /> — Это тип делегата, который определяет обработчик событий, который будет вызываться при завершении соответствующей асинхронной операции.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

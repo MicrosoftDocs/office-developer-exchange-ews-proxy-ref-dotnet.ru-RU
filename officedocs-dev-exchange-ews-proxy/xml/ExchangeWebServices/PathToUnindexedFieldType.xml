@@ -1,0 +1,100 @@
+<Type Name="PathToUnindexedFieldType" FullName="ExchangeWebServices.PathToUnindexedFieldType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c0bf06faa3bea53d2ba3c5934505d04b22224aa" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609789" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class PathToUnindexedFieldType : ExchangeWebServices.BasePathToElementType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PathToUnindexedFieldType extends ExchangeWebServices.BasePathToElementType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PathToUnindexedFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PathToUnindexedFieldType&#xA;Inherits BasePathToElementType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathToUnindexedFieldType : ExchangeWebServices::BasePathToElementType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePathToElementType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> Класс представляет часто упоминаемые свойства.</summary>
+    <remarks>
+      <para>
+        <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> ссылки свойства с помощью URI.</para>
+      <para>Примерах показано, как использовать <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> класса см <see cref="T:ExchangeWebServices.FindItemType" />.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PathToUnindexedFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PathToUnindexedFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathToUnindexedFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> класса.</summary>
+        <remarks>
+          <para>Пример, в котором показано, как использовать <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> класса см <see cref="T:ExchangeWebServices.FindItemType" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldURI">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UnindexedFieldURIType FieldURI { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.UnindexedFieldURIType FieldURI" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PathToUnindexedFieldType.FieldURI" />
+      <MemberSignature Language="VB.NET" Value="Public Property FieldURI As UnindexedFieldURIType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UnindexedFieldURIType FieldURI { ExchangeWebServices::UnindexedFieldURIType get(); void set(ExchangeWebServices::UnindexedFieldURIType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UnindexedFieldURIType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.PathToUnindexedFieldType.FieldURI" /> Свойство получает или задает часто используемых полей коды URI.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.PathToUnindexedFieldType.FieldURI" /> Возвращает свойство <see cref="T:ExchangeWebServices.UnindexedFieldURIType" /> перечисление, указывающее поле URI.</value>
+        <remarks>
+          <para>Пример, в котором показано, как использовать <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" /> класса см <see cref="T:ExchangeWebServices.FindItemType" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

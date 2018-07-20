@@ -1,0 +1,221 @@
+<Type Name="SyncFolderHierarchyType" FullName="ExchangeWebServices.SyncFolderHierarchyType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d2146ea07c61c14bebb34df6b6946152cc593b07" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609655" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SyncFolderHierarchyType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderHierarchyType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderHierarchyType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderHierarchyType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderHierarchyType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SyncFolderHierarchyType" /> Класс представляет запрос для синхронизации иерархии папок клиента с компьютера, на котором выполняется Microsoft Exchange Server 2007.</summary>
+    <remarks>
+      <para>Чтобы синхронизировать элементы в каждой папке, используйте <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> объекта прокси-сервера.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>Следующем примере показано, как синхронизация иерархии папок. Так как <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> свойству, прежде чем была синхронизирована этой иерархии папок. Возвращает все изменения, внесенные с момента вызова синхронизации, представленный этой операции SyncFolderHierarchy <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> свойство. Этот вызов будет возвращать все свойства, которые определены в <see cref="F:ExchangeWebServices.DefaultShapeNamesType.AllProperties" /> папки фигуры.</para>
+      <code>static void SyncFolderHierarchy(ExchangeServiceBinding esb)
+{ 
+    // Create the request.
+    SyncFolderHierarchyType &lt;span class="label"&gt;request&lt;/span&gt; = new SyncFolderHierarchyType();
+
+    // Identify the properties that are synchronized.
+    FolderResponseShapeType shape = new FolderResponseShapeType();
+    shape.BaseShape = DefaultShapeNamesType.AllProperties;
+
+    // Add synchronized properties to request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderShape = shape;
+
+    // Add the synchronization state to the request. This
+    // property should be null for the initial synchronization.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SyncState = "H4sIAAAAAAAEAO29B2AcSZYlJi9tynt/";
+
+    // Send the request and get the response.
+    SyncFolderHierarchyResponseType response = esb.SyncFolderHierarchy(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            SyncFolderHierarchyResponseMessageType sfhrmt = rmt as SyncFolderHierarchyResponseMessageType;
+            
+            // Get the sync state string to use in later synchronization calls.
+            string syncState = sfhrmt.SyncState;
+
+            // Get the array of changes that are returned in the response. 
+            SyncFolderHierarchyChangesType changeArray = sfhrmt.Changes;
+
+            // This contains the array of folder changes.
+            object[] changes = changeArray.Items;
+
+            // This identifies the type of change that occurred on a folder.
+            ItemsChoiceType1 changeType; 
+            
+            for (int count = 0; count &amp;lt; changes.Length; count++)
+            {
+                // This identifies the type of change that is represented by the objects
+                // in the changes object[].
+                changeType = changeArray.ItemsElementName[count];
+
+                // Check for the change type of each folder that is returned in the response.
+                switch (changeType)
+                { 
+                    case ItemsChoiceType1.Create:
+                        SyncFolderHierarchyCreateOrUpdateType createdFolder = changes[count] as SyncFolderHierarchyCreateOrUpdateType;
+                        // TODO: Handle the created folder.
+                        if (createdFolder.Item is CalendarFolderType)
+                        {
+                            // TODO: Cast to calendar folder and handle properties.
+                        }
+                        else;
+                            // TODO: Check and cast to SearchFolderType, TasksFolderType,
+                            //       ContactsFolderType, or FolderType.
+                        break;
+
+                    case ItemsChoiceType1.Update:
+                        SyncFolderHierarchyCreateOrUpdateType updatedFolder = changes[count] as SyncFolderHierarchyCreateOrUpdateType; ;
+                        // TODO: Handle the updated folder.    
+                        // TODO: Check and cast to one of the five folder types.
+                        break;
+
+                    case ItemsChoiceType1.Delete:
+                        SyncFolderHierarchyDeleteType deletedFolder = changes[count] as SyncFolderHierarchyDeleteType;
+                        // TODO: Get the identifier of the deleted folder.
+                        break;
+                }
+            }
+        }
+    }
+}</code>
+      <para>
+        <see cref="P:ExchangeWebServices.SyncFolderHierarchyResponseMessageType.SyncState" /> Свойства, возвращаемого в ответе должна быть сохранена для более поздней версии запросов синхронизации. Также Обратите внимание, что папки, которые возвращаются в ответе должны быть приведены в соответствующую папку, введите, чтобы клиентское приложение может получить доступ к все свойства, доступные для каждого типа папки. </para>
+      <para>
+        <b>Важно</b>: Если возвращаются обновлений, клиентское приложение необходимо сравнить папок в ответ на клиента, чтобы определить, какие изменений.</para>
+      <para>Так как все объекты изменений не имеют одного базового типа, возвращается массив объектов.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderHierarchyType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderHierarchyType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderHierarchyType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.SyncFolderHierarchyType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SyncFolderHierarchyType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderResponseShapeType FolderShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderResponseShapeType FolderShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyType.FolderShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderShape As FolderResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderResponseShapeType ^ FolderShape { ExchangeWebServices::FolderResponseShapeType ^ get(); void set(ExchangeWebServices::FolderResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.FolderShape" /> Свойство получает или задает фигуры папки синхронизации с описанием свойств, которые возвращаются в ответе. Это свойство является обязательным. Это свойство чтения и записи.</summary>
+        <value>Свойство <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.FolderShape" /> возвращает объект <see cref="T:ExchangeWebServices.FolderResponseShapeType" />.</value>
+        <remarks>
+          <para>Потенциальные свойств, которые возвращаются для каждой папки в зависимости от типа папки.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TargetFolderIdType SyncFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TargetFolderIdType SyncFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyType.SyncFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncFolderId As TargetFolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TargetFolderIdType ^ SyncFolderId { ExchangeWebServices::TargetFolderIdType ^ get(); void set(ExchangeWebServices::TargetFolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TargetFolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncFolderId" /> Свойство получает или задает идентификатор папка, содержащая элементы для синхронизации. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncFolderId" /> — это <see cref="T:ExchangeWebServices.TargetFolderIdType" /> объекта.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> Свойство получает или задает значение идентификатора состояния синхронизации. Это свойство является необязательным с предупреждениями. Это свойство чтения и записи.</summary>
+        <value>Свойство <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> возвращает строку.</value>
+        <remarks>
+          <para>
+            <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> Свойство содержит строку, представляющую идентификатор состояния синхронизации. Этот идентификатор представляет тип водяного знака, описывающий папки, которые были изменены с момента последней синхронизации. Это свойство является необязательным при первом вызове синхронизации. Первый вызов возвращает <see cref="P:ExchangeWebServices.SyncFolderHierarchyResponseMessageType.SyncState" /> в ответе. Возвращаемый <see cref="P:ExchangeWebServices.SyncFolderHierarchyResponseMessageType.SyncState" /> используется в более поздней версии SyncFolderHierarchy вызовов, чтобы синхронизировать набор изменения, которые произошли с момента последнего вызова синхронизации. Таким образом <see cref="P:ExchangeWebServices.SyncFolderHierarchyType.SyncState" /> свойство является обязательным для вызовов Добавочная синхронизация.</para>
+          <para>
+            <b>Примечание</b>: Если это свойство имеет значение с недопустимую строку, <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorInvalidSyncStateData" /> ошибки могут быть возвращены.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

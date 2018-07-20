@@ -1,0 +1,79 @@
+<Type Name="AffectedTaskOccurrencesType" FullName="ExchangeWebServices.AffectedTaskOccurrencesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5459da54b5bc97369089ef6eee7e17a195e13f99" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609832" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum AffectedTaskOccurrencesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed AffectedTaskOccurrencesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AffectedTaskOccurrencesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AffectedTaskOccurrencesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AffectedTaskOccurrencesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.AffectedTaskOccurrencesType" /> Перечисление указывает, удаляется ли вхождения задачи или главных задач.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrences" /> свойства <see cref="T:ExchangeWebServices.DeleteItemType" /> объекта. </para>
+      <para>, Нужно установить <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrencesSpecified" /> значение <b>true</b> , чтобы значение перечисления, которое определяется <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrences" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP).</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllOccurrences">
+      <MemberSignature Language="C#" Value="AllOccurrences" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AffectedTaskOccurrencesType AllOccurrences = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AffectedTaskOccurrencesType.AllOccurrences" />
+      <MemberSignature Language="VB.NET" Value="AllOccurrences" />
+      <MemberSignature Language="C++ CLI" Value="AllOccurrences" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AffectedTaskOccurrencesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что запрос DeleteItem удаляет главной задачи, и таким образом все повторяющиеся задачи, которые связаны с главной задачи.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecifiedOccurrenceOnly">
+      <MemberSignature Language="C#" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AffectedTaskOccurrencesType SpecifiedOccurrenceOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AffectedTaskOccurrencesType.SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="VB.NET" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="C++ CLI" Value="SpecifiedOccurrenceOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AffectedTaskOccurrencesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что запрос DeleteItem удаляет текущий копия задачи.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

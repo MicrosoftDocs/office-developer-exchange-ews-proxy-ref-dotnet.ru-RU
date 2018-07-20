@@ -1,0 +1,160 @@
+<Type Name="GetUserOofSettingsResponse" FullName="ExchangeWebServices.GetUserOofSettingsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="95bfb9a6b8755c5ed307dcd2f716c6e03f685b96" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609826" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetUserOofSettingsResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserOofSettingsResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserOofSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserOofSettingsResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserOofSettingsResponse" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> Класс содержит ответное сообщение и ожидания сообщения об отсутствии настроек пользователя.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserOofSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserOofSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserOofSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExternalOof">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExternalAudience AllowExternalOof { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ExternalAudience AllowExternalOof" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowExternalOof As ExternalAudience" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExternalAudience AllowExternalOof { ExchangeWebServices::ExternalAudience get(); void set(ExchangeWebServices::ExternalAudience value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> Свойство получает или задает значение, указывающее, которому внешний нет на месте (OOF) отправляются сообщения.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.ExternalAudience" /> перечисляемых значений, отображающих внешний нет на месте (OOF), которому отправляются сообщения.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExternalOofSpecified">
+      <MemberSignature Language="C#" Value="public bool AllowExternalOofSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowExternalOofSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowExternalOofSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowExternalOofSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> сериализацию свойства в сообщения SOAP. Это свойство является обязательным, если <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> указанного свойства.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OofSettings">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserOofSettings OofSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserOofSettings OofSettings" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property OofSettings As UserOofSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserOofSettings ^ OofSettings { ExchangeWebServices::UserOofSettings ^ get(); void set(ExchangeWebServices::UserOofSettings ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserOofSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" /> Свойство Возвращает или задает на работе (OOF) параметры пользователя.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" /> Возвращает свойство <see cref="T:ExchangeWebServices.UserOofSettings" /> объект, который содержит параметры пользователя об отсутствии на работе.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseMessage">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType ResponseMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType ResponseMessage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseMessage As ResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageType ^ ResponseMessage { ExchangeWebServices::ResponseMessageType ^ get(); void set(ExchangeWebServices::ResponseMessageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" /> Свойство получает или задает описательные сведения о состоянии ответа для отдельной сущности в запросе.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" /> Возвращает свойство <see cref="T:ExchangeWebServices.ResponseMessageType" /> объект, содержащий сведения о состоянии ответа.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

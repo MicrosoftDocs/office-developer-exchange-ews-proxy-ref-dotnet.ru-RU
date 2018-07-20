@@ -1,0 +1,172 @@
+<Type Name="UserOofSettings" FullName="ExchangeWebServices.UserOofSettings">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12556c4d328adbe11363bed629a138a236bfe358" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609649" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserOofSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UserOofSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UserOofSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserOofSettings" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserOofSettings" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.UserOofSettings" /> Класс указывает ожидания сообщения об отсутствии настроек пользователя.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserOofSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UserOofSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserOofSettings();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.UserOofSettings" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.UserOofSettings" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.Duration Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.Duration Duration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserOofSettings.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As Duration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::Duration ^ Duration { ExchangeWebServices::Duration ^ get(); void set(ExchangeWebServices::Duration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.Duration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.UserOofSettings.Duration" /> Свойство получает или задает значение, указывающее, во время выполнения, для которого включено ожидания сообщения об отсутствии на состояние, при <see cref="P:ExchangeWebServices.UserOofSettings.OofState" /> свойству <see cref="F:ExchangeWebServices.OofState.Scheduled" />. Если <see cref="P:ExchangeWebServices.UserOofSettings.OofState" /> свойству <see cref="F:ExchangeWebServices.OofState.Enabled" /> или <see cref="F:ExchangeWebServices.OofState.Disabled" />, то значение этого свойства игнорируется.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.UserOofSettings.Duration" /> Возвращает свойство <see cref="T:ExchangeWebServices.Duration" /> объект, который содержит время начала и время окончания, для которого необходимо включить параметры об отсутствии на работе.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalAudience">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExternalAudience ExternalAudience { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ExternalAudience ExternalAudience" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserOofSettings.ExternalAudience" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalAudience As ExternalAudience" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExternalAudience ExternalAudience { ExchangeWebServices::ExternalAudience get(); void set(ExchangeWebServices::ExternalAudience value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.UserOofSettings.ExternalAudience" /> Свойство получает или задает значение, указывающее, которому внешний нет на месте (OOF) отправляются сообщения.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.UserOofSettings.ExternalAudience" /> Возвращает свойство <see cref="T:ExchangeWebServices.ExternalAudience" /> значение перечисления, указывающее, которому отправляются внешних сообщений об отсутствии на работе.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalReply">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ReplyBody ExternalReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ReplyBody ExternalReply" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserOofSettings.ExternalReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalReply As ReplyBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ReplyBody ^ ExternalReply { ExchangeWebServices::ReplyBody ^ get(); void set(ExchangeWebServices::ReplyBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ReplyBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.UserOofSettings.ExternalReply" /> Свойство получает или задает ожидания сообщения об отсутствии на сообщение, которое отправляется адресам за пределами домена получателя или доверенных доменов.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.UserOofSettings.ExternalReply" /> Возвращает свойство <see cref="T:ExchangeWebServices.ReplyBody" /> объект, содержащий сообщение об отсутствии на работе для отправки на внешние адреса.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalReply">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ReplyBody InternalReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ReplyBody InternalReply" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserOofSettings.InternalReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternalReply As ReplyBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ReplyBody ^ InternalReply { ExchangeWebServices::ReplyBody ^ get(); void set(ExchangeWebServices::ReplyBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ReplyBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.UserOofSettings.InternalReply" /> Свойство получает или задает ожидания сообщения об отсутствии на сообщение, которое отправляется на другие адреса в домене или доверенных доменов получателя.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.UserOofSettings.InternalReply" /> Возвращает свойство <see cref="T:ExchangeWebServices.ReplyBody" /> объект, содержащий сообщение об отсутствии на работе для отправки для внутреннего адреса.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OofState">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OofState OofState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.OofState OofState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserOofSettings.OofState" />
+      <MemberSignature Language="VB.NET" Value="Public Property OofState As OofState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::OofState OofState { ExchangeWebServices::OofState get(); void set(ExchangeWebServices::OofState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OofState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.UserOofSettings.OofState" /> Свойство получает или задает почтовый ящик пользователя из состояния сообщения об отсутствии.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.UserOofSettings.OofState" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.OofState" /> значений перечисления, которые указывают состояние почтового ящика пользователя об отсутствии на работе.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

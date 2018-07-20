@@ -1,0 +1,154 @@
+<Type Name="TaskDelegateStateType" FullName="ExchangeWebServices.TaskDelegateStateType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="81b613663c4471f2ef9cc729e8add6a4fb58ed69" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609900" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TaskDelegateStateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TaskDelegateStateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskDelegateStateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskDelegateStateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskDelegateStateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> Перечисление представляет статусов делегированные задачи. Это перечисление не задано.</summary>
+    <remarks>
+      <para>Это перечисление используется с <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> свойства <see cref="T:ExchangeWebServices.TaskType" /> объекта. Сопоставление для этого свойства неверно. Эти сведения должны поступать из свойства MAPI 0x8113, но вместо этого информацию можно получить из свойства MAPI 0x812A. Эти свойства — это же, за исключением того, что свойство 0x812A не включает <see cref="F:ExchangeWebServices.TaskDelegateStateType.Owned" /> значение, которое означает, что значения перечисления сдвинуто вперед. Ниже приведен порядок значений перечисления: NoMatch, OwnNew, собственные, принято, отклонено и Макс. Это перечисление содержит ошибки, поэтому рекомендуется использовать свойство MAPI 0x8113 для получения состояния делегирование задач.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accepted">
+      <MemberSignature Language="C#" Value="Accepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Accepted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Accepted" />
+      <MemberSignature Language="VB.NET" Value="Accepted" />
+      <MemberSignature Language="C++ CLI" Value="Accepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Указывает, что задание было отклонено.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Declined">
+      <MemberSignature Language="C#" Value="Declined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Declined = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Declined" />
+      <MemberSignature Language="VB.NET" Value="Declined" />
+      <MemberSignature Language="C++ CLI" Value="Declined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Не используется.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="Max" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Max = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Max" />
+      <MemberSignature Language="VB.NET" Value="Max" />
+      <MemberSignature Language="C++ CLI" Value="Max" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Не используется.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoMatch">
+      <MemberSignature Language="C#" Value="NoMatch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType NoMatch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.NoMatch" />
+      <MemberSignature Language="VB.NET" Value="NoMatch" />
+      <MemberSignature Language="C++ CLI" Value="NoMatch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что это не делегированной задачи или, что этот запрос был создан, но не отправляются. Это также используется для сообщения запроса на задачу, в папке "Отправленные" владельца или делегата папки «Входящие».</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owned">
+      <MemberSignature Language="C#" Value="Owned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Owned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Owned" />
+      <MemberSignature Language="VB.NET" Value="Owned" />
+      <MemberSignature Language="C++ CLI" Value="Owned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Указывает, что задачи были приняты. Это значение не должна быть в перечислении.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnNew">
+      <MemberSignature Language="C#" Value="OwnNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType OwnNew = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.OwnNew" />
+      <MemberSignature Language="VB.NET" Value="OwnNew" />
+      <MemberSignature Language="C++ CLI" Value="OwnNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что это нового запроса на задачу, которая была отправлена, но делегат еще не ответил к задаче.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

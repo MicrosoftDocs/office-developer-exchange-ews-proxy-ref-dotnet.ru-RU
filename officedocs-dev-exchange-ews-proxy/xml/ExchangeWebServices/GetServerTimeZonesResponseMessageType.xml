@@ -1,0 +1,83 @@
+<Type Name="GetServerTimeZonesResponseMessageType" FullName="ExchangeWebServices.GetServerTimeZonesResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d19ec7059bcdf6a0dc202a413281236655c3d1e8" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609973" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetServerTimeZonesResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetServerTimeZonesResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetServerTimeZonesResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetServerTimeZonesResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> Класс содержит состояние и результаты вызова операции GetServerTimeZones.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetServerTimeZonesResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetServerTimeZonesResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetServerTimeZonesResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZoneDefinitions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfTimeZoneDefinitionType TimeZoneDefinitions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfTimeZoneDefinitionType TimeZoneDefinitions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZoneDefinitions As ArrayOfTimeZoneDefinitionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ TimeZoneDefinitions { ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ get(); void set(ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfTimeZoneDefinitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" /> Свойство получает или задает массив определения часового пояса.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" /> — это свойство <see cref="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" /> объект, содержащий массив определения часового пояса.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

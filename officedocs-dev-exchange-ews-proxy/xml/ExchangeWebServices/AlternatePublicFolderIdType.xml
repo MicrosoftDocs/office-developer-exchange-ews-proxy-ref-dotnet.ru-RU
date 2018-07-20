@@ -1,0 +1,92 @@
+<Type Name="AlternatePublicFolderIdType" FullName="ExchangeWebServices.AlternatePublicFolderIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5d4ec8b4a719a05277d8a27a9e7bf0e65276d619" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609995" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderIdType : ExchangeWebServices.AlternateIdBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AlternatePublicFolderIdType extends ExchangeWebServices.AlternateIdBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AlternatePublicFolderIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderIdType&#xA;Inherits AlternateIdBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderIdType : ExchangeWebServices::AlternateIdBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AlternateIdBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternatePublicFolderItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.AlternatePublicFolderIdType" /> Класс описывает идентификатор общих папок для преобразования в другой формат идентификатора.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AlternatePublicFolderIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.AlternatePublicFolderIdType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AlternatePublicFolderIdType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public string FolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AlternatePublicFolderIdType.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.AlternatePublicFolderIdType.FolderId" /> Свойство получает или задает идентификатор общей папки для преобразования.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.AlternatePublicFolderIdType.FolderId" /> Свойство возвращает строку, представляющую идентификатор общей папки для преобразования.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

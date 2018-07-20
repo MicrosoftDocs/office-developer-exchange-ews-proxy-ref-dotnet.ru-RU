@@ -1,0 +1,130 @@
+<Type Name="SuggestionQuality" FullName="ExchangeWebServices.SuggestionQuality">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="32822181be775993226402ac90e32ddb97ce423c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609886" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SuggestionQuality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SuggestionQuality extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SuggestionQuality" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SuggestionQuality" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SuggestionQuality" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SuggestionQuality" /> Перечисление определяет типы качества для предложенного собрания, день или время.</summary>
+    <remarks>
+      <para>Это перечисление используется следующие свойства:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.SuggestionsViewOptionsType.MinimumSuggestionQuality" /> Свойства <see cref="T:ExchangeWebServices.SuggestionsViewOptionsType" /> объект</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> свойства <see cref="T:ExchangeWebServices.Suggestion" /> объект</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.SuggestionDayResult.DayQuality" /> свойства <see cref="T:ExchangeWebServices.SuggestionDayResult" /> объекта</description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Excellent">
+      <MemberSignature Language="C#" Value="Excellent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Excellent = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Excellent" />
+      <MemberSignature Language="VB.NET" Value="Excellent" />
+      <MemberSignature Language="C++ CLI" Value="Excellent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что 100 процентов пользователей и ресурсов доступны для предложенного собрания.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fair">
+      <MemberSignature Language="C#" Value="Fair" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Fair = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Fair" />
+      <MemberSignature Language="VB.NET" Value="Fair" />
+      <MemberSignature Language="C++ CLI" Value="Fair" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Указывает, что равно значение элемента GoodThreshold, а также 50 максимальный процент пользователей и ресурсы, которые доступны для предложенного собрания. Минимальное значение для <b>Обычное</b> время собрания качества — 50 процентов.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Good">
+      <MemberSignature Language="C#" Value="Good" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Good = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Good" />
+      <MemberSignature Language="VB.NET" Value="Good" />
+      <MemberSignature Language="C++ CLI" Value="Good" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что минимальный процент пользователей и ресурсы, которые доступны — меньше, чем значение элемента GoodThreshold плюс 50.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Poor">
+      <MemberSignature Language="C#" Value="Poor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Poor = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Poor" />
+      <MemberSignature Language="VB.NET" Value="Poor" />
+      <MemberSignature Language="C++ CLI" Value="Poor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Указывает, что меньше 50% пользователей и ресурсов доступны для предложенного собрания.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

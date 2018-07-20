@@ -1,0 +1,133 @@
+<Type Name="SuggestionDayResult" FullName="ExchangeWebServices.SuggestionDayResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e1df9c04f0c1bb0600cf3ec9b0ca048bba0c93c4" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609645" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SuggestionDayResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SuggestionDayResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SuggestionDayResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class SuggestionDayResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SuggestionDayResult" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.SuggestionDayResult" /> Класс содержит время предложенного собрания в течение одного дня.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SuggestionDayResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SuggestionDayResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SuggestionDayResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.SuggestionDayResult" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.SuggestionDayResult" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="public DateTime Date { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Date" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SuggestionDayResult.Date" />
+      <MemberSignature Language="VB.NET" Value="Public Property Date As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.Date" /> Свойство получает или задает дату для времени предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.Date" /> Свойство возвращает значение даты и времени, содержащее дату для времени предложенного собрания.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayQuality">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionQuality DayQuality { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SuggestionQuality DayQuality" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SuggestionDayResult.DayQuality" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayQuality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SuggestionQuality DayQuality { ExchangeWebServices::SuggestionQuality get(); void set(ExchangeWebServices::SuggestionQuality value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.DayQuality" /> Свойство получает или задает день качества для времени предложенного собрания.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.DayQuality" /> Свойство возвращает один из <see cref="T:ExchangeWebServices.SuggestionQuality" /> значений перечисления.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.Suggestion[] SuggestionArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.Suggestion[] SuggestionArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SuggestionDayResult.SuggestionArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionArray As Suggestion()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::Suggestion ^&gt; ^ SuggestionArray { cli::array &lt;ExchangeWebServices::Suggestion ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::Suggestion ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.Suggestion[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.SuggestionArray" /> Получает или задает коллекцию предложений о собрании.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.SuggestionDayResult.SuggestionArray" /> Свойство возвращает массив <see cref="T:ExchangeWebServices.Suggestion" /> объекты, которые содержат предложенных собраний раз в день, указанный в <see cref="P:ExchangeWebServices.SuggestionDayResult.Date" /> свойство.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

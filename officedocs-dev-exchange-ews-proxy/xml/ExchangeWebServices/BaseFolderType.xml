@@ -1,0 +1,415 @@
+<Type Name="BaseFolderType" FullName="ExchangeWebServices.BaseFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="50f4cec7649d8dfe8597d1563f7113fe147afe11" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609652" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class BaseFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BaseFolderType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BaseFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseFolderType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CalendarFolderType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FolderType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.TasksFolderType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ContactsFolderType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SearchFolderType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.BaseFolderType" /> Класс является базовым классом для производных классов, которые представляют папку.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BaseFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.BaseFolderType" /> Класс абстрактный и не может быть создан.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RetentionTagType ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RetentionTagType ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As RetentionTagType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RetentionTagType ^ ArchiveTag { ExchangeWebServices::RetentionTagType ^ get(); void set(ExchangeWebServices::RetentionTagType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionTagType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildFolderCount">
+      <MemberSignature Language="C#" Value="public int ChildFolderCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChildFolderCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ChildFolderCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChildFolderCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChildFolderCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.ChildFolderCount" /> Свойство получает количество дочерних папок, содержащихся в папке. Это свойство доступно только для чтения.</summary>
+        <value>Свойство <b>ChildFolderCount</b> возвращает целое число, представляющее количество дочерних папок.</value>
+        <remarks>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.BaseFolderType.ChildFolderCountSpecified" /> значение <b>true</b> , чтобы свойство <b>ChildFolderCount</b> преобразуется в запрос SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildFolderCountSpecified">
+      <MemberSignature Language="C#" Value="public bool ChildFolderCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ChildFolderCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ChildFolderCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChildFolderCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ChildFolderCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.ChildFolderCountSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.BaseFolderType.ChildFolderCount" /> сериализацию свойства в запрос SOAP.</summary>
+        <value>Свойство <b>ChildFolderCountSpecified</b> возвращает значение <b>true</b> , если <see cref="P:ExchangeWebServices.BaseFolderType.ChildFolderCount" /> преобразуется в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.DisplayName" /> Свойство получает или задает отображаемое имя папки.</summary>
+        <value>Свойство <b>DisplayName</b> возвращает значение типа string, представляющий отображаемое имя папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedFolderIdNameType DistinguishedFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedFolderIdNameType DistinguishedFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.DistinguishedFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedFolderId As DistinguishedFolderIdNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedFolderIdNameType DistinguishedFolderId { ExchangeWebServices::DistinguishedFolderIdNameType get(); void set(ExchangeWebServices::DistinguishedFolderIdNameType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedFolderIdSpecified">
+      <MemberSignature Language="C#" Value="public bool DistinguishedFolderIdSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DistinguishedFolderIdSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.DistinguishedFolderIdSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedFolderIdSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DistinguishedFolderIdSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EffectiveRightsType EffectiveRights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EffectiveRightsType EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public Property EffectiveRights As EffectiveRightsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EffectiveRightsType ^ EffectiveRights { ExchangeWebServices::EffectiveRightsType ^ get(); void set(ExchangeWebServices::EffectiveRightsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EffectiveRightsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.EffectiveRights" /> Возвращает свойство <see cref="T:ExchangeWebServices.EffectiveRightsType" /> объект, представляющий операций, которые текущий пользователь может выполнять в общей папке. Это свойство доступно только для чтения.</summary>
+        <value>Возвращает свойство <b>EffectiveRights</b><see cref="T:ExchangeWebServices.EffectiveRightsType" /> объект, представляющий операций, которые текущий пользователь может выполнять в общей папке.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperty">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExtendedPropertyType[] ExtendedProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ExtendedPropertyType[] ExtendedProperty" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ExtendedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperty As ExtendedPropertyType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ ExtendedProperty { cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedProperty")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExtendedPropertyType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.ExtendedProperty" /> Свойство получает или задает <see cref="T:ExchangeWebServices.ExtendedPropertyType" /> массив, содержащий расширенные свойства MAPI на папку.</summary>
+        <value>Возвращает свойство <b>ExtendedProperty</b><see cref="T:ExchangeWebServices.ExtendedPropertyType" /> массива, который представляет расширенные свойства MAPI на папку.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderClass">
+      <MemberSignature Language="C#" Value="public string FolderClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderClass" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.FolderClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.FolderClass" /> Свойство получает или задает класс заданной папки.</summary>
+        <value>Свойство <b>FolderClass</b> возвращает строковое значение, представляющий класс папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType FolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType FolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderId As FolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderIdType ^ FolderId { ExchangeWebServices::FolderIdType ^ get(); void set(ExchangeWebServices::FolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.FolderId" /> Свойство получает или задает <see cref="T:ExchangeWebServices.FolderIdType" /> объект, который содержит идентификатор и ключ изменения папки.</summary>
+        <value>Возвращает свойство <b>FolderId</b><see cref="T:ExchangeWebServices.FolderIdType" /> объект, который содержит идентификатор и ключ изменения папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderInformation">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ManagedFolderInformationType ManagedFolderInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ManagedFolderInformationType ManagedFolderInformation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ManagedFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedFolderInformation As ManagedFolderInformationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ManagedFolderInformationType ^ ManagedFolderInformation { ExchangeWebServices::ManagedFolderInformationType ^ get(); void set(ExchangeWebServices::ManagedFolderInformationType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ManagedFolderInformationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.ManagedFolderInformation" /> Свойство получает или задает <see cref="T:ExchangeWebServices.ManagedFolderInformationType" /> объект, содержащий сведения о настраиваемой управляемой папки.</summary>
+        <value>Возвращает свойство <b>ManagedFolderInformation</b><see cref="T:ExchangeWebServices.ManagedFolderInformationType" /> объект, содержащий сведения о настраиваемой управляемой папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType ParentFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentFolderId As FolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderIdType ^ ParentFolderId { ExchangeWebServices::FolderIdType ^ get(); void set(ExchangeWebServices::FolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.ParentFolderId" /> Свойство получает или задает <see cref="T:ExchangeWebServices.FolderIdType" /> объект, представляющий идентификатор родительской папки, содержащей папку.</summary>
+        <value>Возвращает свойство <b>ParentFolderId</b><see cref="T:ExchangeWebServices.FolderIdType" /> объект, представляющий идентификатор родительской папки, содержащей папку.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RetentionTagType PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RetentionTagType PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As RetentionTagType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RetentionTagType ^ PolicyTag { ExchangeWebServices::RetentionTagType ^ get(); void set(ExchangeWebServices::RetentionTagType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionTagType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public int TotalCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.TotalCount" /> Свойство получает общее количество элементов в указанной папке. Это свойство доступно только для чтения.</summary>
+        <value>Свойство <b>TotalCount</b> возвращает целое число, представляющее количество элементов в папке.</value>
+        <remarks>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.BaseFolderType.TotalCountSpecified" /> значение <b>true,</b> так что <b>TotalCount</b> преобразуется в запрос SOAP.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCountSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseFolderType.TotalCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.BaseFolderType.TotalCountSpecified" /> Свойство получает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.BaseFolderType.TotalCount" /> сериализацию свойства в запрос SOAP.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.BaseFolderType.TotalCountSpecified" /> Свойство возвращает значение <b>true</b> , если <see cref="P:ExchangeWebServices.BaseFolderType.TotalCount" /> преобразуется в запрос SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

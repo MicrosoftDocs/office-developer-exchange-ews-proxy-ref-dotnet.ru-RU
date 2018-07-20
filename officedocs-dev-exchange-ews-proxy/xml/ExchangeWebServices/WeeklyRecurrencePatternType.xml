@@ -1,0 +1,111 @@
+<Type Name="WeeklyRecurrencePatternType" FullName="ExchangeWebServices.WeeklyRecurrencePatternType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c789a66e7d7f26f27a650549300e6c9a4a954265" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609638" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WeeklyRecurrencePatternType : ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WeeklyRecurrencePatternType extends ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WeeklyRecurrencePatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class WeeklyRecurrencePatternType&#xA;Inherits IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WeeklyRecurrencePatternType : ExchangeWebServices::IntervalRecurrencePatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.IntervalRecurrencePatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> Класс описывает частота в недели, в которых элемент повторяется, и дней, в которых элемент повторяется.</summary>
+    <remarks>
+      <para>Начальная и конечная даты повторяющегося элемента шаблона, у которых дата, равный первого появления еженедельно повторяющейся информации смещение часового пояса будут потеряны.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyRecurrencePatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WeeklyRecurrencePatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyRecurrencePatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaysOfWeek">
+      <MemberSignature Language="C#" Value="public string DaysOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DaysOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DaysOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DaysOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> Свойство получает или задает дни недели, которые находятся в неделю шаблона повторения.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> Свойство возвращает строку, содержащую дни недели в неделю шаблона повторения.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstDayOfWeek">
+      <MemberSignature Language="C#" Value="public string FirstDayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstDayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.FirstDayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstDayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstDayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Возвращает <see cref="T:System.String" />.</value>
+        <remarks>
+          <para>
+            <b>Примечание</b>: этот член относится к версии Exchange, начиная с Exchange Server 2010 пакетом обновления 1 (SP1), включая Exchange Online.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

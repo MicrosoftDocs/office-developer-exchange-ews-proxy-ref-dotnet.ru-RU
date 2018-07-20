@@ -1,0 +1,195 @@
+<Type Name="FreeBusyViewOptionsType" FullName="ExchangeWebServices.FreeBusyViewOptionsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3303877939966757323073e7a5c896a2ad201eee" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609769" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FreeBusyViewOptionsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FreeBusyViewOptionsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FreeBusyViewOptionsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FreeBusyViewOptionsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FreeBusyViewOptionsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> Описывает тип сведений о доступности, который возвращается в ответ на запрос о доступности.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> возвращенный объект <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> свойства <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FreeBusyViewOptionsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FreeBusyViewOptionsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FreeBusyViewOptionsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyIntervalInMinutes">
+      <MemberSignature Language="C#" Value="public int MergedFreeBusyIntervalInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MergedFreeBusyIntervalInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyIntervalInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MergedFreeBusyIntervalInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> Свойство получает или задает разницу между двумя последовательными разъемов <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusyMerged" /> представления. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> Свойство возвращает целое число, представляющее разница во времени в минутах.</value>
+        <remarks>
+          <para>Значение по умолчанию для этого свойства — 30 минут. Шесть минут — минимальный интервал и один день (1440 минут) — это значение максимальный интервал для данного свойства. Это значение используется только в том случае, если <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> свойству <see cref="F:ExchangeWebServices.FreeBusyViewType.MergedOnly" />, <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusyMerged" />, или <see cref="F:ExchangeWebServices.FreeBusyViewType.DetailedMerged" />. Поток, содержащий интервалы, определенные этим свойством, возвращается в <see cref="P:ExchangeWebServices.FreeBusyView.MergedFreeBusy" /> свойство.</para>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyIntervalInMinutesSpecified">
+      <MemberSignature Language="C#" Value="public bool MergedFreeBusyIntervalInMinutesSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MergedFreeBusyIntervalInMinutesSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyIntervalInMinutesSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MergedFreeBusyIntervalInMinutesSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP). Это свойство является обязательным, если <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> свойству. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP); в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedView">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyViewType RequestedView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.FreeBusyViewType RequestedView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedView As FreeBusyViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FreeBusyViewType RequestedView { ExchangeWebServices::FreeBusyViewType get(); void set(ExchangeWebServices::FreeBusyViewType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> Свойство получает или задает тип данных календаря, для которого запрашивается клиента. Это свойство является необязательным. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> Возвращает свойство <see cref="T:ExchangeWebServices.FreeBusyViewType" /> значение перечисления.</value>
+        <remarks>
+          <para>Необходимо установить <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP).</para>
+          <para>Если это свойство не установлено или <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> свойство не задано, по умолчанию значение перечисления <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusy" /> используется для представления.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedViewSpecified">
+      <MemberSignature Language="C#" Value="public bool RequestedViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RequestedViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RequestedViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP). Это свойство является обязательным, если <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> свойству. Это свойство чтения и записи.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> сериализацию свойства в запросе Simple Object Access Protocol (SOAP); в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeWindow">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.Duration TimeWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.Duration TimeWindow" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeWindow As Duration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::Duration ^ TimeWindow { ExchangeWebServices::Duration ^ get(); void set(ExchangeWebServices::Duration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.Duration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" /> Свойство получает или задает интервал, с которого запрашиваются сведения о доступности пользователя.</summary>
+        <value>Свойство <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" /> возвращает объект <see cref="T:ExchangeWebServices.Duration" />.</value>
+        <remarks>
+          <para>Максимальное значение для этого периода времени — 42 дня. Это максимальное значение может быть изменено. Все запросы на сведения о доступности пользователя за пределы максимальное значение возвращает ошибку. Если встречи частично находятся в промежуток времени, определяемый <see cref="P:ExchangeWebServices.Duration.StartTime" /> и <see cref="P:ExchangeWebServices.Duration.EndTime" /> свойства <see cref="T:ExchangeWebServices.Duration" /> объекта, включение встречи целиком.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

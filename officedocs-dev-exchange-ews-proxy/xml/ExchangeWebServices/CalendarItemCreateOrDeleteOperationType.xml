@@ -1,0 +1,96 @@
+<Type Name="CalendarItemCreateOrDeleteOperationType" FullName="ExchangeWebServices.CalendarItemCreateOrDeleteOperationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4b6a73065f86326b9228c8fbeaad815520744678" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609647" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarItemCreateOrDeleteOperationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarItemCreateOrDeleteOperationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType" /> Перечисление описывает способ обработки приглашений на собрания и отмены ресурса.</summary>
+    <remarks>
+      <para>Можно определить способ обработки приглашений на собрания, проверив <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitations" /> свойство. Необходимо установить <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitationsSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitations" /> сериализацию свойства в запрос SOAP.</para> Можно определить способ обработки отмен собрания, проверив 
+      <para><see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellations" /> свойство. Необходимо установить <see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellationsSpecified" /> значение <b>true</b> , чтобы <see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellations" /> сериализацию свойства в запрос SOAP.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>В операции CreateItem указывает, что созданы собрания и отправке приглашения на собрание для всех участников, но копия запроса на проведение собрания не сохраняется. В операции DeleteItem указывает, что удаляется собрания и собрания отмены сообщение отправляется всем участникам, но копия отмены собрания не сохраняется.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendToAllAndSaveCopy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>В операции CreateItem указывает, что созданы собрания, приглашения на собрание отправляется всем участникам и копию приглашения на собрание сохраняется в папке «Отправленные». В операции DeleteItem указывает, что удаляется приглашение на собрание, собрание отмены сообщение отправляется всем участникам и копию отмены собрания сохраняется в папке «Отправленные».</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>В операции CreateItem указывает, что созданы собрания, но без приглашения на собрание отправляется участников. В операции DeleteItem указывает, что собрание удаляется, кроме собрание не отмены сообщение отправляется участников.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

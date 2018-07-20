@@ -1,0 +1,114 @@
+<Type Name="GetDelegateResponseMessageType" FullName="ExchangeWebServices.GetDelegateResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0b8a0eaa32a4410d53b18da198ee2fbbff1785e5" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609755" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetDelegateResponseMessageType : ExchangeWebServices.BaseDelegateResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetDelegateResponseMessageType extends ExchangeWebServices.BaseDelegateResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetDelegateResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetDelegateResponseMessageType&#xA;Inherits BaseDelegateResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDelegateResponseMessageType : ExchangeWebServices::BaseDelegateResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.GetDelegateResponseMessageType" /> Класс содержит состояние и результаты вызова операции GetDelegate. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetDelegateResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetDelegateResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetDelegateResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.GetDelegateResponseMessageType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.GetDelegateResponseMessageType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliverMeetingRequests">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DeliverMeetingRequestsType DeliverMeetingRequests { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DeliverMeetingRequestsType DeliverMeetingRequests" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliverMeetingRequests As DeliverMeetingRequestsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DeliverMeetingRequestsType DeliverMeetingRequests { ExchangeWebServices::DeliverMeetingRequestsType get(); void set(ExchangeWebServices::DeliverMeetingRequestsType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> Свойство получает или задает значение, определяющее порядок обработки приглашений на собрания между делегата и участника. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> Возвращает свойство <see cref="T:ExchangeWebServices.DeliverMeetingRequestsType" /> значение перечисления, который определяет способ обработки приглашений на собрания между делегата и участника.</value>
+        <remarks>
+          <para>Параметр <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> свойство влияет на все делегаты в почтовом ящике участника.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliverMeetingRequestsSpecified">
+      <MemberSignature Language="C#" Value="public bool DeliverMeetingRequestsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeliverMeetingRequestsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequestsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliverMeetingRequestsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeliverMeetingRequestsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequestsSpecified" /> Свойство получает или задает логическое значение, указывающее, является ли <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> сериализацию свойства сообщения SOAP. Это свойство является обязательным, если <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> указанного свойства.</summary>
+        <value>
+          <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequestsSpecified" /> Свойство возвращает <b>значение true</b> , если <see cref="P:ExchangeWebServices.GetDelegateResponseMessageType.DeliverMeetingRequests" /> сериализацию свойства в сообщение SOAP; в противном случае это свойство возвращает <b>значение false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

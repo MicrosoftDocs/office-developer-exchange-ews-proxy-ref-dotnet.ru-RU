@@ -1,0 +1,62 @@
+<Type Name="AcceptSharingInvitationType" FullName="ExchangeWebServices.AcceptSharingInvitationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0eb1dc342d49c4395c0f1d0c8809247c98cb13e8" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609908" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AcceptSharingInvitationType : ExchangeWebServices.ReferenceItemResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AcceptSharingInvitationType extends ExchangeWebServices.ReferenceItemResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AcceptSharingInvitationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AcceptSharingInvitationType&#xA;Inherits ReferenceItemResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AcceptSharingInvitationType : ExchangeWebServices::ReferenceItemResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ReferenceItemResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.AcceptSharingInvitationType" /> Класс используется для принятия приглашения на общий доступ.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AcceptSharingInvitationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AcceptSharingInvitationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AcceptSharingInvitationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.AcceptSharingInvitationType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.AcceptSharingInvitationType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

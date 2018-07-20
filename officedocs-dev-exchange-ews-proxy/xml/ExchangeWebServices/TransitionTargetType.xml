@@ -1,0 +1,114 @@
+<Type Name="TransitionTargetType" FullName="ExchangeWebServices.TransitionTargetType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5b89603c599e26e7cbd31c330bd7a669f1c432f7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20609609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TransitionTargetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TransitionTargetType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TransitionTargetType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransitionTargetType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransitionTargetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <see cref="T:ExchangeWebServices.TransitionTargetType" /> Класс указывает целевую перехода часового пояса.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransitionTargetType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TransitionTargetType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TransitionTargetType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <see cref="T:ExchangeWebServices.TransitionTargetType" /> Конструктор инициализирует новый экземпляр объекта <see cref="T:ExchangeWebServices.TransitionTargetType" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TransitionTargetKindType Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.TransitionTargetKindType Kind" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As TransitionTargetKindType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TransitionTargetKindType Kind { ExchangeWebServices::TransitionTargetKindType get(); void set(ExchangeWebServices::TransitionTargetKindType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetKindType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> Свойство получает или задает значение, указывающее, является ли целевой перехода часовой пояс определенный период или группу переходов.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> — это один из <see cref="T:ExchangeWebServices.TransitionTargetKindType" /> значений перечисления, которое указывает, находится ли целевой перехода часовой пояс за период и группу переходы часового пояса.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> Свойство Возвращает или задает уникальный идентификатор, соответствующий период или переходы группа, целевой перехода часового пояса.</summary>
+        <value>Значение <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> свойства — это строка, представляющая уникальный идентификатор, соответствующий период или переходы группа, целевой перехода часового пояса</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
