@@ -47,9 +47,9 @@
       "ms.topic": "managed-reference",
       "ms.devlang": "dotnet",
       "audience": "developer",
-      "ms.suite": "office365",
+      "ms.suite": "office",
       "ms.prod": "exchange",
-      "ms.technology": "sdk",
+      "ms.technology": "ews",
       "ms.tgt_pltfrm": "dotnet",
       "apiPlatform": "dotnet",
       "bilingual_type": "hover over"
