@@ -4,14 +4,26 @@
       "docset_name": "officedocs-dev-exchange-ews-proxy",
       "build_source_folder": "officedocs-dev-exchange-ews-proxy",
       "build_output_subfolder": "officedocs-dev-exchange-ews-proxy",
-      "locale": "ru-RU",
+      "locale": "ru-ru",
       "monikers": [
         "exchange-ews-proxy"
       ],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
+      "base_path": "dotnet",
+      "site_name": "Docs",
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -26,8 +38,7 @@
         "SourceXmlFolder": "officedocs-dev-exchange-ews-proxy/xml",
         "OutputYamlFolder": "officedocs-dev-exchange-ews-proxy/api",
         "Flatten": true,
-        "id": "officedocs-dev-exchange-ews-proxy",
-        "SDPMode": true
+        "id": "officedocs-dev-exchange-ews-proxy"
       },
       "SplitTOC": [
         "officedocs-dev-exchange-ews-proxy/api/officedocs-dev-exchange-ews-proxy/toc.yml"
@@ -35,16 +46,12 @@
       "DiffFolder": [
         "officedocs-dev-exchange-ews-proxy/api"
       ],
-      "type_mapping": {
-        "NetEnum": "content",
-        "NetDelegate": "content",
-        "NetNamespace": "content",
-        "NetMember": "content",
-        "NetType": "content"
-      }
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
+      ]
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": ["v-mipop@microsoft.com","v-jijaku@microsoft.com"],
   "branches_to_filter": [
     "live-sxs",
     "master-sxs"
@@ -56,7 +63,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ru-RU",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ru-ru",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -72,6 +79,7 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "targets": {},
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "dependent_packages": [
@@ -88,9 +96,13 @@
       "path_to_root": "_dependentPackages/ECMA2Yaml",
       "target_framework": "net45",
       "version": "latest"
+    },
+    {
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
+      "path_to_root": "_dependentPackages/memberpage.plugins",
+      "target_framework": "net45",
+      "version": "latest"
     }
-  ],
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  ]
 }
