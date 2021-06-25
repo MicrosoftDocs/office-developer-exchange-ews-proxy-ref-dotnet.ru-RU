@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "o365devx",
